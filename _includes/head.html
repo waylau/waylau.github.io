@@ -1,0 +1,28 @@
+<head>
+	<!--
+	 **
+	 * Author:         waylau.com
+	 * Theme Name:     jekyll-bootstrap-blog
+	 **
+	-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | waylau.com{% else %}{{ site.title }}| waylau.com{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{ page.tags | join: ',' }}" />
+  <meta name="baidu-site-verification" content="4304f67c4246a698a354daf6480cedc7"/>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="/css/nprogress.css">
+  <link rel="stylesheet" href="/css/lightbox.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/highlight/agate.css">
+  <script src="/scripts/jquery-1.11.2.min.js"></script>
+
+  <script src="/scripts/highlight.pack.js"></script>
+
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>

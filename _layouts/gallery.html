@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+  <body>
+
+  {% include header.html %}
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12 col-md-12 col-lg-12 blog-main">
+        {{ content }}
+       </div>
+
+    </div>
+  </div>
+
+  <hr/>
+  {% include footer.html %}
+
+  <a id="goToTop" href="#">
+    <i class="fa fa-chevron-up fa-3x"></i>
+  </a>
+
+</body>
+
+<script src="/scripts/jquery-1.11.2.min.js"></script>
+<script src="/scripts/nprogress.js"></script>
+<script src="/scripts/bootstrap.min.js"></script>
+<script src="/scripts/lightbox.js"></script>
+<script src="/scripts/main.js" ></script>
+
+
+{% if site.baidutongji_id %}
+{% include baidutongji.html %}
+{% endif %}
+
+</html>

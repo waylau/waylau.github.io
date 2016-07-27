@@ -1,0 +1,85 @@
+
+
+  <div class="row">
+    <img alt="" class="avatar"  src="{{ site.logo_image }}"  >
+    <div >
+      <h4>Way Lau</h4>
+      <p>A <em>Software Engineer</em> and <em>Full Stack Developer.</em>Work and live in Hangzhou, China. <a href="/resume">Detail</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h4>Contact</h4>
+    <ul >
+      {% if site.email %}
+      <li>
+        <a href="mailto:{{ site.email }}">
+          <i class="fa fa-envelope"></i>
+          <span class="username">{{ site.email }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.weibo_username %}
+      <li>
+        <a href="http://weibo.com/{{ site.weibo_username }}">
+          <i class="fa fa-weibo"></i>
+          <span class="username">{{ site.weibo_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}">
+          <i class="fa fa-github"></i>
+          <span class="username">{{ site.github_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter"></i>
+          <span class="username">{{ site.twitter_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+
+	  {% if site.facebook_username %}
+      <li>
+        <a href="https://facebook.com/{{ site.facebook_username }}">
+          <i class="fa fa-facebook"></i>
+          <span class="username">{{ site.facebook_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+
+
+      {% if site.rss_url %}
+      <li>
+        <a href="{{ site.rss_url | prepend: site.baseurl }}">
+          <i class="fa fa-rss"></i>
+          <span class="username"> RSS</span></a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  <!--
+  <div class="row">
+  <h4>Categories</h4>
+    {% include categories.html %}
+  </div>
+
+  <div class="row">
+    <h4>Tags</h4>
+    {% include tags.html %}
+  </div>
+-->
+  <div class="row">
+    <h4>Latest Comments</h4>
+    <ul class="ds-recent-comments" data-num-items="10" data-show-avatars="0" data-show-time="0" data-show-title="0" data-show-admin="0" data-excerpt-length="18"></ul>
+  </div>
+  <div class="row">
+    <h4>Recently Visitors</h4>
+    <ul class="ds-recent-visitors" data-num-items="16" data-avatar-size="45" style="margin-top:10px;"></ul>
+  </div>
