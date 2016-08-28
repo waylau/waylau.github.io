@@ -862,3 +862,8 @@ hello 2
 horld 2
 ```
  
+ 
+## 参考引用
+
+* <https://developer.yahoo.com/blogs/hadoop/apache-hadoop-wins-terabyte-sort-benchmark-408.html>
+* <http://hadoop.apache.org/docs/current/>
