@@ -102,7 +102,7 @@ Hbase 的缺点：
 
 [HDFS](http://hadoop.apache.org/hdfs/) 是分布式文件系统，适合保存大文件。官方宣称它并非普通用途文件系统，不提供文件的个别记录的快速查询。另一方面，HBase 基于 HDFS，并能够提供大表的记录快速查找和更新。这有时会可能引起概念混乱。HBase 内部将数据放到索引好的“StoreFiles”存储文件中，以便提供高速查询，而存储文件位于 HDFS中。
 
-有关 HBase 的基础入门学习，可以参阅 Shashwat Shriparv 所著的《Learning HBase》（该书中文版由周彦伟、蒲聪、娄帅翻译，电子工业出版社出版）。如果想了解 HBase 更深层次的内容，推荐阅读 Lars George 的《HBase: The Definitive Guide》。
+如果想了解 HBase 更深层次的内容，推荐阅读 Lars George 的《HBase: The Definitive Guide》。
 
 
 ## 5.2.2 Apache HBase 基本概念
