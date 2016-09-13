@@ -36,7 +36,7 @@ HBase 由 Powerset 在2007年创建，最初是  Hadoop 项目的一部分，之
 Apache HBase 的官方网站为：<http://hbase.apache.org/>。
 
 
-## 5.2.1 Apache HBase 简介
+## Apache HBase 简介
 
 Apache HBase（Hadoop Database） 是一个高可靠性、高性能、面向列、可伸缩的分布式存储系统，利用 HBase 技术可在廉价 PC 上搭建起大规模结构化存储集群。
 
@@ -105,7 +105,7 @@ Hbase 的缺点：
 如果想了解 HBase 更深层次的内容，推荐阅读 Lars George 的《HBase: The Definitive Guide》。
 
 
-## 5.2.2 Apache HBase 基本概念
+## Apache HBase 基本概念
 
 在 HBase 的数据被存储在表中，具有行和列。这和关系数据库（RDBMS中）的术语是重叠，但在概念上它们不是一类。相反，应该将 HBase 的表当作是一个多维的 map 结构而更容易让人理解。
 
