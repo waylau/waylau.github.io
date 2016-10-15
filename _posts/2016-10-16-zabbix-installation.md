@@ -467,46 +467,47 @@ locale/make_mo.sh
 
 （1）在浏览器打开 Zabbix URL `http://<server_ip_or_name>/zabbix`，可以看到如下界面：
 
-![图6-7 安装步骤1](../../images/6-7 zabbix-install_1.png)
+![图6-7 安装步骤1](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_1.png?w=550&tok=fd0e5e)
 
 图6-7 安装步骤1
 
 
 （2）确保软件的所有前置条件都满足了：
 
-![图6-8 安装步骤2](../../images/6-8 zabbix-install_2.png)
+![图6-8 安装步骤2](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_2.png?w=550&tok=0b5ea8)
 
 图6-8 安装步骤2
 
 （3）确保数据库已经创建完毕，而后输入数据库的连接详情：
 
-![图6-9 安装步骤3](../../images/6-9 zabbix-install_3.png)
+![图6-9 安装步骤3](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_3.png?w=550&tok=65e211)
 
 图6-9 安装步骤3
 
 （4）输入  Zabbix server 详情：
 
-![图6-10 安装步骤4](../../images/6-10 zabbix-install_4.png)
+![图6-10 安装步骤4](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_4.png?w=550&tok=b0e91d)
 
 图6-10 安装步骤4
 
 
 （5）复查配置总览：
 
-![图6-11 安装步骤5](../../images/6-11 zabbix-install_5.png)
+![图6-11 安装步骤5](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_5.png?w=550&tok=91477d)
 
 图6-11 安装步骤5
 
 
 （6）下载配置文件来替换 web 服务器 HTML 文档子目录`conf/`下的配置文件：
 
-![图6-12 安装步骤6](../../images/6-12 zabbix-install_6.png)
+![图6-12 安装步骤6](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_6.png?w=550&tok=4664a0)
 
 图6-12 安装步骤6
 
 （7）完成安装：
 
-![图6-13 安装步骤7](../../images/6-13 zabbix-install_7.png)
+![图6-13 安装步骤7](https://www.zabbix.com/documentation/3.2/_media/manual/installation/install_7.png?w=550&tok=0d699c)
+
 
 图6-13 安装步骤7
 
@@ -514,7 +515,8 @@ locale/make_mo.sh
 （8）安装完成后能通过以下登录界面进行登录，默认用户账号密码为 Admin/zabbix：
 
 
-![图6-14 安装步骤8](../../images/6-14 zabbix-install_8.png)
+![图6-14 安装步骤8](https://www.zabbix.com/documentation/3.2/_media/manual/quickstart/login.png?w=350&tok=128699)
+
 
 图6-14 安装步骤8
 
