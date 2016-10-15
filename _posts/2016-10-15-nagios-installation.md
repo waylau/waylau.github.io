@@ -665,3 +665,4 @@ sudo /etc/init.d/nagios restart
 ## 参考引用
 
 * <https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/quickstart.html>
+* 《分布式系统常用技术及案例分析》:<https://github.com/waylau/distributed-systems-technologies-and-cases-analysis>
