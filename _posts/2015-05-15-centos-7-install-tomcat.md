@@ -57,16 +57,20 @@ tags: [CentOS,Tomcat]
 
 在文件的末尾修改
 
-  	export JAVA_HOME=/usr/java/jdk1.8.0_45
-  	export PATH=$JAVA_HOME/bin:$PATH
-    export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+```
+export JAVA_HOME=/usr/java/jdk1.8.0_45
+export PATH=$PATH:$JAVA_HOME/bin
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+```
 
 为
 
-   	export JAVA_HOME=/usr/java/jdk1.8.0_45
-  	export CATALINA_HOME=/usr/local/apache-tomcat-8.0.22   
-  	export PATH=$JAVA_HOME/bin:$PATH:$CATALINA_HOME/lib
-    export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/bin
+```
+export JAVA_HOME=/usr/java/jdk1.8.0_45
+export CATALINA_HOME=/home/runner/runtime    
+export PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/lib 
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$CATALINA_HOME/bin
+```
     
 注意
 
