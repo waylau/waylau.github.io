@@ -8,7 +8,7 @@ permalink: /resume/
 
 * Tel：(+86)17051061662
 * Email：[waylau521@163.com](mailto:waylau521@163.com)
-* Blog：<http://waylau.com>
+* Blog：<https://waylau.com>
 * Github：<https://github.com/waylau>
 
 ---
@@ -17,9 +17,9 @@ permalink: /resume/
 
 * 柳伟卫/男/1987/已婚/共党/退伍军人
 * 全日制本科/广东财经大学/软件工程2006级
-* 工作年限：6年+ 。包括系统架构4年+/项目管理4年+
+* 工作年限：7年+ 。包括系统架构5年+/项目管理5年+
 * 期望职位：Java 开发/架构/项目管理
-* 期望城市：杭州、惠州、珠海、深圳、广州
+* 期望城市：杭州、深圳、广州、惠州
 * 期望公司：5天制、非外包、有明确的发展理念、有节操
 
 ---
@@ -27,11 +27,11 @@ permalink: /resume/
 ## 个人评价
 
 * Java 语言扎实，熟悉 IO、多线程、集合、网络编程等，了解 JVM 原理；
-* 5年及以上 Java SE/EE 开发的经验，熟悉 Spring/Jersey/Hibernate/MyBatis/Struts/POI/MINA/Netty 等开源框架，熟悉 Flex/AS3/HTML5/JS/Bootstrap/CSS3/AngularJS/JQuery 等客户端技术的开发，并具备将上述技术进行整合架构；具有相关性能优化经验；具备快速解决技术问题的能力；
+* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring/SpringMVC/Jersey/Hibernate/MyBatis/Struts/POI/MINA/Netty 等开源框架，熟悉 Flex/AS3/HTML5/JS/Bootstrap/CSS3/AngularJS/JQuery 等客户端技术的开发，并具备将上述技术进行整合架构；具有相关性能优化经验；具备快速解决技术问题的能力；
 * 多年管理节能、能耗在线监测、能源管理中心系统、工业自动化数据采集的设计与研发工作，熟悉相关行业标准、规范；
 * 推崇敏捷、TDD、DevOps 等开发方式；具备 REST 架构风格的设计经验；有微服务、分布式系统、并发处理、实时数据采集、实时数据库、告警消息推送等系统的设计开发及性能调优经验；
-* 掌握 Linux（CentOS/RHEL） 操作系统和常用数据库（MySQL/SQLServer）；对SQL优化有一定的经验；
-* 谦虚好学，认真细心，酷爱[户外运动](http://www.waylau.com/categories/#outdoor)，讲究团队精神；
+* 掌握 Linux（SUSE/CentOS/RHEL） 操作系统和常用数据库（DB2/MySQL/SQLServer）；对SQL优化有一定的经验；
+* 谦虚好学，认真细心，酷爱[户外运动](https://waylau.com/categories/#outdoor)，讲究团队精神；
 * 喜欢了解及尝试最新的技术，追求代码规范，爱好[开源](https://github.com/waylau)，乐于技术分享，对企业忠诚；
 
 ---
@@ -130,23 +130,23 @@ permalink: /resume/
     * [《REST 实战》](https://github.com/waylau/rest-in-action)：基于 Jersey 构建 RESTful 服务
     * [《Netty 实战(精髓)》](https://github.com/waylau/essential-netty-in-action)：对 Norman Maurer 的 《Netty in Action》的一个精简
     * [《CSS3 教程》](https://github.com/waylau/css3-tutorial)：一本关于 CSS3 的开源教程
-    * [更多](http://waylau.com/books)
+    * [更多](https://waylau.com/books)
     
 * 演讲和讲义
-    * 2015年7月，新员工培训《前端培训CSS3&Bootstrap》：<http://waylau.com/slides/CSS3&Bootstrap_20150703.pdf>
-    * 2015年5月，技术分享，《能源管理中心架构剖析》:<http://waylau.com/slides/EMSC_Architecture_201505023.pdf>
+    * 2015年7月，新员工培训《前端培训CSS3&Bootstrap》：<https://waylau.com/slides/CSS3&Bootstrap_20150703.pdf>
+    * 2015年5月，技术分享，《能源管理中心架构剖析》:<https://waylau.com/slides/EMSC_Architecture_201505023.pdf>
 
 ## 技能清单
 
 * 服务端开发：Java/Golang
-* 服务端框架：Spring/Jersey/Hibernate/POI/MyBatis/Struts/MINA/Netty
+* 服务端框架：Spring/SpringMVC/Jersey/Hibernate/POI/MyBatis/Struts/MINA/Netty
 * 前端开发：Flex/AS3/HTML5/JS/CSS/SVG
 * 前端框架：jQuery/Bootstrap/EasyUI/AngularJS/Echarts
 * 前端工具：Bower/Grunt/Cordova
-* 数据库相关：MySQL/SQLServer/Oracle/H2
+* 数据库相关：DB2/MySQL/SQLServer/Oracle/H2
 * 单元测试：JUnit/Mockito
 * 管理工具：SVN/Git/Maven/Gradle/禅道
-* 操作系统：CentOS/WindowsServer/VirtualBox 
+* 操作系统：SUSE/CentOS/WindowsServer/VirtualBox 
 * 开放平台：百度地图/腾讯云
 * 语言方言：英文/普通话/粤语
 
@@ -156,5 +156,5 @@ permalink: /resume/
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
 
-[在线查看](http://waylau.com/resume/) | [下载完整版](http://waylau.com/resume/柳伟卫_简历.pdf) 该简历；
-[查看精简版](http://waylau.com/resume/s) | [下载精简版](http://waylau.com/resume/柳伟卫_简历s.pdf) 
+[在线查看](https://waylau.com/resume/) | [下载完整版](https://waylau.com/resume/柳伟卫_简历.pdf) 该简历；
+[查看精简版](https://waylau.com/resume/s) | [下载精简版](https://waylau.com/resume/柳伟卫_简历s.pdf) 
