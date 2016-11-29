@@ -12,7 +12,9 @@ tags: [Maven,mirror]
 用maven做项目，最郁闷的莫过于某些依赖库下载不了。被墙了，你懂的。使用maven镜像仓库及其重要，特别是国内的镜像，可以有效缓解被墙疼痛。
 
 #常用的镜像
+
 ##国外镜像
+
 ibiblio.org
 
 	<mirror>  
@@ -50,7 +52,17 @@ uk.maven.org
     </mirror>
 
 ##国内镜像
-oschina.net
+
+aliyun.com
+
+ 	<mirror>
+        <id>nexus-aliyun</id>
+        <mirrorOf>*</mirrorOf>
+        <name>Nexus aliyun</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    </mirror> 
+    
+oschina.net（目前已经不能访问）
 
  	<mirror>
         <id>nexus-osc</id>
@@ -59,7 +71,7 @@ oschina.net
         <url>http://maven.oschina.net/content/groups/public/</url>
     </mirror>
 
-net.cn
+net.cn（目前已经不能访问）
 
 	<mirror>
 	    <id>net-cn</id>
@@ -69,6 +81,20 @@ net.cn
 	 </mirror>
 
 #使用镜像
+
+## 使用 aliyun.com 镜像
+
+在maven的settings.xml 文件里配置mirrors的子节点，添加如下 mirror
+
+ 	<mirror>
+        <id>nexus-aliyun</id>
+        <mirrorOf>*</mirrorOf>
+        <name>Nexus aliyun</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+    </mirror> 
+    
+## 使用 oschina.net 镜像
+
 下文以oschina.net的镜像为例子.
 
 1.Maven 的安装目录下的 conf 文件下有个`settings.xml`文件,编辑该文件
