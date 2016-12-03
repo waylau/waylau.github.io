@@ -25,3 +25,6 @@ permalink: /books/
 * [Java 编程要点](https://github.com/waylau/essential-java) 
 * [Java 虚拟机规范](https://github.com/waylau/java-virtual-machine-specification) 
 * [DB2 教程](https://github.com/waylau/db2-tutorial)
+* [布式系统常用技术及案例分析](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)
+* [Apache Isis 教程](https://github.com/waylau/apache-isis-tutorial)
+* [微服务原理与实践](https://github.com/waylau/microservices-principles-and-practices)
