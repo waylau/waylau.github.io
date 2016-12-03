@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume/
+excludedFromNav:true
 ---
 
 # 柳伟卫的简历
