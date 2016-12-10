@@ -10,11 +10,14 @@ tags: [Markdown,GitBook]
 
 [GitBook](http://www.gitbook.com/) 让你在保持 使用 Markdown 的书写习惯外，稍加配置，就能自动发布到 GitBook 上，形成界面漂亮的各种电子书了（支持 html, pdf , ePUB, MOBI 等）。
 
-##Usage 1 用法一 使用模板快速开始
 
-[https://github.com/waylau/gitbook](https://github.com/waylau/gitbook) 这是个快速开始 GitBook 的模板项目,根据项目的结构，稍作修改，就能生成自己的电子书。
+##Installation 安装
 
-###Installation 安装
+### 安装 Nodejs
+
+gitbook 的安装需要 Nodejs，下载地址为 http://nodejs.cn/download/
+
+### 安装 gitbook
 
 gitbook 1.x 时执行：
 
@@ -23,6 +26,12 @@ gitbook 1.x 时执行：
 而从 gitbook 2.x 开始，执行下面新的命令语句：
 
     $ npm install gitbook-cli -g
+
+
+##Usage 1 用法一 使用模板快速开始
+
+[https://github.com/waylau/gitbook](https://github.com/waylau/gitbook) 这是个快速开始 GitBook 的模板项目,根据项目的结构，稍作修改，就能生成自己的电子书。
+
 
 ###Checkout the repository 检出模板项目
 
