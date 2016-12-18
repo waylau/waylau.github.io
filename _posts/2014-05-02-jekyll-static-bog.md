@@ -31,12 +31,21 @@ DevKit安装到C:\rubydevkit
 
 <!-- more -->
 
-## 更改gem镜像到 taobao网，可以改善国内Ruby安装的速度
+## 更改gem镜像到国内镜像，可以改善国内Ruby安装的速度，以下以 taobao 网为例
 
 	gem sources --remove https://rubygems.org/
 	gem sources -a https://ruby.taobao.org/
 	gem sources -l         #查看是否只有taobao镜像
 	gem update --system    #更新RubyGems软件
+
+近日（2016-12-16）发觉taobao 的源也不好用了，出现如下错误：
+
+```
+Error fetching https://ruby.taobao.org/:
+        SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://gems.ruby-china.org/specs.4.8.gz)
+```
+
+更改到`http://gems.ruby-china.org/`源即可。
 
 ## 安装jekyll
 
