@@ -22,7 +22,7 @@ tags: [Web,URI,URL,URN]
 
 ## 三者关系
 
-![](http://i4.tietuku.com/d6168cad389d7a22.jpg)
+![](/images/post/20091219-uri.jpg)
 
 URI 可以进一步划分为定位符（URL），名称（URN）或两者兼备。URL 和 URN 都是 URI 子集。URN 如同一个人的名称，而 URL 代表一个人的住址。换言之，URN 定义某事物的身份，而 URL 提供查找该事物的方法。
 
