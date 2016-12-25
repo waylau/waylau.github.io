@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 为什么我们需要持续集成（Continuous Integration）
+title: 为什么我们迫切需要持续集成（Continuous Integration）
 date: 2016-12-25 00:22
 author: admin
 comments: true
