@@ -18,7 +18,7 @@ logo_image: "/images/waylau_181_181.jpg"  # LOGO 图片地址
 # Build settings
 gems: [jekyll-paginate]
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge   # pygments
 permalink: /:title/
 paginate: 8
 paginate_path: page/:num
