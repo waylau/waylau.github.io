@@ -175,7 +175,8 @@ java -version
 [11:58:00]Step 5/5: restart tomcat (SSH Exec)
 [11:58:00]Publishing internal artifacts
 [11:58:01]Build finished
-``
+```
+
 ## 参考资料
 
 * https://www.jetbrains.com/teamcity/
