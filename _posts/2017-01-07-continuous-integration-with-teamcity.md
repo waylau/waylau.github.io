@@ -16,13 +16,13 @@ tags: [CI,TeamCity]
 
 目前，CI 已在当前业界被许多软件开发团队所采用，是一种在整个软件开发生命周期内保证代码质量的常见做法。它是一种开发实践，旨在帮助开发团队应对软件开发过程中的如下挑战：
 
-* 自动化检查 ：当软件开发团队在周期性的新增或修改后的代码后，CI 服务器能持续地获取新增或修改后签入的源代码，并可以对这些变更的代码进行质量或者编码规范的检查。常用的工具有 PMD、SonarQube、CheckStyle、FindBugs等。
-* 自动化构建 ：CI 系统会依照预先制定的配置计划，或某一特定事件，自动检出代码，并对目标软件进行构建。这里的计划，可以是周期性的时间点，比如10分钟或者1小时构建一次，也可以根据特定事件来触发构建，比如用户主动发出构建命令，或者根据代码的变更来触发构建。构建工具可以选择 Maven 或者 Ant。
-* 自动化测试 ：构建检查完成后，可以执行预先制定的一套测试规则，也可以在执行构建的过程中进行测试用例的测试，前提是项目团队采用了测试驱动开发（Test-Driven Development，TDD）。常用的测试工具，有 JUnit、JWebUnit、Selenium 等。
-* 自动化部署 :当自动化检查和测试成功完成，将打包软件、构件部署到一个运行环境或者软件仓库。这样，构件才能更迅速地提供给用户使用。
-* 及时提醒：当上面定义的任何一个阶段进行过程中发现出错或者预设事件得到触发，都能够及时通知给相应的项目干系人来进行处理。比如，在构建过程发生了错误，CI 服务器可以邮件通知开发人员来进行修复；自动化部署完成了，CI 服务器通知会测试人员来进行测试，等待。除了邮件，提醒的方式可以是短信、桌面通知器，也可以是音响大喇叭。
+* 自动检查 ：当软件开发团队在周期性的新增或修改后的代码后，CI 服务器能持续地获取新增或修改后签入的源代码，并可以对这些变更的代码进行质量或者编码规范的检查。常用的工具有 PMD、[SonarQube](https://www.sonarqube.org)、CheckStyle、FindBugs等。
+* 自动构建 ：CI 系统会依照预先制定的配置计划，或某一特定事件，自动检出代码，并对目标软件进行构建。这里的计划，可以是周期性的时间点，比如10分钟或者1小时构建一次，也可以根据特定事件来触发构建，比如用户主动发出构建命令，或者根据代码的变更来触发构建。构建工具可以选择 Maven 或者 Ant 等。
+* 自动测试 ：构建检查完成后，可以执行预先制定的一套测试规则，也可以在执行构建的过程中进行测试用例的测试，前提是项目团队采用了测试驱动开发（Test-Driven Development，TDD）。常用的测试工具，有 JUnit、JWebUnit、Selenium 等。
+* 自动部署 :当自动化检查和测试成功完成，将打包软件、构件部署到一个运行环境或者软件仓库。这样，构件才能更迅速地提供给用户使用。
+* 及时提醒：当上面定义的任何一个阶段进行过程中发现出错或者预设事件得到触发，都能够及时通知给相应的项目干系人来进行处理。比如，在构建过程发生了错误，CI 服务器可以邮件通知开发人员来进行修复；自动化部署完成了，CI 服务器通知会测试人员可以进行测试了，等待。除了邮件，提醒的方式可以是短信、桌面通知器，也可以是音响大喇叭。
 
-简言之，CI 是在敏捷开发过程中，实现速度、效率、质量的软件开发实践，可以持续为用户提供交付可用的软件产品。更多详情可以参考[《为什么我们迫切需要持续集成（Continuous Integration）》](https://waylau.com/why-we-need-continuous-integration/)。 
+简言之，CI 是在敏捷开发过程中，实现速度、效率、质量的软件开发实践，可以持续为用户交付可用的软件产品。更多详情可以参考[《为什么我们迫切需要持续集成（Continuous Integration）》](https://waylau.com/why-we-need-continuous-integration/)。 
 
 ## TeamCity 简介
 
@@ -44,7 +44,7 @@ tags: [CI,TeamCity]
 
 ## 使用 TeamCity 实现 CI
 
-下面介绍下 TeamCity 的常见用法。
+下面介绍下 TeamCity 的常见用法。本例使用版本为 TeamCity Professional 10.0.4。
 
 ### 创建项目，关联源码
 
@@ -56,7 +56,7 @@ tags: [CI,TeamCity]
 
 ### 创建构建配置
 
-构建配置（Build Configurations），是指项目构建过程中，一些列的计划动作。比如，可以是代码质量检查、Maven 构建、发布等等动作。
+构建配置（Build Configurations），是指项目构建过程中，一些列的步骤计划。比如，可以是代码质量检查、Maven 构建、发布等等步骤。
 
 我们选择点击“Edit”按钮，在“Build Steps”中来设置一些构建计划。
 
@@ -70,6 +70,12 @@ tags: [CI,TeamCity]
 
 ![](/images/post/20170107-ci-teamcity-004.jpg)
  
+其中，
+
+* SonarQube Runner Parameters：是  SonarQube 的一些配置参数，包括 SonarQube 服务器的IP等。
+* Sources location：项目源码的位置。
+* Modules：需要检查的模块。
+
 
 #### 2. Maven 构建项目
 
@@ -134,7 +140,42 @@ java -version
 ./startup.sh
 ```
 
+## 触发构建
 
+可以采用自动触发，或者手动触发来执行构建。
+
+点击右上角的“Run”即可手动触发来执行构建。
+
+![](/images/post/20170107-ci-teamcity-008.jpg)
+
+在将项目与相应的源码进行关联后，默认会生成一个“VCS Trigger”，即，只要有变更提交到代码管理服务器上，就会自动触发构建。当然，也可以自行添加多种触发器。
+
+
+![](/images/post/20170107-ci-teamcity-009.jpg)
+
+## 报告
+
+可以查看整个构建过程的情况，包括构建花费的时间等。
+
+```
+[11:50:33]Finalize build settings
+[11:50:38]The build is removed from the queue to be prepared for the start
+[11:50:38]Collecting changes in 1 VCS root
+[11:50:38]Starting the build on the agent Default Agent
+[11:50:38]Clearing temporary directory: /home/unengli/TeamCity/buildAgent/temp/buildTmp
+[11:50:38]Publishing internal artifacts
+[11:50:38]Using vcs information from agent file: a774be4779f9ea86.xml
+[11:50:38]Clean build enabled: removing old files from /home/unengli/TeamCity/buildAgent/work/a774be4779f9ea86
+[11:50:38]Checkout directory: /home/unengli/TeamCity/buildAgent/work/a774be4779f9ea86
+[11:50:38]Updating sources: server side checkout (3m:08s)
+[11:53:47]Step 1/5: maven build (Maven) (3m:33s)
+[11:57:21]Step 2/5: deploy gov、ent to 18 test server (SSH Upload)
+[11:57:21]Step 3/5: deploy ent to 40 (SSH Upload)
+[11:57:21]Step 4/5: deploy to tomcat 7 gov (FTP Upload) (39s)
+[11:58:00]Step 5/5: restart tomcat (SSH Exec)
+[11:58:00]Publishing internal artifacts
+[11:58:01]Build finished
+``
 ## 参考资料
 
 * https://www.jetbrains.com/teamcity/
