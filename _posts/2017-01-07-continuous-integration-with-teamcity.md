@@ -42,6 +42,10 @@ tags: [CI,TeamCity]
 * User Management
 * Pre-Tested Commit
 
+TeamCity 分免费专业版授权（Professional Server License）和收费企业版授权（Enterprise Server License）。两者在功能上完全一致，只是在使用的数量上会有限制，其中，免费版授权包含20 个 build configuration 以及 3 个 build agent。可以单独购买构建代理授权（ Build Agent License），含1个 build agent以及10个build configuration，费用是 299美元。企业版授权在build configuration 上是无限的，可以购买3 到 100 不等的 build agent，费用大概在1999至21999美元之间。
+
+对于试用用户或者小团队而言，Professional Server License 足够了。
+
 ## 使用 TeamCity 实现 CI
 
 下面介绍下 TeamCity 的常见用法。本例使用版本为 TeamCity Professional 10.0.4。
