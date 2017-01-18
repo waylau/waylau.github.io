@@ -12,19 +12,19 @@ tags: [Jersey,Spring,REST]
 
 <!-- more -->
 
-##1. 示例
+## 1. 示例
 
-###1.1 为什么
+### 1.1 为什么
 
 Spring 可以对于 REST 有自己的实现(见 [https://spring.io/guides/tutorials/rest/](https://spring.io/guides/tutorials/rest/))。 但本文展示的是用 “官方” 的 方法来实现 REST ，即使用 Jersey。
 
-###1.2 它是做什么的?
+### 1.2 它是做什么的?
 
 管理 资源。 REST API 将允许创建、检索、更新和删除这样的资源。
 
-###1.3 架构及技术
+### 1.3 架构及技术
 
-![](http://99btgc01.info/uploads/2014/11/Rest-Demo-Diagram.png)
+![](http://www.codingpedia.org/wp-content/uploads/2014/05/Rest-Demo-Diagram.png)
 
 本示例项目使用多层结构，基于“Law of Demeter (LoD) or principle of least knowledge”（迪米特法则），是说一个软件实体要尽可能的只与和它最近的实体进行通讯。通常被表述为：talk only to your immediate friends ( 只和离你最近的朋友进行交互)。  
  “talk”，其实就是对象间方法的调用。这条规则表明了对象间方法调用的原则：（1）调用对象本身的方法；（2）调用通过参数传入的对象的方法；（3）在方法中创建的对象的方法；（4）所包含对象的方法。
@@ -39,29 +39,29 @@ Spring 可以对于 REST 有自己的实现(见 [https://spring.io/guides/tutori
 
 简述下技术框架：
 
-####1.3.1. Jersey (外观)
+#### 1.3.1. Jersey (外观)
 
 [Jersey](https://jersey.java.net/) 是开源、拥有产品级别的质量，提供构建  RESTful Web Services,支持  JAX-RS APIs ，提供 [JAX-RS](https://jax-rs-spec.java.net/) (JSR 311 & JSR 339) 参考实现。
 
-####1.3.2. Spring (业务层)
+#### 1.3.2. Spring (业务层)
 
 在我看来没有什么 比 [Spring](http://projects.spring.io/spring-framework/) 更好的办法让 pojo 具有不同的功能。 你会发现在本教程用 Jersey 2 和 Spring 4 构建 RESTful web service
 
-####1.3.3. JPA 2 / Hibernate (持久层)
+#### 1.3.3. JPA 2 / Hibernate (持久层)
 
 使用 Hibernate 实现 DAO 模式。
 
-####1.3.4. Web 容器
+#### 1.3.4. Web 容器
 
 用 Maven 打包成 .war 文件开源部署在任意容器。一般用 [Tomcat](http://tomcat.apache.org/) 和 [Jetty](http://www.eclipse.org/jetty/) ，也可以是 Glassfih, Weblogic, JBoss 或 WebSphere.
 
-####1.3.5. MySQL 数据库
+#### 1.3.5. MySQL 数据库
 
 示例数据存储在一个 MySQL 表:
 
-![](http://99btgc01.info/uploads/2014/11/database-schema.png)
+![](http://www.codingpedia.org/wp-content/uploads/2014/01/database-schema-300x280.png)
 
-####1.3.6. 技术版本
+#### 1.3.6. 技术版本
 
 Jersey 2.9
 
@@ -77,15 +77,15 @@ Jetty 9
 
 MySql 5.6
 
-###1.4. 源码
+### 1.4. 源码
 
 见[https://github.com/waylau/RestDemo/tree/master/jersey-2-spring-4-rest](https://github.com/waylau/RestDemo/tree/master/jersey-2-spring-4-rest)
 
-##2. 配置
+## 2. 配置
 
 开始呈现 REST API 的设计和实现之前,我们需要做一些配置。
 
-###2.1. 项目依赖
+### 2.1. 项目依赖
 
 [Jersey Spring 扩展包](https://github.com/waylau/Jersey-2.x-User-Guide/tree/master/Chapter%2022.%20Spring%20DI%20%E4%BD%BF%E7%94%A8%20Spring%20%E6%B3%A8%E5%85%A5) 是必须要放在 项目 classpath 中。在 pom.xml 中添加下面依赖：
 
@@ -116,7 +116,7 @@ MySql 5.6
 
 *注意: jersey-spring3.jar 使用的是他自己的 Spring 库版本，所以如果你想使用自己的 (本例是使用 Spring 4.0.3.Release),你需要将这些库手动的移除。如果想看到其他 的库的依赖，请查看项目源码中的 pom.xml*
 
-###2.2. web.xml
+### 2.2. web.xml
 
 应用部署描述
 
@@ -162,7 +162,7 @@ MySql 5.6
 	    </resource-ref>    
 	</web-app>
 
-####2.2.1. Jersey-servlet
+#### 2.2.1. Jersey-servlet
 
 注意 Jersey servlet 的配置，`javax.ws.rs.core.Application` 类定义了 JAX-RS 应用组件(root 资源 和 提供者 类) .本例使用 `ResourceConfig`, 是 Jersey 自己实现的 `Application` 类，提供了简化  JAX-RS 组件的能力。详见[JAX-RS 应用模型](https://github.com/waylau/Jersey-2.x-User-Guide/blob/master/Chapter%204.%20Application%20Deployment%20and%20Runtime%20Environments%20%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E8%BF%90%E8%A1%8C%E6%97%B6%E7%8E%AF%E5%A2%83/4.2.%20JAX-RS%20Application%20Model%20%E5%BA%94%E7%94%A8%E6%A8%A1%E5%9E%8B.md)
 
@@ -210,7 +210,7 @@ MySql 5.6
 * `org.codingpedia.demo.rest.resource.PodcastsResource` 这是“外观”组件，通过注解 暴露了 REST 的API。稍后会描述 
 * `org.glassfish.jersey.jackson.JacksonFeature`,是一个  feature ，用 Jackson JSON 的提供者来解释 JSON。 
 
-####2.1.2. Spring 配置
+#### 2.1.2. Spring 配置
 
 配置文件在 classpath 目录下的 spring/applicationContext.xml:
 
@@ -280,11 +280,11 @@ MySql 5.6
 
 其中 `podcastsResource`是指向 REST API 实体
 
-##3. REST API (设计与实现)
+## 3. REST API (设计与实现)
 
-###3.1. 资源
+### 3.1. 资源
 
-####3.1.1. 设计
+#### 3.1.1. 设计
 
 REST 中的资源主要包括下面两大思想：
 
@@ -298,7 +298,7 @@ REST 中的资源 一般是名词 (podcasts, customers, user, accounts 等) 而�
 * `/podcasts` – （注意复数）URI标识的资源 podcasts 集合的播客
 * `/podcasts/{id}` – 通过 podcasts 的ID, URI 标识一个podcasts 资源，
 
-####3.1.2. 实现
+#### 3.1.2. 实现
 
 为求精简 ， podcast 只包含下列属性:
 
@@ -396,7 +396,7 @@ Podcast.java
 	    "insertionDate":"2014-05-30T10:26:12.00+0200"
 	}
 
-###3.2. 方法
+### 3.2. 方法
 
 简单的说明
 
@@ -426,19 +426,19 @@ Podcast.java
 
 在上面的例子中，该 Java 类将托管在` /podcasts` URI 路径。`PodcastService` 接口公开的业务逻辑 到 REST 外观层。
 
-####3.2.1. 创建 podcast
-####3.2.1.1. 设计
+#### 3.2.1. 创建 podcast
+#### 3.2.1.1. 设计
 
 常见的的方式利用 POST 创建资源，如前所述，创建一个新的资源，可以用 POST 和 PUT 的方法，我是这样做的：
 
 <table border="1" cellspacing="0" cellpadding="5">
 <tbody>
 <tr valign="TOP">
-<td bgcolor="#808080" width="25%"><b>&nbsp; Description</b></td>
-<td bgcolor="#808080" width="25%"><b>&nbsp; URI</b></td>
-<td bgcolor="#808080" width="25%"><b>&nbsp; HTTP method<br>
+<td bgcolor="# 808080" width="25%"><b>&nbsp; Description</b></td>
+<td bgcolor="# 808080" width="25%"><b>&nbsp; URI</b></td>
+<td bgcolor="# 808080" width="25%"><b>&nbsp; HTTP method<br>
 </b></td>
-<td bgcolor="#808080" width="25%"><b>&nbsp; HTTP Status response</b></td>
+<td bgcolor="# 808080" width="25%"><b>&nbsp; HTTP Status response</b></td>
 <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></tr>
 <tr>
 <td width="25%" height="19">&nbsp;增加新的 podcast</td>
@@ -466,8 +466,8 @@ Podcast.java
 
 PUT  POST 最大的区别是 ，PUT 就是把你应该事先知道资源将被创建的位置和发送所有可能值的实体。
 
-#####3.2.1.2. 实现
-######3.2.1.2.1. POST 创建一个单资源
+##### 3.2.1.2. 实现
+###### 3.2.1.2.1. POST 创建一个单资源
 
 	/**
 	 * Adds a new resource (podcast) from the given json format (at least title
@@ -502,11 +502,11 @@ PUT  POST 最大的区别是 ，PUT 就是把你应该事先知道资源将被�
 	* 400：没有足够的数据提供
 	* 409：冲突了。如果在服务器端被确定 具有相同的 podcast 的存在
 
-######3.2.1.2.2. 通过 PUT 创建单资源 (“podcast”) 
+###### 3.2.1.2.2. 通过 PUT 创建单资源 (“podcast”) 
 
 这将执行 更新 Podcast 处理。
 
-######3.2.1.2.3. 附加 – 通过表单创建 (“podcast”)资源
+###### 3.2.1.2.3. 附加 – 通过表单创建 (“podcast”)资源
 	 
 	/**
 	 * Adds a new podcast (resource) from "form" (at least title and feed
@@ -556,9 +556,9 @@ PUT  POST 最大的区别是 ，PUT 就是把你应该事先知道资源将被�
 	* 400：没有足够的数据提供
 	* 409：冲突了。如果在服务器端被确定 具有相同的 podcast 的存在
 
-####3.2.2. 读 podcast
+#### 3.2.2. 读 podcast
 
-#####3.2.2.1. 设计
+##### 3.2.2.1. 设计
 
 API 支持两种操作
 
@@ -569,9 +569,9 @@ API 支持两种操作
 
 注意到集合资源的参数–rderByInsertionDate 和 numberDaysToLookBack。在URI查询参数添加过滤器而不是路径的一部分这个是很有道理的。
 
-#####3.2.2.2. 实现
+##### 3.2.2.2. 实现
 
-######3.2.2.2.1. 获取所有 podcasts (“/”)
+###### 3.2.2.2.1. 获取所有 podcasts (“/”)
 
 	/**
 	 * Returns all resources (podcasts) from the database
@@ -603,7 +603,7 @@ API 支持两种操作
 
 * 成功: HTTP 状态 为 200 的 podcast 数据集合
 
-######3.2.2.2.1. 读一个 podcast
+###### 3.2.2.2.1. 读一个 podcast
 
 根据 id  获取一个 podcast
 
@@ -630,18 +630,18 @@ API 支持两种操作
 * 成功: HTTP 状态 为 200 的 podcast 
 * 错误： 404 Not found。如果没有在数据库中找到
 
-####3.2.3. 更新 podcast
+#### 3.2.3. 更新 podcast
 
-#####3.2.3.1. 设计
+##### 3.2.3.1. 设计
 
 <table cellspacing="0" cellpadding="5" border="1" align="center" style="width:600px"><tbody align="center"><tr><td><b>Description</b></td><td><b>URI</b></td><td><b>HTTP method<br> </b></td><td><b>HTTP Status response</b></td></tr><tr><td>更新 podcast (<strong>完全</strong>)</td><td>&nbsp;/podcasts/{id}</td><td>PUT</td><td>200&nbsp;OK</td></tr><tr><td>&nbsp;更新 podcast (<strong>部分</strong>)</td><td>&nbsp;/podcasts/{id}</td><td>POST</td><td>200&nbsp;OK</td></tr></tbody></table>
 
 1.完全更新  – 提供所有的值
 2.部分更新  – 传递部分属性值即可
 
-#####3.2.3.1. 实现
+##### 3.2.3.1. 实现
 
-######3.2.3.1.1. 完全更新
+###### 3.2.3.1.1. 完全更新
 
 创建或者完全更新资源
 	
@@ -694,7 +694,7 @@ API 支持两种操作
 	* 成功: HTTP 状态 为 200 
 	* 错误： 400 Bad Request。如果不是所有的属性都提供
 
-######3.2.3.1.2. 部分更新
+###### 3.2.3.1.2. 部分更新
 
 	//PARTIAL update
 	@POST
@@ -721,15 +721,15 @@ API 支持两种操作
 * 成功: HTTP 状态 为 200 OK
 * 错误： 404 Not Found。如果资源不存在
 
-####3.2.4. 删除 podcast
+#### 3.2.4. 删除 podcast
 
-#####3.2.4.1. 设计
+##### 3.2.4.1. 设计
 
 <table cellspacing="0" cellpadding="5" border="1" align="center" style="width:700px"><tbody align="center"><tr><td><b>Description</b></td><td><b>URI</b></td><td><b>HTTP method<br> </b></td><td><b>HTTP Status response</b></td></tr><tr><td>移除所有 podcasts</td><td>&nbsp;/podcasts/</td><td>DELETE</td><td>204 No content</td></tr><tr><td>移除特定位置的 podcast</td><td>&nbsp;/podcasts/{id}</td><td>DELETE</td><td>204 No content</td></tr></tbody></table>
 
-#####3.2.4.2. 实现
+##### 3.2.4.2. 实现
 
-######3.2.4.2.1. 删除所有资源
+###### 3.2.4.2.1. 删除所有资源
 
 	@DELETE
 	@Produces({ MediaType.TEXT_HTML })
@@ -748,7 +748,7 @@ API 支持两种操作
 
 * 返回 html  文档
 
-######3.2.4.2.2. 删除一个资源
+###### 3.2.4.2.2. 删除一个资源
 
 	@DELETE
 	@Path("{id}")
@@ -771,11 +771,11 @@ API 支持两种操作
 * 成功: HTTP 状态 为 204 No Content
 * 错误： 404 Not Found。如果资源不存在
 
-##4. 日志
+## 4. 日志
 
 详见 [http://www.codingpedia.org/ama/how-to-log-in-spring-with-slf4j-and-logback/](http://www.codingpedia.org/ama/how-to-log-in-spring-with-slf4j-and-logback/)
 
-##5. 异常处理
+## 5. 异常处理
 
 错误处理要有统一的格式，就像下面
 	
@@ -787,15 +787,15 @@ API 支持两种操作
 	   "developerMessage": "Please verify that the feed is properly generated/set"
 	}
 
-##6. 服务端添加 CORS 支持
+## 6. 服务端添加 CORS 支持
 
-##7. 测试
+## 7. 测试
 
-###7.1. 在Java集成测试
+### 7.1. 在Java集成测试
 
-###7.1.1. 配置
+### 7.1.1. 配置
 
-#####7.1.1.1 Jersey 客户端依赖
+##### 7.1.1.1 Jersey 客户端依赖
 
 	<dependency>
 	    <groupId>org.glassfish.jersey.core</groupId>
@@ -804,7 +804,7 @@ API 支持两种操作
 	    <scope>test</scope>
 	</dependency>
 
-#####7.1.1.2. Failsafe 插件
+##### 7.1.1.2. Failsafe 插件
 
 	
 	<plugins>
@@ -831,7 +831,7 @@ API 支持两种操作
 		[...]
 	</plugins>
 
-#####7.1.1.2. Jetty Maven 插件
+##### 7.1.1.2. Jetty Maven 插件
 
 	<plugins>
 		<plugin>
@@ -874,7 +874,7 @@ API 支持两种操作
 
 详细配置见源码中的 pom.xml
 
-####7.1.2. 编译集成测试
+#### 7.1.2. 编译集成测试
 
 使用 JUnit  作为测试框架。默认的 Failsafe 插件 自动包含所有测试类
 
@@ -922,7 +922,7 @@ API 支持两种操作
 * 期望 返回 200 状态 给我们的请求
 * org.codehaus.jackson.map.ObjectMapper 帮助返回格式化的 JSON 
 
-####7.1.3. 运行集成测试
+#### 7.1.3. 运行集成测试
 
 运行 
 	
@@ -930,13 +930,13 @@ API 支持两种操作
 
 设置  `jetty.port` 属性到 8888,Eclipse  配置如下
 
-![](http://99btgc01.info/uploads/2014/11/run-integration-tests-eclipse.png)
+![](http://www.codingpedia.org/wp-content/uploads/2014/01/run-integration-tests-eclipse-300x148.png)
 
-###7.2. 用 SoapUI 集成测试
+### 7.2. 用 SoapUI 集成测试
 
 [youtube视频教程](http://www.youtube.com/watch?v=XV7WW0bDy9c)（需翻墙）
 
-##8. 版本管理
+## 8. 版本管理
 
 几个要点：
 
