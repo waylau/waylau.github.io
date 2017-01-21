@@ -28,17 +28,46 @@ PlantUML 是一个开源项目，通过简单并带指引性语言定义来定�
 
 PlantUML 支持多个中 IDE 的集成，比如 Eclipse、NetBeans、Intellij idea 等。
 
-## PlantUML for Eclipse 插件
+## 安装 PlantUML for Eclipse 插件
 
-PlantUML for Eclipse 插件主要用于在 Eclipse 中使用 PlantUML。有几种安装方式
+PlantUML for Eclipse 插件主要用于在 Eclipse 中使用 PlantUML。在 Eclipse 的插件市场中安装，点击 “Help/Install new software”，在 Eclipse 4 (Juno) 及以上版本中，插件安装地址为：
 
-* 在 Eclipse 的插件市场中安装： 在 Eclipse 4 (Juno) 及以上版本中，插件安装地址为：
-	* http://plantuml.sourceforge.net/updatesitejuno/
-	* http://basar.idi.ntnu.no/svn/tdt4100/anonymous/trunk/updatesite/
-
+* http://plantuml.sourceforge.net/updatesitejuno/
+* http://basar.idi.ntnu.no/svn/tdt4100/anonymous/trunk/updatesite/
 
 
+点击“Window/Show View/Other..”，可以将 PlantUML 面板显示出来。
+
+## PlantUML 的使用
+
+@startuml
+skinparam handwritten true
+
+skinparam usecase {
+	BackgroundColor DarkSeaGreen
+	BorderColor DarkSlateGray
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+	
+	ArrowColor Olive
+	ActorBorderColor black
+	ActorFontName Courier
+
+	ActorBackgroundColor<< Human >> Gold
+}
+
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+
+User -> (Start)
+User --> (Use)
+
+MySql --> (Use)
+
+@enduml
 ## 参考资料
 
-* https://www.jetbrains.com/teamcity/
-* https://waylau.com/why-we-need-continuous-integration/
+* http://plantuml.com/eclipse
