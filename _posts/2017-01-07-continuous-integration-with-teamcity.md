@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用 TeamCity 实现持续集成（CI）
-date: 2016-12-25 00:22
+date: 2017-01-07 00:22
 author: admin
 comments: true
 categories: [CI,TeamCity]
