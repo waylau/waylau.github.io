@@ -115,7 +115,7 @@ clean package
 
 #### 4. 重启 Web 容器
 
-在本例中，我们将项目部署到了 Tomcat 容器中，部署完之后，需要重启 Tomcat。这里，我们使用 SSH Exec 来执行一段重启服 Tomcat 的脚本。
+在本例中，我们将项目部署到了 Tomcat 容器中，部署完之后，需要重启 Tomcat。这里，我们使用 SSH Exec 来执行一段重启服 Tomcat 的脚本。注意，执行重启的用户，应该具备原来启动 Tomcat 的用户权限。
 
 
 ![](/images/post/20170107-ci-teamcity-007.jpg)
