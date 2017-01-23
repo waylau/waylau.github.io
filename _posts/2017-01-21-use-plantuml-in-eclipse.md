@@ -8,7 +8,7 @@ categories: [PlantUML,Eclipse]
 tags: [PlantUML,Eclipse,Graphviz]
 ---
 
-本文介绍了如果在 Eclipse 中使用 PlantUML 插件，来进行常用 UML 图的绘制。
+本文介绍了如果在 Eclipse 中安装、使用 PlantUML 插件，来进行常用 UML 图的绘制。
    
 <!-- more -->
 
@@ -36,44 +36,42 @@ PlantUML for Eclipse 插件主要用于在 Eclipse 中使用 PlantUML。在 Ecli
 * http://basar.idi.ntnu.no/svn/tdt4100/anonymous/trunk/updatesite/
 
 
-点击“Window/Show View/Other..”，可以将 PlantUML 面板显示出来。
+点击“Window/Show View/Other..”，可以将 PlantUML 预览窗口面板显示出来。
 
 ## 安装 Graphviz
 
-下载地址：http://www.graphviz.org/Download_windows.php
+下载地址：http://www.graphviz.org/Download_windows.php；有时官网下载速度也很慢，也可以到我的网盘下载 https://pan.baidu.com/s/1gfvBC9X
+
+安装 Graphviz 完成后，在 Eclipse 的 PlantUML 中，设置路径到 Graphviz 的 dot.exe。 如下图：
+
+![](../images/post/20170121-path-to-graphviz.jpg)
+
+如果 Graphviz 没有安装 成功，或者配置路径错误，则会有如下错误提示。
+
+![](../images/post/20170121-cannot-find-graphviz.jpg)
 
 ## PlantUML 的使用
 
+在 Eclipse 中编辑如下脚本：
+
+```
 @startuml
-skinparam handwritten true
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
 
-skinparam usecase {
-	BackgroundColor DarkSeaGreen
-	BorderColor DarkSlateGray
-
-	BackgroundColor<< Main >> YellowGreen
-	BorderColor<< Main >> YellowGreen
-	
-	ArrowColor Olive
-	ActorBorderColor black
-	ActorFontName Courier
-
-	ActorBackgroundColor<< Human >> Gold
-}
-
-User << Human >>
-:Main Database: as MySql << Application >>
-(Start) << One Shot >>
-(Use the application) as (Use) << Main >>
-
-User -> (Start)
-User --> (Use)
-
-MySql --> (Use)
-
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
 @enduml
+```
+
+PlantUML 插件会自动识别上述脚本，从而在预览窗口生成一张时序图图片。该图片可以被用于导出、复制、打印。
+
+![](../images/post/20170121-plantuml.jpg)
+
+更多示例，可以参考官方文档 http://translate.plantuml.com/zh/PlantUML_Language_Reference_Guide_ZH.pdf
 
 ## 参考资料
+ 
 
 * http://plantuml.com/eclipse
 * http://www.graphviz.org/content/plantuml-graphviz-dot-executable-usrbindot-does-not-excist
