@@ -1,0 +1,14 @@
+@startuml 
+ : 管理员 : as Admin << 管理员 >> 
+ ( 应用程序 ) as (Use) 
+ Tester1 -> ( 开始 ) 
+ Tester2 --> (Use) 
+ Admin ---> (Use) 
+ note right of Admin : 管理员身份
+ note left of (Use) 
+  实现 Notes Domino 的功能
+ end note 
+ note "测试人员进行测试工作" as user 
+ ( 开始 ) .. user 
+ user .. (Use) 
+ @enduml

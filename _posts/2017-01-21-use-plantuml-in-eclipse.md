@@ -5,7 +5,7 @@ date: 2017-01-21 00:22
 author: admin
 comments: true
 categories: [PlantUML,Eclipse]
-tags: [PlantUML,Eclipse]
+tags: [PlantUML,Eclipse,Graphviz]
 ---
 
 本文介绍了如果在 Eclipse 中使用 PlantUML 插件，来进行常用 UML 图的绘制。
@@ -38,6 +38,10 @@ PlantUML for Eclipse 插件主要用于在 Eclipse 中使用 PlantUML。在 Ecli
 
 点击“Window/Show View/Other..”，可以将 PlantUML 面板显示出来。
 
+## 安装 Graphviz
+
+下载地址：http://www.graphviz.org/Download_windows.php
+
 ## PlantUML 的使用
 
 @startuml
@@ -68,6 +72,8 @@ User --> (Use)
 MySql --> (Use)
 
 @enduml
+
 ## 参考资料
 
 * http://plantuml.com/eclipse
+* http://www.graphviz.org/content/plantuml-graphviz-dot-executable-usrbindot-does-not-excist
