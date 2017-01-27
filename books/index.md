@@ -28,3 +28,5 @@ permalink: /books/
 * [分布式系统常用技术及案例分析](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)
 * [Apache Isis 教程](https://github.com/waylau/apache-isis-tutorial)
 * [微服务原理与实践](https://github.com/waylau/microservices-principles-and-practices)
+* [Spring Boot 教程](https://github.com/waylau/spring-boot-tutorial)
+* [Gradle 3 用户指南](https://github.com/waylau/gradle-3-user-guide)
