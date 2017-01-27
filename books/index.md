@@ -23,6 +23,7 @@ permalink: /books/
 * [JSSE 参考指南](https://github.com/waylau/jsse-reference-guide)
 * [Apache Cordova 开发指南](https://github.com/waylau/cordova-dev-guide) 
 * [Java 编程要点](https://github.com/waylau/essential-java) 
+* [分布式 Java](https://github.com/waylau/distributed-java)
 * [Java 虚拟机规范](https://github.com/waylau/java-virtual-machine-specification) 
 * [DB2 教程](https://github.com/waylau/db2-tutorial)
 * [分布式系统常用技术及案例分析](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)
