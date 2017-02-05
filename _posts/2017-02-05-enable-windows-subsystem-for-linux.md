@@ -13,6 +13,14 @@ WSL(Windows Subsystem for Linux) 是 在Windows系统中为那些熟悉Linux用�
 <!-- more -->
 
 
+## WSL 简介
+
+Bash 是 Linux/Unix 上非常流行的命令行 Shell，它是 Ubuntu、RHEL 等 Linux 发行版以及苹果 OS X 操作系统默认的命令行 Shell。通过 Windows Subsystem for Linux（WSL）这一 Windows 10 的最新特性实现的，使用此功能，你可以在 Windows 中原生运行 Linux 的大多数命令行程序。
+
+>其实在 Windows 7 之前的操作系统中，都含有一个 POSIX 子系统，以便将 UNIX 的程序源代码编译为 Windows 程序。微软为 POSIX 子系统提供了众多的 UNIX 工具，而这些工具都是基于 POSIX 子系统直接使用GNU 的原生代码编译实现的，你也可以在这个 POSIX 子系统运行 C Shell、Korn Shell 等命令行 Shell。不过Windows 7 以后的操作系统中都默认移除了 POSIX 子系统。如果有兴趣的话可以在 Windows 7 操作系统中的“启用或关闭 Windows 功能”中启用“基于 UNIX 的应用程序子系统”，即可体验 POSIX 子系统。
+
+启用 WSL 功能之后，如果使用 Bash，则 Windows 10 操作系统会下载一个由 Canonical 创建的 Ubuntu用户模式镜像（Ubuntu user-mode image），然后 Bash 程序以及其他的 Linux 二进制程序就可以运行于该 Ubuntu 镜像上。此外，微软也承诺未来会提供更多 Linux 发行版以供选择。
+
 ## 条件限制
 
 
@@ -54,5 +62,5 @@ WSL 只在 Windows 10 版本以上提供该功能，所以，如果你想玩转 
 ## 参考资料
 
 * https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
- 
+* https://linux.cn/article-7209-1.html
  
