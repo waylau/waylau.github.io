@@ -58,9 +58,27 @@ WSL 只在 Windows 10 版本以上提供该功能，所以，如果你想玩转 
 
 ![](../images/post/20170205-win10-bash-user.jpg)
 
+## 设置Ubuntu镜像
+
+使用镜像，可以加快软件的安装。编辑/etc/apt/sources.list文件, 在文件最前面添加以下条目(操作前请做好相应备份)
+
+```
+deb http://mirrors.163.com/ubuntu/ wily main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ wily-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ wily-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ wily-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ wily-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ wily main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ wily-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ wily-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ wily-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ wily-backports main restricted universe multiverse
+```
+
 
 ## 参考资料
 
 * https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
 * https://linux.cn/article-7209-1.html
+* http://mirrors.163.com/.help/ubuntu.html
  
