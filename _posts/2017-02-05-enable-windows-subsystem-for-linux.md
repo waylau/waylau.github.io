@@ -75,6 +75,11 @@ deb-src http://mirrors.163.com/ubuntu/ wily-proposed main restricted universe mu
 deb-src http://mirrors.163.com/ubuntu/ wily-backports main restricted universe multiverse
 ```
 
+## 实战
+
+我从网上找了一个 Linux 程序的源码，进行了编译，并成功运行了。
+
+![](../images/post/20170205-win10-linux-app.jpg)
 
 ## 参考资料
 
