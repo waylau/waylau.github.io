@@ -1,16 +1,17 @@
 ---
 layout: post
-title: 由“Jasperreports 4.1.2升级到5.1.2对flex项目的解析”到AS3 带命名空间的XML的操作
+title: 由“JasperReports 4.1.2升级到5.1.2对flex项目的解析”到AS3 带命名空间的XML的操作
 date: 2013-06-21 01:55
 author: admin
 comments: true
-categories: [Jasperreports]
+categories: [JasperReports]
+tags: [JasperReports]
 ---
-项目中，对Jasperreports-4.1.2核心包进行了升级，发现，前端flex无法对Jasperreports的格式进行解析了~
+项目中，对JasperReports-4.1.2核心包进行了升级，发现，前端flex无法对JasperReports的格式进行解析了~
 
 iReport 4.1 设计的模版可以解析，而iReport 4.6 设计的模版就不行了~
 
-断点后，对比了从后台传过来的Jasperreports 的xml数据，发现存在差异
+断点后，对比了从后台传过来的JasperReports 的xml数据，发现存在差异
 
  
 
@@ -27,11 +28,11 @@ iReport 4.1 设计的模版可以解析，而iReport 4.6 设计的模版就不�
 	rightMargin="0" locale="zh_CN" timezone="Asia/Shanghai">
  
 
-后期版本的Jasperreports核心包多生成了命名空间
+后期版本的JasperReports核心包多生成了命名空间
 
-而之前官方提供Jasperreports 的flex解析包net.sf.jasperreports.flex （来自Jasperreports的项目示例jasperreports-flash-4.0.0-project.zip）任然停留在2010年的版本未更新（估计Jasperreports放弃了对flash的支持），导致无法对新版本的xml数据进行解析
+而之前官方提供JasperReports 的flex解析包net.sf.jasperreports.flex （来自JasperReports的项目示例jasperreports-flash-4.0.0-project.zip）任然停留在2010年的版本未更新（估计JasperReports放弃了对flash的支持），导致无法对新版本的xml数据进行解析
 
-AS3对于带命名空间的XML的解析操作上有很大的差异，例如以下来自Jasperreports的ReportFactory.as
+AS3对于带命名空间的XML的解析操作上有很大的差异，例如以下来自JasperReports的ReportFactory.as
 
     var props:XMLList = xml.property;
 			for each (var prop:XML in props)
