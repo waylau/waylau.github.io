@@ -38,6 +38,7 @@ PMD 是一个源代码分析器。 它发现常见的编程缺陷，如未使用
 
 有时，官网下载很慢我这里准备了网盘：https://pan.baidu.com/s/1hsE74Zq
 
+离线插件包安装方式，可以参考 https://waylau.com/about-optimizer-for-eclipse/
 
 ## 项目设置
 
