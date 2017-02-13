@@ -78,7 +78,11 @@ Checkstyle 在项目编译之后才会给出结论，所以，如果你刚刚修
 
 ![](../images/post/20170213-checkstyle-checked-4.jpg)
 
+ 
+
 
 ## 参考文献
 
 * http://eclipse-cs.sourceforge.net/#!/install
+* Sun公司Java规范：https://github.com/waylau/java-code-conventions
+* Google 公司Java规范：http://checkstyle.sourceforge.net/reports/google-java-style.html
