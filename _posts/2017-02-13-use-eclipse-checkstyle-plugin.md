@@ -41,6 +41,7 @@ Checkstyle是一个开发工具，帮助程序员编写符合编码标准的Java
 
 有时，官网下载很慢我这里准备了网盘：https://pan.baidu.com/s/1qXQmonq
 
+离线插件包安装方式，可以参考 https://waylau.com/about-optimizer-for-eclipse/
 
 ## 项目设置
 
