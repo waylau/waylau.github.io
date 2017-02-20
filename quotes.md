@@ -19,3 +19,5 @@ permalink: /quotes/
 —— Graham， <http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF>
 * You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.你不能只问客户他们想要什么，然后想法子给他们做什么。等你做出来，他们已经另有新欢了。
 —— Steve Jobs，<http://www.inc.com/magazine/19890401/5602.html>
+* 好的程序设计语言能够帮助程序员写出好程序，但无论哪种语言都避免不了程序员用它写出了坏程序。
+—— Betrand Meyer
