@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /resume/
+permalink:/resume/
 excludedFromNav:true
 ---
 
@@ -18,20 +18,20 @@ excludedFromNav:true
 
 * 柳伟卫/男/1987/已婚/共党/退伍军人
 * 全日制本科/广东财经大学/软件工程2006级
-* 工作年限：7年+ 。包括系统架构5年+/项目管理5年+
-* 期望职位：Java 开发/架构/项目管理
-* 期望城市：杭州、深圳、广州、惠州
-* 期望公司：5天制、非外包、有明确的发展理念、有节操
+* 工作年限：7年+ 。包括系统架构5年+、项目管理5年+
+* 期望职位：Java 开发/架构设计/项目管理
+* 期望城市：杭州/深圳/广州/惠州
+* 期望公司：5天制/非外包/有明确的发展理念/有节操
 
 ---
 
 ## 个人评价
 
 * Java 语言扎实，熟悉 IO、多线程、集合、网络编程等，了解 JVM 原理；
-* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring/SpringMVC/Jersey/Hibernate/MyBatis/Struts/POI/MINA/Netty 等开源框架，熟悉 Flex/AS3/HTML5/JS/Bootstrap/CSS3/AngularJS/JQuery 等客户端技术的开发，并具备将上述技术进行整合架构；具有相关性能优化经验；具备快速解决技术问题的能力；
+* 7年及以上 Java SE、EE 开发的经验，熟悉 Spring、SpringMVC、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty 等开源框架，熟悉 Flex、AS3、HTML5、JS、Bootstrap、CSS3、AngularJS、JQuery 等客户端技术的开发，并具备将上述技术进行整合架构；具有相关性能优化经验；具备快速解决技术问题的能力；
 * 多年管理节能、能耗在线监测、能源管理中心系统、工业自动化数据采集的设计与研发工作，熟悉相关行业标准、规范；
 * 推崇敏捷、TDD、DevOps 等开发方式；具备 REST 架构风格的设计经验；有微服务、分布式系统、并发处理、实时数据采集、实时数据库、告警消息推送等系统的设计开发及性能调优经验；
-* 掌握 Linux（SUSE/CentOS/RHEL） 操作系统和常用数据库（DB2/MySQL/SQLServer）；对SQL优化有一定的经验；
+* 掌握 Linux（SUSE、CentOS、RHEL） 操作系统和常用数据库（DB2、MySQL、SQLServer）；对SQL优化有一定的经验；
 * 谦虚好学，认真细心，酷爱[户外运动](https://waylau.com/categories/#outdoor)，讲究团队精神；
 * 喜欢了解及尝试最新的技术，追求代码规范，爱好[开源](https://github.com/waylau)，乐于技术分享，对企业忠诚；
 
@@ -47,15 +47,15 @@ excludedFromNav:true
 	* 责任描述: 负责该项目架构重构与改进、项目管理、核心代码编写、项目运维、保障[验收](http://www.chinanecc.cn/website/News!view.shtml?id=181848)
     * 项目描述: [项目](http://www.ccgp.gov.cn/cggg/zygg/zbgg/201408/t20140811_4440864.htm)是一套大型分布式系统。该系统通过数据接入传输平台，将数据从企业端采集到平台，平台通过数据清洗处理，将异常数据进行处理，并对原始上传数据进行建模统计，统计后的数据提供给应用层的政府服务平台及企业服务平台。为了保证省平台和国家平台数据的一致性，在要求端设备同时向国家和省平台发送数据的前提下，通过省、国家数据同步组件确保省平台和国家平台数据的一致性。应用平台包括了政府服务平台和企业服务平台。该项目率先在北京、河南、陕西三个省市开展了试点工作，电力、钢铁、石油石化共184家试点企业能耗数据上传到了国家平台和省级平台，验证了能耗在线监测的技术路线、技术规范，成功探索了开展系统推广建设的路径。
 在试点项目基础上，二期项目扩大监测范围，成功建成后将覆盖全国约1.6万家重点用能单位的能耗在线监测系统，监测能耗量占全社会能耗总量的60%。同时对试点阶段建设的国家数据中心进行扩容升级，增加软硬件、应用功能等。凭借先进的能源大数据技术，为政府部门掌握能源消费和节能形势、开展宏观调控、加强节能管理、应对国际气候谈判提供决策参考，也为用能单位提高能效水平发挥支撑作用。
-    * 相关技术：Spring/SpringBoot/SpringMVC/MyBatis/MySQL/DB2/Memcached/Maven/Thymeleaf/Bootstrap/JQuery/HTML5/JavaScript/CSS3/ECharts/CentOS/SUSE
+    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
 * **浙江省智慧能源监测项目（2016.7-至今）**：
 	* 责任描述: 参与该项目前端架构、核心代码编写、项目运维、保障[验收](http://www.excenergy.com/index.php?colm=2&cata=6&content=415)
     * 项目描述: [项目](http://www.excenergy.com/index.php?colm=2&cata=6&content=415)该项目开发建设了智慧能源监测云平台（包括政府、公众和企业三个服务平台），实现了浙江省重点用能单位能源消费月报及万吨千家企业能源消费在线监测。 项目的成功实施，加快推进了我省能源监测的智慧化，提升了政府能源综合管理水平，是全国首个建成的省级智慧能源在线监测系统。
-    * 相关技术：Spring/SpringMVC/MyBatis/MySQL/Memcached/Maven/Thymeleaf/Bootstrap/JQuery/HTML5/JavaScript/CSS3/ECharts/CentOS
+    * 相关技术：Spring、SpringMVC、MyBatis、MySQL、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS
 * **智慧能源产品（2016.9-至今）**：
 	* 责任描述: 参与该项目架构重构与改进、核心代码编写
     * 项目描述: 本项目依托国家重点用能单位能耗在线监测项目、浙江省智慧能源监测项目的技术和业务积累，打造一个功能丰富、可扩展、实施快速的智慧能源产品，实现智慧能源产品的统一升级和维护。
-    * 相关技术：Spring/SpringBoot/SpringMVC/MyBatis/MySQL/DB2/Memcached/Maven/Thymeleaf/Bootstrap/JQuery/HTML5/JavaScript/CSS3/ECharts/CentOS/SUSE
+    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
     
 ### 广东迪奥技术有限公司 （2011.12-2016.1）
 
@@ -64,42 +64,42 @@ excludedFromNav:true
 * **运维平台（2015.10-2016.1）**：
     * 责任描述: 负责该项目架构设计、项目管理、核心框架的编写
     * 项目描述: 一套分布式、云架构的运维系统，为企业提供能管中心运行监控、维护服务及实时告警等服务，包括软件企业能管中心系统的版本管理、企业状态数据采集、动态感知异常、异常及时处理、高效故障定位、参数灵活配置、专业智能分析等。其中“数据采集软件”实现了从企业的计量表计、数据库、生产控制系统等采集企业状态数据；“主机监控模块”监控本服务器以及安装该服务器上的软件的运行状态；“企业数据收集器”汇总该企业所有的状态数据，处理后发送给云端“中央数据收集器”；“中央数据收集器”对数据进行校验、过滤、取样、采样、计算、缓存。该系统采用实时数据库技术，数据进行分级存储，提供包括邮件、短信、微信等多种形式的实时告警。该系统设计可以实现300家企业的数据接入。采用 GIS 形式，可以直观定位告警所发生的地点及告警概况。
-    * 相关技术：HTML5/JS/Ajax/ECharts/Spring/Hibernate/Jersey/POI/Shiro/Netty/MySQL/CentOS
+    * 相关技术：HTML5、JS、Ajax、ECharts、Spring、Hibernate、Jersey、POI、Shiro、Netty、MySQL、CentOS
 
 * **企业能源管理中心（2014.12-2015.9）**：
     * 责任描述: 负责该项目架构设计、项目管理、核心框架的编写
     * 项目描述: [系统](http://www.gddiao.com/ProductDetail-112.html)在企业满足政府监管要求的同时，根据自身的能源管理和能效管理的需要，建设覆盖一级、二级、三级用能，实时在线监测用能情况，深入挖掘节能潜力，通过建立对标管理制度，提高能源效率，通过需求侧管理，节约能源费用，最终提高经济效益的系统，可以设置能效预警、安全阀值等实现了企业的安全、高效用能。本系统自主研发了实时数据库，实现了对现场数据的采集、解析、校验、采样、计算、缓存、告警判断及消除、告警频率灵活设置、告警过滤等功能，对告警数据可进行邮件、短信等多种途径进行实时推送。
-    * 相关技术：HTML5/JS/Ajax/EasyUI/Bootstrap/ECharts/Spring/Hibernate/Jersey/POI/Shiro/MySQL/MINA/CentOS
+    * 相关技术：HTML5、JS、Ajax、EasyUI、Bootstrap、ECharts、Spring、Hibernate、Jersey、POI、Shiro、MySQL、MINA、CentOS
 
 * **智慧电机系统（2015.7-2015.9）**:
     * 责任描述: 负责该项目架构设计、核心框架的编写
     * 项目描述: [系统](http://www.gddiao.com/ProductDetail-117.html)通过对电机的真实运行效率、能耗等情况的实时记录，从而达到对电机能效的实时监管，并且通过云端数据汇总、对实时数据进行智能分析，提供专业的优化建议，使用户对电机的管理更简单有效。数据采集子系统基于 MINA 提供异步 IO，将各个电机的数据有效、及时的传到云端，并实现了对采集数据的解析、校验、采样、计算、缓存、告警判断及消除、告警频率灵活设置、告警过滤等功能
-    * 相关技术：HTML5/JS/Ajax/EasyUI/Bootstrap/ECharts/Spring/Hibernate/Jersey/POI/Shiro/MySQL
+    * 相关技术：HTML5、JS、Ajax、EasyUI、Bootstrap、ECharts、Spring、Hibernate、Jersey、POI、Shiro、MySQL
     
 * **成品油市场监管信息系统（2014.8-2014.11）**：
     * 责任描述: 负责该项目的设计、项目管理。
     * 项目描述: [系统](http://oem.e-clouds.cn/OEM/web/index.html)采用云架构设计，以 SaaS 形式提供给企业，实现政府对成品油市场监管的需要，建立了企业安全生产隐患排查治理的管理，完善了纳税额的申报机制，为企业和政府形成了一套成品油市场分析的决策模型，使得成品油市场的管理能力、决策能力、应急处理能力和公共服务能力得到有效提高。该系统采用 GIS，能直观反映企业成品油的进、销、存等数据的情况。该系统采用 HTML5 等客户端技术，用户可以通过 PC 或者手机浏览器即可实现数据的上报和查看，极大提高了办公效率。
-    * 相关技术：HTML5/JS/Ajax/EasyUI/Spring/Structs/MyBatis/POI/MySQL/GIS
+    * 相关技术：HTML5、JS、Ajax、EasyUI、Spring、Structs、MyBatis、POI、MySQL、GIS
 
 * **现场信息采集系统（2014.5-2014.8）**：
     * 责任描述: 负责该项目的设计、项目管理。
     * 项目描述: 自主研发的手机 APP 实现对企业现场电机设备拍照、信息的录入等，并可以将图片等信息资料同步到云端服务器。云端服务器对电机信息进行分类存储，并可以根据用户的需求进行报表的导出。
-    * 相关技术：HTML5/JS/Ajax/EasyUI/Spring/Structs/MyBatis/Android/MySQL
+    * 相关技术：HTML5、JS、Ajax、EasyUI、Spring、Structs、MyBatis、Android、MySQL
 
 * **数字陶瓷（2013.3-2014.5）**：
     * 责任描述: 负责该项目的设计、项目管理、核心框架的编写
     * 项目描述: 该项目实现了对陶瓷企业的用能进行了抽象，对各个能耗设备实现了用能数据的采集，并通过对数据的分析，可以得出企业用能的最佳模型，为企业节能提供管理手段。该系统采用自主研发的 EagleOS 核心框架，实现了模块化、业务分层、能耗预警、实时数据推送等功能，并对模块进行了优化，在模块数据增多的情况下仍可以流程运行。基于 Flex4、AS3 等客户端技术，实现了跨平台，通过托拉拽等可视化方式，实现了快速建立企业现场能耗概况模型，界面用户体验高。
-    * 相关技术：Flex/AS3/Cairngorm/BlazeDS/Spring/Hibernate/SQLServer/MINA
+    * 相关技术：Flex、AS3、Cairngorm、BlazeDS、Spring、Hibernate、SQLServer、MINA
 
 * **区域能管中心（2011.12-2013.2）**：
     * 责任描述: 负责该项目的性能优化、核心框架的编写
     * 项目描述: 该[系统](http://www.gddiao.com/ProductDetail-93.html)是政府端为达到节能减排、科学发展的目标，以完善节能管理机制、建设能源管理员队伍和能耗在线监测系统为基础，从而实现能源分析与节能预警功能的宏观能源管理体系。该系统采用 GIS 表现形式，将业务按照区域进行划分。项目后期针对客户端运行模块数多就不能流程运行的问题进行了优化。基于 Flex 客户端技术，实现了跨平台。对于用户接入数增多、能耗数据表增大等导致的数据库性能问题，进行了优化解决。
-    * 相关技术：Flex/AS3/Cairngorm/BlazeDS/Spring/Hibernate/SQLServer/MINA
+    * 相关技术：Flex、AS3、Cairngorm、BlazeDS、Spring、Hibernate、SQLServer、MINA
 
 * **迪奥能源云（2011.12-2013.2）**：
     * 责任描述: 负责该项目的性能优化、核心框架的编写
     * 项目描述: [迪奥能源云](http://dgems.e-clouds.cn/DGEMS/App/main.html)是基于计量智能传感网络的碳排放及能源监测平台，为不同的用户提供包括 IaaS 和 SaaS 在内的能源监控云计算服务。项目后期针对客户端运行模块数多就不能流程运行的问题进行了优化。基于 Flex 客户端技术，实现了跨平台。系统运行过程中，出现的查询缓慢等问题，从数据库优化等方面进行解决。
-    * 相关技术：Flex/AS3/Cairngorm/BlazeDS/Spring/Hibernate/SQLServer/MINA
+    * 相关技术：Flex、AS3、Cairngorm、BlazeDS、Spring、Hibernate、SQLServer、MINA
     
 ### 广州维动网络科技有限公司（2011.7-2011.11）
 
@@ -108,19 +108,19 @@ excludedFromNav:true
 * **超级机器人（Super Robot）网页游戏（2011.7-2011.11）**：
     * 责任描述: 参与公司[超级机器人](http://news.4399.com/jqr/)网页游戏客户端开发等。
     * 项目描述:该游戏是中国首款机战社区网页游戏，由[4399平台](http://www.4399.com/)运营。该研发部门分为客户端组、服务端组、美工组、测试组、策划组等。采用 Flash AS3 开发客户端，C++ 做服务端，Apache 做服务器，MySQL 数据库。Flash 由于其可以在任意 Flash 上运行而拥有的跨平台性，成为众多游戏公司做网页游戏的首选。
-    * 相关技术：AS3/Flex/Apache/C++/MySQL
+    * 相关技术：AS3、Flex、Apache、C++、MySQL
     
 ### 广东财经大学实验室（2009.12-2011.7）
 
 * **类微博平台（2011.3-2011.7）**：
     * 责任描述: 负责该项目的管理、核心框架的编写
     * 项目描述: 系统基于MVC的设计模式，采用开源框架开发。系统的总体设计目标是为注册用户提供发布微博的功能，分为前台客户功能和后台管理两部分。前台主要负责用户注册登录，浏览他人微博、发布自己的微博、给他人发私信，并且能对他人的微博进行评价。后台主要实现管理员对系统的管理工作。按照功能需求，本系统划分为以下模块：用户管理模块、微博管理模块、管理员管理模块、公告管理模块、权限管理模块及积分管理模块。本人主要负责系统的领域建模、业务逻辑设计，并完成后台的微博管理模块、管理员管理模块及公告管理模块的编码工作。
-    * 相关技术：JSP/Spring/Structs/Hibernate/Oracle
+    * 相关技术：JSP、Spring、Structs、Hibernate、Oracle
     
 * **IM 聊天程序（2009.12-2011.3）**：
     * 责任描述: 负责该项目的设计、编码
-    * 项目描述: 本项目采用 C/S 架构，主要实现了好友互聊、在线提示、用户验证与登陆功能。综合运用到了 Java 平台下的Swing GUI编程、多线程、I/O操作以及 TCP/IP 网络编程等技术。该程序实现了跨平台的部署运行。
-    * 相关技术：Java/Swing/SQLServer
+    * 项目描述: 本项目采用 C、S 架构，主要实现了好友互聊、在线提示、用户验证与登陆功能。综合运用到了 Java 平台下的Swing GUI编程、多线程、I、O操作以及 TCP、IP 网络编程等技术。该程序实现了跨平台的部署运行。
+    * 相关技术：Java、Swing、SQLServer
     
 ### 77160部队服兵役 （2007.12-2009.12）
 
@@ -136,7 +136,7 @@ excludedFromNav:true
     * [easyui-scaffold](https://github.com/waylau/easyui-scaffold)（前端开发脚手架）：基于 EasyUI 快速构建企业应用模型，实现模块化，易于扩展;
     * [RestDemo](https://github.com/waylau/RestDemo) ：由浅入深，一步一步用示例展示了如何构建完整的 REST 服务;
     * [spring-framework-4-reference](https://github.com/waylau/spring-framework-4-reference) :《Spring Framework 4.x参考文档》中文翻译（包含了官方文档以及其他文章）；
-    * [更多](https://github.com/waylau)
+    * [更多](https:、、github.com、waylau)
 
 * 书籍作品
 	* [《分布式系统常用技术及案例分析》](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)
@@ -151,17 +151,17 @@ excludedFromNav:true
 
 ## 技能清单
 
-* 服务端开发：Java/Golang
-* 服务端框架：Spring/SpringBoot/SpringMVC/Jersey/Hibernate/POI/MyBatis/Struts/MINA/Netty
-* 前端开发：Flex/AS3/HTML5/JS/CSS/SVG
-* 前端框架：jQuery/Bootstrap/EasyUI/AngularJS/ECharts
-* 前端工具：Bower/Grunt/Cordova
-* 存储相关：DB2/MySQL/SQLServer/Oracle/H2/Memcached
-* 单元测试：JUnit/Mockito
-* 管理工具：SVN/Git/Maven/Gradle/禅道
-* 操作系统：SUSE/CentOS/RHEL/WindowsServer/VirtualBox 
-* 开放平台：百度地图/腾讯云
-* 语言方言：英文/普通话/粤语
+* 服务端开发：Java、Golang
+* 服务端框架：Spring、SpringBoot、SpringMVC、Jersey、Hibernate、POI、MyBatis、Struts、MINA、Netty
+* 前端开发：Flex、AS3、HTML5、JS、CSS、SVG
+* 前端框架：jQuery、Bootstrap、EasyUI、AngularJS、ECharts
+* 前端工具：Bower、Grunt、Cordova
+* 存储相关：DB2、MySQL、SQLServer、Oracle、H2、Memcached
+* 单元测试：JUnit、Mockito
+* 管理工具：SVN、Git、Maven、Gradle、禅道
+* 操作系统：SUSE、CentOS、RHEL、WindowsServer、VirtualBox 
+* 开放平台：百度地图、腾讯云
+* 语言方言：英文、普通话、粤语
 
 完整的技术清单见：<https://waylau.com/categories/>
 
