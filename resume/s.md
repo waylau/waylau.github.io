@@ -11,18 +11,19 @@ layout: page
 ## 个人信息
 
 * 柳伟卫/男/1987/已婚/共党/退伍军人
+* waylau.com站长/《分布式系统常用技术及案例分析》作者
 * 全日制本科/广东财经大学/软件工程2006级
-* 工作年限：7年+ 。包括系统架构5年+/项目管理5年+
-* 期望职位：Java 开发/架构/项目管理
-* 期望城市：杭州、深圳、广州、惠州
-* 期望公司：5天制、非外包、有明确的发展理念、有节操
+* 工作年限：7年+ ，包括系统架构5年+、项目管理5年+
+* 期望职位：Java 开发/架构设计/项目管理
+* 期望城市：杭州/深圳/广州/惠州
+* 期望公司：5天制/非外包/有明确的发展理念/有节操
 
 ## 个人评价
 
 * Java 语言扎实，熟悉 IO、多线程、集合、网络编程等，了解 JVM 原理；
-* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring、SpringBoot、SpringMVC、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty 等开源框架，熟悉 Flex、AS3、HTML5、JS、Bootstrap、CSS3、AngularJS、jQuery 等客户端技术的开发，并具备将上述技术进行整合架构；具有相关性能优化经验；具备快速解决技术问题的能力；
+* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring、Spring Boot、SpringMVC、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty 等开源框架，熟悉 HTML5、JS、Bootstrap、CSS3、AngularJS、JQuery、Flex、AS3 等前端技术的开发，并具备将上述技术进行整合架构能力；具有相关性能优化经验；具备快速解决技术问题的能力；
 * 多年管理节能、能耗在线监测、能源管理中心系统、工业自动化数据采集的设计与研发工作，熟悉相关行业标准、规范；
-* 推崇敏捷、TDD、DevOps 等开发方式；具备 REST 架构风格的设计经验；有微服务、分布式系统、并发处理、实时数据采集、实时数据库、告警消息推送等系统的设计开发及性能调优经验；
+* 推崇敏捷、TDD、DevOps、CI/CD等开发方式；具备 REST 架构风格的设计经验；有分布式系统、微服务、并发处理、实时数据采集、实时数据库、告警消息推送等系统的设计开发及性能调优经验；对有微服务、Docker、ZooKeeper、NoSQL等机制有一定的了解；
 * 掌握 Linux（SUSE、CentOS、RHEL） 操作系统和常用数据库（DB2、MySQL、SQLServer）；对SQL优化有一定的经验；
 * 谦虚好学，认真细心，酷爱[户外运动](https://waylau.com/categories/#outdoor)，讲究团队精神；
 * 喜欢了解及尝试最新的技术，追求代码规范，爱好[开源](https://github.com/waylau)，乐于技术分享，对企业忠诚；
