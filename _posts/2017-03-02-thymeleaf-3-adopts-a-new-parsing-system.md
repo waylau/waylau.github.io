@@ -4,8 +4,8 @@ title: Thymeleaf 3 引入了新的解析系统
 date: 2017-02-19 00:22
 author: admin
 comments: true
-categories: [GFM]
-tags: [GFM,Eclipse]
+categories: [Thymeleaf]
+tags: [Thymeleaf]
 ---
 
 
