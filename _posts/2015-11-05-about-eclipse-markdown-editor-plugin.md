@@ -35,14 +35,16 @@ tags: [Eclipse,Markdown]
 
 插件安装成后，可以使用  Markdown Editor 查看、编辑 Markdown 文件
 
-![](http://99btgc01.info/uploads/2015/11/002.jpg)
 
 可以使用  Markdown View 预览 Markdown 文件
 
-![](http://99btgc01.info/uploads/2015/11/001.jpg)
+ 
+![](../images/post/20151105-markdown-preview.jpg)
 
-![](http://99btgc01.info/uploads/2015/11/003.jpg)
+可以使用  Markdown View 预览 Markdown 文件
 
+![](../images/post/20151105-markdown-preview-2.jpg)
+ 
 当然，与专业的 Markdown 编辑器来说，这款插件所支持的语法还是有限的，表格、删除线等暂时都未支持。
 
 ## 参考
