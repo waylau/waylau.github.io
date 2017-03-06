@@ -27,7 +27,7 @@ WebSocket 通过“[Upgrade handshake](https://developer.mozilla.org/en-US/docs/
 
 整个服务器逻辑如下：
 
-![](http://99btgc01.info/uploads/2015/03/Figure%2011.2%20Server%20logic.jpg)
+![](../images/post/20150326-websocket-chat-server.jpg)
 
 1. 客户端/用户连接到服务器并加入聊天
 
@@ -417,7 +417,7 @@ initChannel() 方法设置 ChannelPipeline 中所有新注册的 Channel,安装�
 
 先运行 WebsocketChatServer，再打开多个浏览器页面实现多个 客户端访问 <http://localhost:8080>
 
-![](http://99btgc01.info/uploads/2015/03/ws.jpg)
+![](../images/post/20150326-websocket-chat.jpg)
  
 
 ## 源码
