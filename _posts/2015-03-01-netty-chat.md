@@ -190,9 +190,9 @@ SimpleChatServerInitializer 用来增加多个的处理类到 ChannelPipeline �
 恭喜！你已经完成了基于 Netty 聊天服务端程序。
 
 
-##客户端
+## 客户端
 
-###SimpleChatClientHandler.java
+### SimpleChatClientHandler.java
 
 客户端的处理类比较简单，只需要将读到的信息打印出来即可
 
@@ -203,7 +203,7 @@ SimpleChatServerInitializer 用来增加多个的处理类到 ChannelPipeline �
 		}
 	}
 
-###SimpleChatClientInitializer.java
+### SimpleChatClientInitializer.java
 
 与服务端类似
 
@@ -220,7 +220,7 @@ SimpleChatServerInitializer 用来增加多个的处理类到 ChannelPipeline �
 	    }
 	}
 
-###SimpleChatClient.java
+### SimpleChatClient.java
 
 编写一个 main() 方法来启动客户端。
 
@@ -260,20 +260,20 @@ SimpleChatServerInitializer 用来增加多个的处理类到 ChannelPipeline �
 	
 	}
 
-##运行效果
+## 运行效果
 
 先运行 SimpleChatServer，再可以运行多个 SimpleChatClient，控制台输入文本继续测试
 
-![](http://99btgc01.info/uploads/2015/02/server.jpg)
+![](../images/post/20150301-simplechat-server.jpg)
 
-![](http://99btgc01.info/uploads/2015/02/client.jpg)
+![](../images/post/20150301-simplechat-client.jpg)
 
-![](http://99btgc01.info/uploads/2015/02/client2.jpg)
+![](../images/post/20150301-simplechat-client-2.jpg)
 
-##源码
+## 源码
 
 见 <https://github.com/waylau/netty-4-user-guide-demos> 中 `simplechat`
 
-##参考
+## 参考
 
 * Netty 4.x 用户指南 <https://github.com/waylau/netty-4-user-guide>

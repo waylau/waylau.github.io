@@ -150,7 +150,7 @@ public final class HeartbeatServer {
 
 ## 效果
 
-![](http://99btgc01.info/uploads/2015/11/heartbeat.jpg)
+![](../images/post/20151106-heartbeat.jpg)
 
 
 ## 源码
