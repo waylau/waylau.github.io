@@ -110,83 +110,83 @@ Thymeleaf 作为模版引擎，其好处就是可以绑定数据源，并且根�
 实现方式如下：
 
 ```
-	<!-- 处理页数大于7 的情况 -->	
-	<ul class="pagination" data-th-if="${page.totalPages gt 7}" >
-	 	<!-- 上一页 -->
-		<li class="page-item" data-th-classappend="*{first} ? 'disabled' : ''">
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} - 1" aria-label="Previous">
-				<span aria-hidden="true">«</span>
-			</a>
-		</li>
-		
- 		<!-- 首页 -->
-		<li class="page-item" data-th-classappend="${(page.number + 1) eq 1} ? 'active' : ''" >
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=0">1</a>
-		</li>
-		 
-		
-	 	<!-- 当前页面小于等于4 -->
-	 	<li class="page-item" data-th-if="${(page.number + 1) le 4}" data-th-each="i : ${#numbers.sequence(2,5)}" 
-			data-th-classappend="${(page.number + 1) eq i} ? 'active' : ''" >
-			<a class="page-link" href="javascript:void(0);" data-th-attr="pageIndex=${i} - 1">
-                <span data-th-text="${i}"></span>
-            </a>
-		</li>
- 
-		<li class="page-item disabled" data-th-if="${(page.number + 1) le 4}">
-			<a href="javascript:void(0);" class="page-link">
-				<span aria-hidden="true">...</span>
-			</a>
-		</li>
-		
-		<!-- 最后一页与当前页面之差，小于等于3 -->
-		<li class="page-item disabled" data-th-if="${(page.totalPages-(page.number + 1)) le 3}">
-			<a href="javascript:void(0);" class="page-link">
-				<span aria-hidden="true">...</span>
-			</a>
-		</li>  
-	 	<li class="page-item" data-th-if="${(page.totalPages-(page.number + 1)) le 3}" data-th-each="i : ${#numbers.sequence(page.totalPages-4, page.totalPages-1)}" 
-			data-th-classappend="${(page.number + 1) eq i} ? 'active' : ''" >
-			<a class="page-link" href="javascript:void(0);" data-th-attr="pageIndex=${i} - 1">
-                <span data-th-text="${i}"></span>
-           </a>
-		</li>
+<!-- 处理页数大于7 的情况 -->	
+<ul class="pagination" data-th-if="${page.totalPages gt 7}" >
+ 	<!-- 上一页 -->
+	<li class="page-item" data-th-classappend="*{first} ? 'disabled' : ''">
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} - 1" aria-label="Previous">
+			<span aria-hidden="true">«</span>
+		</a>
+	</li>
+	
+		<!-- 首页 -->
+	<li class="page-item" data-th-classappend="${(page.number + 1) eq 1} ? 'active' : ''" >
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=0">1</a>
+	</li>
 	 
-		 <!-- 最后一页与当前页面之差大于3，且  当前页面大于4-->
-		 
-		<li class="page-item disabled" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
-			<a href="javascript:void(0);" class="page-link">
-				<span aria-hidden="true">...</span>
-			</a>
-		</li> 
-	 	<li class="page-item" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}" >
-	 		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number}">[[${page.number}]]</a>
-	 	</li>
-		<li class="page-item active" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 1">[[${page.number + 1}]]</a>
-		</li>
-		<li class="page-item" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 2">[[${page.number + 2}]]</a>
-		</li>
-		
-		<li class="page-item disabled"  data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
-			<a href="javascript:void(0);" class="page-link">
-				<span aria-hidden="true">...</span>
-			</a>
-		</li>
+	
+ 	<!-- 当前页面小于等于4 -->
+ 	<li class="page-item" data-th-if="${(page.number + 1) le 4}" data-th-each="i : ${#numbers.sequence(2,5)}" 
+		data-th-classappend="${(page.number + 1) eq i} ? 'active' : ''" >
+		<a class="page-link" href="javascript:void(0);" data-th-attr="pageIndex=${i} - 1">
+            <span data-th-text="${i}"></span>
+        </a>
+	</li>
+
+	<li class="page-item disabled" data-th-if="${(page.number + 1) le 4}">
+		<a href="javascript:void(0);" class="page-link">
+			<span aria-hidden="true">...</span>
+		</a>
+	</li>
+	
+	<!-- 最后一页与当前页面之差，小于等于3 -->
+	<li class="page-item disabled" data-th-if="${(page.totalPages-(page.number + 1)) le 3}">
+		<a href="javascript:void(0);" class="page-link">
+			<span aria-hidden="true">...</span>
+		</a>
+	</li>  
+ 	<li class="page-item" data-th-if="${(page.totalPages-(page.number + 1)) le 3}" data-th-each="i : ${#numbers.sequence(page.totalPages-4, page.totalPages-1)}" 
+		data-th-classappend="${(page.number + 1) eq i} ? 'active' : ''" >
+		<a class="page-link" href="javascript:void(0);" data-th-attr="pageIndex=${i} - 1">
+            <span data-th-text="${i}"></span>
+       </a>
+	</li>
  
-		<!-- 最后一页 -->
-		<li class="page-item" data-th-classappend="${(page.number + 1) eq page.totalPages} ? 'active' : ''" >
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.totalPages} - 1">[[${page.totalPages}]]</a>
-		</li>
- 
- 		<!-- 下一页 -->
- 		<li class="page-item" data-th-classappend="*{last} ? 'disabled' : ''">
-			<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 1" aria-label="Next">
-				<span aria-hidden="true">»</span>
-			</a>
-		</li>
-	</ul>
+	 <!-- 最后一页与当前页面之差大于3，且  当前页面大于4-->
+	 
+	<li class="page-item disabled" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
+		<a href="javascript:void(0);" class="page-link">
+			<span aria-hidden="true">...</span>
+		</a>
+	</li> 
+ 	<li class="page-item" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}" >
+ 		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number}">[[${page.number}]]</a>
+ 	</li>
+	<li class="page-item active" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 1">[[${page.number + 1}]]</a>
+	</li>
+	<li class="page-item" data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 2">[[${page.number + 2}]]</a>
+	</li>
+	
+	<li class="page-item disabled"  data-th-if="${((page.number + 1) gt 4) && ((page.totalPages-(page.number + 1)) gt 3 )}">
+		<a href="javascript:void(0);" class="page-link">
+			<span aria-hidden="true">...</span>
+		</a>
+	</li>
+
+	<!-- 最后一页 -->
+	<li class="page-item" data-th-classappend="${(page.number + 1) eq page.totalPages} ? 'active' : ''" >
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.totalPages} - 1">[[${page.totalPages}]]</a>
+	</li>
+
+		<!-- 下一页 -->
+		<li class="page-item" data-th-classappend="*{last} ? 'disabled' : ''">
+		<a href="javascript:void(0);" class="page-link" data-th-attr="pageIndex=${page.number} + 1" aria-label="Next">
+			<span aria-hidden="true">»</span>
+		</a>
+	</li>
+</ul>
 ```
 
 ## 还要再考虑的多一点？
