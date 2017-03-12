@@ -21,7 +21,7 @@ permalink: /about/
 
 ## 关于作者
 
-柳伟卫，英文名 Way Lau，80后程序员，关注编程、系统架构、性能优化。对技术抱有极大的热情，坚持每天学习。喜欢[开源](https://github.com/waylau)，乐于分享。关于作者的更多信息，可查阅[简历](https://waylau.com/resume/)。
+老卫，英文名 Way Lau，80后程序员，关注编程、系统架构、性能优化。对技术抱有极大的热情，坚持每天学习。喜欢[开源](https://github.com/waylau)，乐于分享。关于作者的更多信息，可查阅[简历](https://waylau.com/resume/)。
 
 ![](/images/way_500_500.jpg)
 
