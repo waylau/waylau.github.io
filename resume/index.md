@@ -7,10 +7,10 @@ excludedFromNav:true
 
 # 柳伟卫的简历
 
-* Tel：(+86)17051061662
-* Email：[waylau521@163.com](mailto:waylau521@163.com)
-* Blog：<https://waylau.com>
-* Github：<https://github.com/waylau>
+* 电话：(+86)17051061662
+* 邮箱：[waylau521@163.com](mailto:waylau521@163.com)
+* 博客：<https://waylau.com>
+* 开源：<https://github.com/waylau>
 
 ---
 
