@@ -17,11 +17,11 @@ excludedFromNav:true
 ## 个人信息
 
 * 柳伟卫/男/1987/已婚/共党/退伍军人
-* waylau.com站长/[《分布式系统常用技术及案例分析》](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)作者
+* [waylau.com](https://waylau.com) 站长/[《分布式系统常用技术及案例分析》](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)作者
 * 全日制本科/广东财经大学/软件工程2006级
-* 工作年限：7年+ 。包括系统架构5年+、项目管理5年+
+* 工作年限：7年+（系统架构5年+/项目管理5年+）
 * 期望职位：Java 开发/架构设计/项目管理
-* 期望城市：杭州/深圳/广州/惠州
+* 期望城市：深圳/广州/惠州/杭州
 * 期望公司：5天制/非外包/有明确的发展理念/有节操
 
 ---
@@ -29,8 +29,8 @@ excludedFromNav:true
 ## 个人评价
 
 * Java 语言扎实，熟悉 IO、多线程、集合、网络编程等，了解 JVM 原理；
-* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring、Spring Boot、SpringMVC、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty 等开源框架，熟悉 HTML5、JS、Bootstrap、CSS3、AngularJS、JQuery、Flex、AS3 等前端技术的开发，并具备将上述技术进行整合架构能力；具有相关性能优化经验；具备快速解决技术问题的能力；
-* 多年管理节能、能耗在线监测、能源管理中心系统、工业自动化数据采集的设计与研发工作，熟悉相关行业标准、规范；
+* 7年及以上 Java SE/EE 开发的经验，熟悉 Spring、SpringBoot、SpringMVC、SpringData、SpringSecurity、Shiro、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty、Gradle、Maven、ElasticSearch等开源框架，熟悉 Thymeleaf、HTML5、JS、Bootstrap、CSS3、AngularJS、jQuery、Flex、AS3 等前端技术的开发，并具备将上述技术进行整合架构能力；具有相关性能优化经验；具备快速解决技术问题的能力；
+* 多年管理节能、能耗在线监测、能源管理中心系统、工业自动化数据采集的设计与研发工作经验，熟悉相关行业标准、规范；
 * 推崇敏捷、TDD、DevOps、CI/CD等开发方式；具备 REST 架构风格的设计经验；有分布式系统、微服务、并发处理、实时数据采集、实时数据库、告警消息推送等系统的设计开发及性能调优经验；对有微服务、Docker、ZooKeeper、NoSQL等机制有一定的了解；
 * 掌握 Linux（SUSE、CentOS、RHEL） 操作系统和常用数据库（DB2、MySQL、SQLServer）；对SQL优化有一定的经验；
 * 谦虚好学，认真细心，酷爱[户外运动](https://waylau.com/categories/#outdoor)，讲究团队精神；
@@ -42,21 +42,21 @@ excludedFromNav:true
 
 ### 中控集团浙江中易和节能技术有限公司 （2016.3-至今）
 
-在公司担任项目经理。 清理并偿还遗留系统的技术债务，持续对项目进行重构与改进，确保项目成功[验收](http://www.chinanecc.cn/website/News!view.shtml?id=181848)；负责从事核心部分代码的编写，核心模块的设计开发、评审，突破项目中的关键问题和技术难题，做好技术知识积累；参与产品的新需求分析与评审、系统架构设计与改进；负责项目管理，包括制定项目计划、控制项目进度、评估项目风险；指导和培训工程师，对组员进行Code Review、监督测试质量，了解互联网的技术发展、评估外部技术与解决方案，提升团队的技术分析，设计和编码能力；参与公司的售后支持，包括项目部署实施、实际维护，对客户进行操作培训等；主持项目组的日常管理工作。所在项目组被评为“先进团队”。
+在公司担任开发项目经理。 清理并偿还遗留系统的技术债务，持续对项目进行重构与改进，确保项目成功[验收](http://www.chinanecc.cn/website/News!view.shtml?id=181848)；负责从事核心部分代码的编写，核心模块的设计开发、评审，突破项目中的关键问题和技术难题，做好技术知识积累；参与产品的新需求分析与评审、系统架构设计与改进；负责项目管理，包括制定项目计划、控制项目进度、评估项目风险；指导和培训工程师，对组员进行Code Review、监督测试质量，了解互联网的技术发展、评估外部技术与解决方案，提升团队的技术分析，设计和编码能力；参与公司的售后支持，包括项目部署实施、实际维护，对客户进行操作培训等；主持项目组的日常管理工作。所在项目组被评为“先进团队”。
 
 * **国家重点用能单位能耗在线监测项目（2016.3-至今）**：
 	* 责任描述: 负责该项目架构重构与改进、项目管理、核心代码编写、项目运维、保障[验收](http://www.chinanecc.cn/website/News!view.shtml?id=181848)
     * 项目描述: [项目](http://www.ccgp.gov.cn/cggg/zygg/zbgg/201408/t20140811_4440864.htm)是一套大型分布式系统。该系统通过数据接入传输平台，将数据从企业端采集到平台，平台通过数据清洗处理，将异常数据进行处理，并对原始上传数据进行建模统计，统计后的数据提供给应用层的政府服务平台及企业服务平台。为了保证省平台和国家平台数据的一致性，在要求端设备同时向国家和省平台发送数据的前提下，通过省、国家数据同步组件确保省平台和国家平台数据的一致性。应用平台包括了政府服务平台和企业服务平台。该项目率先在北京、河南、陕西三个省市开展了试点工作，电力、钢铁、石油石化共184家试点企业能耗数据上传到了国家平台和省级平台，验证了能耗在线监测的技术路线、技术规范，成功探索了开展系统推广建设的路径。
 在试点项目基础上，二期项目扩大监测范围，成功建成后将覆盖全国约1.6万家重点用能单位的能耗在线监测系统，监测能耗量占全社会能耗总量的60%。同时对试点阶段建设的国家数据中心进行扩容升级，增加软硬件、应用功能等。凭借先进的能源大数据技术，为政府部门掌握能源消费和节能形势、开展宏观调控、加强节能管理、应对国际气候谈判提供决策参考，也为用能单位提高能效水平发挥支撑作用。
-    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
+    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、jQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
 * **浙江省智慧能源监测项目（2016.7-至今）**：
 	* 责任描述: 参与该项目前端架构、核心代码编写、项目运维、保障[验收](http://www.excenergy.com/index.php?colm=2&cata=6&content=415)
     * 项目描述: [项目](http://www.excenergy.com/index.php?colm=2&cata=6&content=415)该项目开发建设了智慧能源监测云平台（包括政府、公众和企业三个服务平台），实现了浙江省重点用能单位能源消费月报及万吨千家企业能源消费在线监测。 项目的成功实施，加快推进了我省能源监测的智慧化，提升了政府能源综合管理水平，是全国首个建成的省级智慧能源在线监测系统。
-    * 相关技术：Spring、SpringMVC、MyBatis、MySQL、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS
+    * 相关技术：Spring、SpringMVC、MyBatis、MySQL、Memcached、Maven、Thymeleaf、Bootstrap、jQuery、HTML5、JavaScript、CSS3、ECharts、CentOS
 * **智慧能源产品（2016.9-至今）**：
 	* 责任描述: 参与该项目架构重构与改进、核心代码编写
     * 项目描述: 本项目依托国家重点用能单位能耗在线监测项目、浙江省智慧能源监测项目的技术和业务积累，打造一个功能丰富、可扩展、实施快速的智慧能源产品，实现智慧能源产品的统一升级和维护。
-    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、JQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
+    * 相关技术：Spring、SpringBoot、SpringMVC、MyBatis、MySQL、DB2、Memcached、Maven、Thymeleaf、Bootstrap、jQuery、HTML5、JavaScript、CSS3、ECharts、CentOS、SUSE
     
 ### 广东迪奥技术有限公司 （2011.12-2016.1）
 
@@ -153,9 +153,10 @@ excludedFromNav:true
 ## 技能清单
 
 * 服务端开发：Java、Golang
-* 服务端框架：Spring、SpringBoot、SpringMVC、Jersey、Hibernate、POI、MyBatis、Struts、MINA、Netty
+* 服务端框架：Spring、SpringBoot、SpringMVC、SpringData、Jersey、Hibernate、MyBatis、Struts、POI、MINA、Netty、Gradle、Maven、ElasticSearch
+* 安全框架：SpringSecurity、Shiro
 * 前端开发：Flex、AS3、HTML5、JS、CSS、SVG
-* 前端框架：jQuery、Bootstrap、EasyUI、AngularJS、ECharts
+* 前端框架：jQuery、Bootstrap、EasyUI、AngularJS、ECharts、Highcharts
 * 前端工具：Bower、Grunt、Cordova
 * 存储相关：DB2、MySQL、SQLServer、Oracle、H2、Memcached
 * 单元测试：JUnit、Mockito
