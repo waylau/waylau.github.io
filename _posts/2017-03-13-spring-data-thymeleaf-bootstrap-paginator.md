@@ -200,6 +200,10 @@ Thymeleaf 作为模版引擎，其好处就是可以绑定数据源，并且根�
 等等，尼玛看来下表快凌晨1点了。顶不顺了，要睡了。各位读者朋友可以继续完善~
 
 
+## 最终效果
+
+![](../images/post/20170313-page3.jpg)
+
 ## 参考文献
 
 * <http://getbootstrap.com/components/#pagination>
