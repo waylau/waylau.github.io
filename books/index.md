@@ -31,3 +31,4 @@ permalink: /books/
 * [微服务原理与实践](https://github.com/waylau/microservices-principles-and-practices)
 * [Spring Boot 教程](https://github.com/waylau/spring-boot-tutorial)
 * [Gradle 3 用户指南](https://github.com/waylau/gradle-3-user-guide)
+* [Spring Security 教程](https://github.com/waylau/spring-security-tutorial)
