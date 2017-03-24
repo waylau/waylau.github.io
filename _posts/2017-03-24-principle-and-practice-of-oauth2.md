@@ -125,11 +125,12 @@ github.resource.userInfoUri=https://api.github.com/user
 
 ### 项目安全的配置
 
-安全配置上需要加上`@EnableWebSecurity` 、 `@EnableOAuth2Client`注解，来启用Web 安全认证记忆，表明这是一个OAuth 2.0 客户端   ：
+安全配置上需要加上`@EnableWebSecurity` 、 `@EnableOAuth2Client`注解，来启用 Web 安全认证机制，并表明这是一个OAuth 2.0 客户端 。 `@EnableGlobalMethodSecurity`注明，项目采用了基于方法的安全设置 ：
 
 ```
 @EnableWebSecurity
 @EnableOAuth2Client  // 启用 OAuth 2.0 客户端 
+@EnableGlobalMethodSecurity(prePostEnabled = true) // 启用方法安全设置
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 ```
 
@@ -353,7 +354,7 @@ Client Secret ：26db88a4dfc34cebaf196e68761c1294ac4ce265
 
 ## 源码
 
-* 《Spring Security 教程》：<https://github.com/waylau/spring-security-tutorial>
+* 《Spring Security 教程》：<https://github.com/waylau/spring-security-tutorial/tree/master/samples/oauth2-github>
 
 
  
