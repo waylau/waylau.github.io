@@ -7,17 +7,18 @@ comments: true
 categories: [Java,Jersey,REST,AngularJS]
 tags: [Java,Jersey,RESTfull,AngularJS]
 ---
-#一、总体说明
+# 一、总体说明
 
 本例运行演示了用 Jersey 构建 RESTful 服务中，如何集成 angular,用MVC分层的方式访问 RESTful 服务。
 
-#二、环境
+# 二、环境
 
 * 1.上上文的项目 [Demo7]((https://github.com/waylau/RestDemo/tree/master/jersey-demo7-sqlserver-hibernate-spring3))
 * 2.angular 库 ,本例为1.2.3 版本
 * 3.样式 bootstrap-3.1.1.min.js
 
-#三、配置
+# 三、配置
+
 1.完成项目结构
 
 ![配置](http://h.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=07b98f30acc379317968862cdbffc678/f636afc379310a55cc5093c2b44543a98226108b.jpg?referer=334116001e950a7b2c227bf4508a&x=.jpg)
@@ -315,7 +316,7 @@ angularjs 、bootstrap 的js,css文件放别放入相应的目录，
 ```	
  
 	 
-#四、运行
+# 四、运行
 1.先运行项目
 
 2.可以进行CURD操作
