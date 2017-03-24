@@ -12,7 +12,7 @@ facebook_username: waylau521  # Facebook ID
 duoshuo_username: waylau # Duoshuo ID
 baidushare_id: 89860593 #  百度分享 ID
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f # 百度统计 ID
-gentie_product_key:b8664d434f30460f8507160b7a471906
+gentie_product_key: b8664d434f30460f8507160b7a471906
 #google-analytics_id: UA-50593531-1  # Google Analytics ID
 rss_url: "/feed.xml"  # RSS 订阅 URL
 logo_image: "/images/waylau_181_181.jpg"  # LOGO 图片地址
