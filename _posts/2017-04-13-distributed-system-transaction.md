@@ -187,4 +187,5 @@ Paxos 算法是 Leslie Lamport 于1990年提出的一种基于消息传递且具
 ## 参考文献
 
 * <http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf>
+* https://www.oschina.net/question/2720166_2235329
 * 《分布式系统常用技术及案例分析》:<https://github.com/waylau/distributed-systems-technologies-and-cases-analysis>
