@@ -62,7 +62,8 @@ AttoParser 提供 Thymeleaf 3 两个重要功能：
 
 在 Thymeleaf 2.1提供了两种`VALID*`模板模式，名为`VALIDXHTML`和`VALIDXML`，在而 Thymeleaf 3 中将不再存在。 新的解析基础结构不提供HTML或XML验证，即在解析期间无法验证模板标记是否符合指定的DTD或XML模式定义。
 
-### 2. 在<script> 或 style 不再需要 <![CDATA[ ... ]]>  
+
+### 2. 不再需要`<![CDATA[ ... ]]>`
 
 
 Thymeleaf 2.1 要求将`<script>`标记的内容封装在 CDATA 中，以便所使用的任何`<`或`>`符号不会干扰基于XML的解析：
