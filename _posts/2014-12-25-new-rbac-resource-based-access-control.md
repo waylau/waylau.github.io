@@ -10,7 +10,7 @@ tags: [REST,Shiro]
 
 本文讨论以角色概念进行的权限管理策略及主要以基于角色的机制进行权限管理是远远不够的。同时将讨论一种更好的权限管理方式。 
 
-##What is a Role? 什么是角色
+## What is a Role? 什么是角色
 
 当说到程序的权限管理时，人们往往想到角色这一概念。角色是代表一系列行为或责任的实体，用于限定你在软件系统中能做什么、不能做什么。用户帐号往往与角色相关联，因此，一个用户在软件系统中能“做”什么取决于与之关联的各个角色。
 
@@ -20,7 +20,7 @@ tags: [REST,Shiro]
 
 <!-- more -->
 
-##Role-Based Access Control 基于角色的访问控制
+## Role-Based Access Control 基于角色的访问控制
 
 既然角色代表了可执行的操作这一概念，一个合乎逻辑的做法是在软件开发中使用角色来控制对软件功能和数据的访问。你可能已经猜到，这种权限控制方法就叫基于角色的访问控制(Role-Based Access Control)，或简称为 RBAC。
 
@@ -28,7 +28,7 @@ tags: [REST,Shiro]
 
 今天依旧有大量的软件应用是使用隐式的访问控制方式。但我肯定的说，显示的访问控制方式更适合于当前的软件应用。
 
-###Implicit Access Control 隐式的访问控制
+### Implicit Access Control 隐式的访问控制
 
 前面提到，角色代表一系列的可执行的操作。但我们如何知道一个角色到底关联了哪些可执行的操作呢？
 
@@ -48,7 +48,7 @@ security check:
 
 在上面的示例代表中，开发人员判断用户是否有“项目管理员”角色来决定是否显示查看项目报表按钮。请注意上面的代码，它并没有明确语句来定义”项目管理员”这一角色到底包含哪些可执行的行为，它只是假设一个关联了项目管理员角色的用户可查看项目报表，而开发人员也是基于这一假设来写 if/else 语句。
 
-###Brittle Security Policy 脆弱的权限策略
+### Brittle Security Policy 脆弱的权限策略
 
 像上面的权限访问控制是非常脆弱的。一个极小的权限方面的需求的变动都可能导致上面的代码需要重新修改。
 
@@ -73,7 +73,7 @@ Control security check:
 
 像上面的情况，这种隐式的(静态字符串)形式的基于角色的访问控制方式难以满足需求。理想的情况是如果权限需求变动不需要修改任何代码。怎样才能做到这一点呢？
 
-##Explicit Access Control: A Better Way 显式地访问控制：更好的选择
+## Explicit Access Control: A Better Way 显式地访问控制：更好的选择
 
 从上面的例子我们看到，当权限需求发生变动时，隐式的权限访问控制方式会给程序开发带来沉重的负担。如果能有一种方式在权限需求发生变化时不需要去修改代码就能满足需求那就好了。理解的情况是，即使是正在运行的系统，你也可以修改权限策略却又不影响最终用户的使用。当你发现某些错误的或危险的安全策略时，你可以迅速地修改策略配置，同时你的系统还能正常使用，而不需要重构代码重新部署系统。
 
@@ -95,7 +95,7 @@ Listing 3. Example Explicit Access Control security check:
 
 上面的例子中，我们可明确地看到我们是在控制什么。不要太在意冒号分隔的语法，这仅是一个例子，重点是上面的语句明确地表示了“如果当前用户允许查看编号为12345的项目报表，则显示项目报表按钮”。也就是说，我们明确地说明了一个用户帐号可对一个的资源实例进行的具体的操作。
 
-##How is this better? 为什么说这种方式更好
+## How is this better? 为什么说这种方式更好
 
 上面最后的示例代码块与前面的代码的主要区别：最后的代码块是基于什么是受保护的， 而不是谁可能有能力做什么。看似简单的区别，但后者对系统开发及部署有着深刻的影响：
 
@@ -105,7 +105,7 @@ Listing 3. Example Explicit Access Control security check:
 * **外部安全策略管理**：由于源代码只反映资源和行为，而不是用户、组和角色，这样资源/行为与用户、组、角色的关联可以通过外部的模块或专用工具或管理控制台来完成。这意味着在权限需求变化时，开发人员并不需要花费时间来修改代码，业务分析师甚至最终用户就可以通过相应的管理工具修改权限策略配置。
 * **运行时做修改**：因为基于资源的权限控制代码并不依赖于行为的主体(如组、角色、用色)，你并没有将行为的主体的字符名词写在代码中，所以你甚至可以在程序运行的时候通过修改主体能对资源进行的操作这样一些方式，通过配置的方式就可应对权限方面需求的变动，再也不需要像隐式的RBAC 方式那样需要重构代码。
 
-##The New RBAC: Resource-Based Access Control 基于资源的权限管理
+## The New RBAC: Resource-Based Access Control 基于资源的权限管理
 
 对于上面列出的诸多好处，我重点要说是这种显式的机制带给我们的富有弹性的权限模型。
 
@@ -115,13 +115,13 @@ Listing 3. Example Explicit Access Control security check:
 
 因为上面显式地、基于资源的权限访问控制的诸多好处，或许可以给 RBAC 一个新的定义：“Resource-Based Access Control”。只是我的一个想法：）
 
-##Real World Example: Apache Shiro 真实的案例
+## Real World Example: Apache Shiro 真实的案例
 
 如果你好奇现实世界有没有被多个系统使用的基于资源的权限控制框架，你可以了解一下[Apache Shiro](http://shiro.apache.org/)。它是一个java 平台的现代权限管理框架。通过它的权限[Permission](https://github.com/waylau/apache-shiro-1.2.x-reference/blob/master/II.%20Core%20%E6%A0%B8%E5%BF%83/6.1.%20Permissions%20%E6%9D%83%E9%99%90.md)概念，Shiro 很好地支持基于资源的权限访问控制。
 
 当然，并不需要借用 Shiro 来理解本文所说的一些概念，但 Shiro 对理解本文所讨论的概念及示例有一定的帮助。
 
-参考：
+## 参考：
 
 * <https://stormpath.com/blog/new-rbac-resource-based-access-control/>
 * [Apache Shiro 1.2.x 参考手册](https://github.com/waylau/apache-shiro-1.2.x-reference)
