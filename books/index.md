@@ -33,3 +33,4 @@ permalink: /books/
 * [Gradle 3 用户指南](https://github.com/waylau/gradle-3-user-guide)
 * [Spring Security 教程](https://github.com/waylau/spring-security-tutorial)
 * [Thymeleaf 教程](https://github.com/waylau/thymeleaf-tutorial)
+* [NGINX 教程](https://github.com/waylau/nginx-tutorial)
