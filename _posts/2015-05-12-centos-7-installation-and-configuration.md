@@ -29,31 +29,10 @@ CentOS 与 RHEL 是同源，所以，在 CentOS 文档不足时，可以参考 R
 从U盘启动，安装系统。安装中，会提示选择
 
 * 默认选择 “Test this media & Install CentOS 7”
-
-![](http://99btgc01.info/uploads/2015/06/001.png)
-
-
-* 选择语言，设置时区
-
-  本例为中文
-
-![](http://99btgc01.info/uploads/2015/06/002.png)
-
-* 设置系统安装位置
-
-  选择默认的“自动分配分区”
-
-![](http://99btgc01.info/uploads/2015/05/003%286%29.jpg)
-
+* 选择语言，设置时区。  本例为中文
+* 设置系统安装位置。  选择默认的“自动分配分区”
 * 设置主机名称和IP
-![](http://99btgc01.info/uploads/2015/06/003.png)
-
-![](http://99btgc01.info/uploads/2015/06/004.png)
-
 * 设置 root 密码、创建新用户
-
-![](http://99btgc01.info/uploads/2015/05/004%283%29.jpg)
-
 
 ## 配置静态IP
 
@@ -109,10 +88,8 @@ CentOS 与 RHEL 是同源，所以，在 CentOS 文档不足时，可以参考 R
 
     vi /etc/sysconfig/network-scripts/ifcfg-ens33
   
-原先的配置是 ONBOOT 是默认不启动网卡的,改为 yes
+原先的配置是 ONBOOT 是默认不启动网卡的，改为 yes。
 
-
-![](http://99btgc01.info/uploads/2015/06/005.png)
 
 设置完成执行 systemctl restart network 重启网络，而后 ping 下这个 IP 做下测试
 
