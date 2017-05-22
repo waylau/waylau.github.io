@@ -136,6 +136,7 @@ excludedFromNav:true
     * [《CSS3 教程》](https://github.com/waylau/css3-tutorial)：一本关于 CSS3 的开源教程
     * [更多](https://waylau.com/books)
 * 演讲和讲义
+	* 2017年3月，OSCHINA 146 期高手问答：<https://www.oschina.net/question/2720166_2235329>
     * 2015年7月，新员工培训《前端培训CSS3&Bootstrap》：<https://waylau.com/slides/CSS3&Bootstrap_20150703.pdf>
     * 2015年5月，技术分享，《能源管理中心架构剖析》:<https://waylau.com/slides/EMSC_Architecture_201505023.pdf>
 
