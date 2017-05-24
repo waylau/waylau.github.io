@@ -39,9 +39,9 @@ my.ini 放在 `C:\Windows`目录。
 
 ```
 [mysqld]
-# set basedir to your installation path
+# 设置 basedir 为你的安装目录
 basedir = C:/Program Files/MySQL/mysql-5.7.10-winx64
-# set datadir to the location of your data directory
+# 设置 datadir 为你的数据存放目录
 datadir = D:/mysqlData/data
 ```
 
