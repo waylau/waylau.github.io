@@ -5,7 +5,7 @@ date: 2017-06-03 00:22
 author: admin
 comments: true
 categories: [MongoDB,Spring Boot]
-tags: [MongoDB,Spring Boot]
+tags: [MongoDB,Spring Boot,MongoDB File Server]
 ---
 
 MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的，旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。它支持的数据结构非常松散，是类似 JSON 的 BSON 格式，因此可以存储比较复杂的数据类型。
@@ -454,6 +454,10 @@ $ gradlew bootRun
 ![](../images/post/20170604-mongodb-file-server-index.jpg)
 
 
+## 源码
+
+MongoDB File Server 是一款开源的产品，完整的项目源码见 <https://github.com/waylau/mongodb-file-server>。
+
 ## 参考文献
 
 * https://docs.mongodb.com/manual/core/gridfs/
@@ -462,5 +466,6 @@ $ gradlew bootRun
 * 《Thymeleaf 教程》：<https://github.com/waylau/thymeleaf-tutorial>
 * 《Gradle 3 用户指南》：<https://github.com/waylau/gradle-3-user-guide>
 * 《REST 实战》<https://github.com/waylau/rest-in-action>
+* https://github.com/waylau/mongodb-file-server
 
 
