@@ -417,6 +417,23 @@ public class FileController {
         }
  
     }
+    
+	/**
+     * 删除文件
+     * @param id
+     * @return
+     */
+    @DeleteMapping("/{id}")
+    @ResponseBody
+    public ResponseEntity<String> deleteFile(@PathVariable String id) {
+ 
+    	try {
+			fileService.removeFile(id);
+			return ResponseEntity.status(HttpStatus.OK).body("DELETE Success!");
+		} catch (Exception e) {
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
+		}
+    }
 }
 ```
 
@@ -453,6 +470,12 @@ $ gradlew bootRun
 
 ![](../images/post/20170604-mongodb-file-server-index.jpg)
 
+相关上传的接口暴露在了 <http://localhost:8081/> ，其中
+
+* GET  /files/{pageIndex}/{pageSize} : 分页查询已经上传了的文件
+* GET  /files/{id} : 下载某个文件
+* GET  /view/{id} : 在线预览某个文件。比如，显示图片。
+* POST /upload : 上传文件
 
 ## 源码
 
