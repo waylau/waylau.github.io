@@ -474,8 +474,9 @@ $ gradlew bootRun
 
 * GET  /files/{pageIndex}/{pageSize} : 分页查询已经上传了的文件
 * GET  /files/{id} : 下载某个文件
-* GET  /view/{id} : 在线预览某个文件。比如，显示图片。
+* GET  /view/{id} : 在线预览某个文件。比如，显示图片
 * POST /upload : 上传文件
+* DELETE /{id} : 删除文件
 
 ## 源码
 
