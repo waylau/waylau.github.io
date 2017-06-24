@@ -243,16 +243,298 @@ webix.ui({
 
 Toolbar（工具栏）可以包含各种元素，如按钮或下拉菜单等。
 
-记住，要使用Webix创建组件，必须使用view:“component_name”代码行，元素属性允许选择工具栏的内容。
+记住，要使用Webix创建组件，必须使用`view:“component_name”`代码行，元素属性允许选择工具栏的内容。
 
+![](../images/post/20170624-webix-toolbar.jpg)
+
+```js
+...
+{
+    view: "toolbar",
+    height: 45,
+    elements:[
+        {view: "label", label: "Webix Email 客户端"}
+    ]
+},
+...
+````
 
 
 * elements 用来放置子的`view`组件。
+* label 就是显示普通的文本标签
 
-这里，我们使用了[ui.chart](https://docs.webix.com/api__refs__ui.chart.html)，来创建图表
+这里，我们使用了 [ui.chart](https://docs.webix.com/api__refs__ui.chart.html)，来创建图表。
+
+### 实现 Tree
+
+创建菜单目录树：
+
+```js
+...
+{
+    view:"tree",
+    id: "my_tree",
+    select: true,
+    width:280,
+    data:[
+        { id:"1", value:"收件箱"},
+        { id:"2", value:"已发送"},
+        { id:"3", value:"草稿箱"},
+        { id:"4", value:"垃圾箱"},
+        { id:"5", value:"通讯录", open:true, 
+            data:[
+                { id:"5-1", value:"好友"},
+                { id:"5-2", value:"家人"}
+            ]
+        }
+    ]
+},
+...
+```
+
+
+其中:
+
+* tree 是一个功能丰富的树形组件；
+* open 设置为 true，来让我们的树在初始化时就处于打开状态。
+
+最终效果如下：
+
+![](../images/post/20170624-webix-tree.jpg)
+
+
+
+### 实现 Calendar
+
+创建日历组件：
+
+```js
+...
+{
+    view:"calendar",
+    timepicker:true
+},
+...
+```
+
+其中:
+
+* calendar 是一个功能丰富的日历组件；
+* timepicker 设置为 true，在日历上显示时间选择器。
+
+最终效果如下：
+
+![](../images/post/20170624-webix-cal.jpg)
+
+
+### 实现 Email 列表
+
+
+还记得我们的在“快速开始”部分的那个表格吗？这里同样需要用表格来实现 Email 列表：
+
+创建Email 列表：
+
+```js
+...
+ {
+    id: "my_datatable",
+    view: "datatable",
+    scrollX: false,
+    columns: [
+        {
+            id: "checked", header: { content: "masterCheckbox" },
+            template: "{common.checkbox()}", width: 40
+        },
+        { id: "name", width: 250, header: "发件人" },
+        { id: "subject", header: "主题", fillspace: true },
+        { id: "date", header: "时间", width: 150 }
+    ],
+    data: [
+        {
+            id: 1, folder: 1, name: "Way Lau",
+            email: "waylau521@gmail.com", subject: "Invitation",
+            date: "25/07/2017 12:30:20"
+        },
+        {                                                
+            id: 2, folder: 1, name: "老卫",
+            email: "waylau521@163.com", subject: "Report",
+            date: "25/07/2017 16:10:07"
+        },
+        {
+            id: 11, folder: 2, name: "Way Lau",
+            email: "waylau521@gmail.com", subject: "Re: Forecast",
+            date: "25/07/2017 14:10:45"
+        },
+
+        {
+            id: 12, folder: 2, name: "老卫",
+            email: "waylau521@163.com", subject: "Party invitation",
+            date: "25/07/2017 17:05:10"
+        }
+    ]
+    },
+...
+```
+
+其中:
+
+* columns 用来定义表头；
+* ` header:{ content:"masterCheckbox" }` 定义了可以全选列表的 checkbox；
+* `template:"{common.checkbox()}"` 设置每个列表项都会带有一个 checkbox；
+* scrollX 设置为 false，意味着禁用了水平的滚动条。
+* fillspace 设置为 true，意味可以自动填充宽度。
+
+
+最终效果如下：
+
+![](../images/post/20170624-webix-maillist.jpg)
+
+
+### 事件处理
+
+
+事件，让组件具备交互功能：
+
+```js
+...
+// 绑定事件
+$$("my_datatable").bind($$("my_tree"),function(obj,filter){
+    return obj.folder == filter.id;
+});
+
+// 选中第一个节点
+$$("my_tree").select(1);
+...
+```
+
+其中：
+
+* "my_datatable" 为 `datatable` 组件的 id。绑定了"my_tree"的点击事件；
+* `$$("my_tree").select(1)` 意味着树节点会选中第一个节点。
+
+最终效果如下：
+
+![](../images/post/20170624-webix-bind.jpg)
+
+
+### 按钮实现
+
+按钮实现如下：
+
+```js
+...
+{
+    height: 45, cols: [
+        {
+            view:"button",
+            label:"回复",
+            width: 95
+        },
+        {
+            view:"button",
+            label:"创建",
+            width: 95
+        },
+        {},
+        {
+            view:"button",
+            label:"删除",
+            width: 95
+        }
+    ]
+},
+...
+```
+
+其中：
+
+* "my_datatable" 为 `datatable` 组件的 id。绑定了"my_tree"的点击事件；
+* `$$("my_tree").select(1)` 意味着树节点会选中第一个节点。
+
+最终效果如下：
+
+![](../images/post/20170624-webix-button.jpg)
+
+
+### 展示 Email 正文
+
+
+展示 Email 正文实现如下：
+
+```js
+...
+{
+    id:"details",
+    template:"No message selected"
+},
+...
+```
+
+如果想显示文本，可以编写如下脚本：
+
+```js
+var message = "大道至简  https://waylau.com";
+
+$$("details").define("template",message);
+$$("details").render();
+```
+
+最终效果如下：
+
+![](../images/post/20170624-webix-content.jpg)
+
+
+### 编辑窗口
+
+发送邮件，我们需要有一个编辑窗口：
+
+```js
+webix.ui({
+    view:"window",
+    move: true,
+    id:"my_win",
+    width:400,
+    head:"创建新邮件",
+    position: "center",
+    body: {
+        view:"form",
+        borderless:true,
+        elements: [
+        { view:"text", label:'收件人:', name:"address" },
+        { view:"text", label:'主题:', name:"subject" },
+        { view:"textarea", height:200, label:"内容:", name:"message"},
+        { cols: [
+            { view:"button", value: "发送", },
+            { view:"button", value: "关闭", click:("$$('my_win').hide();") }
+        ]},
+        ],
+    }
+});
+```
+
+然后在“创建”的按钮上，添加弹出窗口的事件：
+
+```js
+...
+{
+    view:"button",
+    label:"创建",
+    width: 95,
+    click:function(){
+        $$("my_win").getBody().clear();
+        $$("my_win").show();
+    }
+},
+...
+```
+
+最终效果如下：
+
+![](../images/post/20170624-webix-create.jpg)
+
 ## 源码
 
-* 
+* <https://github.com/waylau/webix-tutorial>
 
 ## 参考文献
 
