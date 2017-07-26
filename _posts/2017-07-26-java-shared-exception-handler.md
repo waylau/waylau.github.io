@@ -37,7 +37,7 @@ try {
 }
 ```
 
-在上面的程序处理中，我们捕获量可能出现的 ArrayIndexOutOfBoundsException 和 ArithmeticException 的异常。
+在上面的程序处理中，我们捕获了可能出现的 ArrayIndexOutOfBoundsException 和 ArithmeticException 的异常。
 
 ## 共享同一个异常处理器
 
