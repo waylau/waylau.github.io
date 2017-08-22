@@ -21,7 +21,7 @@ permalink: /about/
 
 ## 关于作者
 
-老卫，英文名 Way Lau，80后程序员，关注编程、系统架构、性能优化。在 IT 公司担任项目经理、架构师、高级开发顾问等职位，是 [CSDN](http://blog.csdn.net/kkkloveyou)、 [开源中国](http://my.oschina.net/waylau)、[云栖社区](https://yq.aliyun.com/u/waylau)等技术社区专家。对技术抱有极大的热情，坚持每天学习。喜欢[开源](https://github.com/waylau)，乐于分享。
+老卫，英文名 Way Lau，80后程序员，关注编程、系统架构、性能优化。在 IT 公司担任项目经理、架构师、高级开发顾问等职位，是 [CSDN](http://blog.csdn.net/kkkloveyou)、 [开源中国](http://my.oschina.net/waylau)、[云栖社区](https://yq.aliyun.com/u/waylau)等技术社区专家，[慕课网](http://www.imooc.com/u/4842271)特邀讲师。对技术抱有极大的热情，坚持每天学习。喜欢[开源](https://github.com/waylau)，乐于分享。
 
 ![](/images/way_500_500.jpg)
 
