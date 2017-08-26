@@ -46,4 +46,4 @@ EasyCHM是一款强大的CHM电子书或CHM帮助文件的快速制作工具，c
 3. 开始制作。
 
 
-最终就能生成CHM文件了。这个是我自己制作的 Jedis API 文档 <http://blog.csdn.net/kkkloveyou>。
+最终就能生成CHM文件了。这个是我自己制作的 Jedis API 文档 <http://download.csdn.net/download/kkkloveyou/9947521>。
