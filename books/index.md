@@ -34,3 +34,4 @@ permalink: /books/
 * [Spring Security 教程](https://github.com/waylau/spring-security-tutorial)
 * [Thymeleaf 教程](https://github.com/waylau/thymeleaf-tutorial)
 * [NGINX 教程](https://github.com/waylau/nginx-tutorial)
+* [Spring Cloud 教程](https://github.com/waylau/spring-cloud-tutorial)
