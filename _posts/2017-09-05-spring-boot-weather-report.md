@@ -502,5 +502,5 @@ public class RestConfiguration {
 
 ## 源码
 
-* <https://github.com/waylau/spring-cloud-tutorial/>  的`micro-weather-basic`。
+本章节的源码，见 <https://github.com/waylau/spring-cloud-tutorial/>  `samples`目录下的`micro-weather-basic`。
 
