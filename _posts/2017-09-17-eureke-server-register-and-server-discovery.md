@@ -25,7 +25,7 @@ Eureka 是 [Netflix](https://www.netflix.com) 出品的用于实现服务注册�
 
 访问<http://start.spring.io/> 进行项目的初始化。我们将该项目命名为`micro-weather-eureka-server`。
 
-![eurake-start](../../images/register-discover/eurake-start.jpg)
+![eurake-start](https://github.com/waylau/spring-cloud-tutorial/raw/master/images/register-discover/eurake-start.jpg)
 
 ## 更改配置
 
@@ -74,7 +74,7 @@ eureka.client.serviceUrl.defaultZone: http://${eureka.instance.hostname}:${serve
 
 启动应用，访问<http://localhost:8761/>，可以看到  Eureka Server 自带的 UI 管理界面。
 
-![eurake-ui](../../images/register-discover/eurake-ui.jpg)
+![eurake-ui](https://github.com/waylau/spring-cloud-tutorial/raw/master/images/register-discover/eurake-ui.jpg)
 
 
 ## 创建 Eureka Client
@@ -137,7 +137,7 @@ java -jar micro-weather-eureka-client-1.0.0.jar --server.port=8082
 
 可以在 Eureka Server 上看到这两个实体的信息。
 
-![eurake-client](../../images/register-discover/eurake-client.jpg)
+![eurake-client](https://github.com/waylau/spring-cloud-tutorial/raw/master/images/register-discover/eurake-client.jpg)
 
 ## 源码
 
