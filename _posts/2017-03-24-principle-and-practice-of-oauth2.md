@@ -351,6 +351,9 @@ Client Secret ：26db88a4dfc34cebaf196e68761c1294ac4ce265
 
 客户端 id 和 密码写入程序配置即可。
 
+以下是配置本例子的配置详情：
+
+![](../images/post/20170324-config.jpg)
 
 ## 源码
 
