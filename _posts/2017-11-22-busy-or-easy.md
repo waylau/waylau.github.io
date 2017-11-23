@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 项目管理——为啥你会觉得忙或者闲
+title: 项目管理——为啥你会觉得很忙或者很闲
 date: 2017-11-22 00:22
 author: admin
 comments: true
