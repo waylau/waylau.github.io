@@ -4,8 +4,8 @@ title: Markdown 转为 Word 格式文档
 date: 2017-09-13 00:22
 author: admin
 comments: true
-categories: [Markdown，pandoc,Writage]
-tags: [Markdown，pandoc,Writage,Word]
+categories: [Markdown,Pandoc,Writage]
+tags: [Markdown,Pandoc,Writage,Word]
 ---
 
 平时都有用 Markdown 写书、写博客的习惯。很享受 Markdown 带来的纯粹撰写文字，而无须纠结格式所带来的快感。但有时，某些场合下，Word 文件又是必须的格式（比如，编辑部校稿，公司会议等），此时，就很有必要将Markdown 转为 Word 格式文档。
