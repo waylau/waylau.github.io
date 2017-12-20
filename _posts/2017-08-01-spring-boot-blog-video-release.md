@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基于Spring Boot技术栈的博客系统企业级实战发布
+title: 基于Spring Boot 企业级博客系统实战发布
 date: 2017-08-01 00:22
 author: admin
 comments: true
@@ -8,7 +8,7 @@ categories: [Spring Boot]
 tags: [Spring,Spring Boot,NewStarBlog]
 ---
 
-接到慕课网的通知，本人所设计的视频教程《基于Spring Boot技术栈的博客系统企业级实战》于 2017年7月31日中午发布了!课程地址：<http://coding.imooc.com/class/125.html>。
+接到慕课网的通知，本人所设计的视频教程《基于Spring Boot 企业级博客系统实战》于 2017年7月31日中午发布了!课程地址：<http://coding.imooc.com/class/125.html>。
 课程从策划、编码、录制到后期制作，差不多花费了4-5个月的时间。 课程中的每行代码都是笔者亲自敲的，光写代码都要个把个月时间。编码期间也是遇到了很多技术问题，埋了很多坑，其中心酸只有自知。
 
 <!-- more -->
