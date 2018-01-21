@@ -4,8 +4,8 @@ title: 基于Spring Boot 企业级博客系统实战发布
 date: 2017-08-01 00:22
 author: admin
 comments: true
-categories: [Spring Boot]
-tags: [Spring,Spring Boot,NewStarBlog]
+categories: [Java,Spring Boot,Gradle,Elasticsearch,Thymeleaf,Spring,Spring MVC,Spring Security,Hiberate,MySQL,H2,Bootstrap,jQuery,HTML5,JavaScript,CSS,NewStarBlog]
+tags: [Java,Spring Boot,Gradle,Elasticsearch,Thymeleaf,Spring,Spring MVC,Spring Security,Hiberate,MySQL,H2,Bootstrap,jQuery,HTML5,JavaScript,CSS,NewStarBlog]
 ---
 
 接到慕课网的通知，本人所设计的视频教程《基于Spring Boot 企业级博客系统实战》于 2017年7月31日中午发布了!课程地址：<http://coding.imooc.com/class/125.html>。
