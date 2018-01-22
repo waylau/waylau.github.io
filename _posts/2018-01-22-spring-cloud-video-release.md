@@ -21,7 +21,7 @@ tags: [Java,Spring Cloud,Spring Boot,Eureka,Ribbon,OpenFeign,Zuul,Config,Hystrix
 
 ![](../images/post/20180122-spring-cloud-001.png)
 
-学员不但可以学会Spring Boot及Spring Cloud最新的周边技术栈（本课程基于最新的 Spring Boot 2.0.0.M4 以及 Spring Cloud Finchley.M2），掌握如何运用上述技术进行整合，搭建框架的能力，熟悉单体架构及微服务架构的特点，并最终实现掌握构建微服务架构的实战能力。
+学员不但可以学会 Spring Boot 及 Spring Cloud 最新的周边技术栈（本课程基于最新的 Spring Boot 2.0.0.M4 以及 Spring Cloud Finchley.M2），掌握如何运用上述技术进行整合，搭建框架的能力，熟悉单体架构及微服务架构的特点，并最终实现掌握构建微服务架构的实战能力。
 
 ![](../images/post/20180122-spring-cloud-002.jpg)
 
@@ -34,9 +34,9 @@ tags: [Java,Spring Cloud,Spring Boot,Eureka,Ribbon,OpenFeign,Zuul,Config,Hystrix
 
 ## 课程的亮点与卖点是什么？
 
-虽然本课程所列举的案例是一个天气预报系统。天气预报系统人人都在用，所以在业务上比较好理解。这样就能让学员的注意力，集中在技术上而非业务上。
+本课程所列举的案例是一个天气预报系统。天气预报系统人人都在用，所以在业务上比较好理解。这样就能让学员的注意力，集中在技术上而非业务上。
 
-案例麻雀虽小五脏俱全。用于完整展现微服务架构的实现过程，足矣。
+案例是麻雀虽小五脏俱全。用于完整展现微服务架构的实现过程，足矣。
 
 ![](../images/post/20180122-spring-cloud-003.jpg)
 
@@ -86,7 +86,7 @@ tags: [Java,Spring Cloud,Spring Boot,Eureka,Ribbon,OpenFeign,Zuul,Config,Hystrix
 * Spring Cloud Starter Netflix Hystrix Finchley.M2
 
 
-另外，本课程采用示例采用 Eclipse Oxygen.1a Release (4.7.1a) 来编写，但示例源码与具体的 IDE 无关，学员朋友可以自行选择适合自己的IDE，比如IntelliJ IDEA、NetBeans等。
+另外，本课程采用示例采用 Eclipse Oxygen.1a Release (4.7.1a) 来编写，但示例源码与具体的 IDE 无关，学员朋友可以自行选择适合自己的 IDE，比如 IntelliJ IDEA、NetBeans 等。
 
 
 ## 课程安排及讲解方式 
@@ -102,7 +102,7 @@ tags: [Java,Spring Cloud,Spring Boot,Eureka,Ribbon,OpenFeign,Zuul,Config,Hystrix
 
 ## 课程除了课程内容外，还有哪些增值服务？
 
-除了讲师答疑、代码全部开放外其他的增值福利，还有QQ群提供一对一的辅导。本课程相关的技术点都已经整理成相关的技术书籍，供学员免费参阅（见<https://waylau.com/books/>）。后期会有出版一本与本课程相关的 Spring Cloud 书籍，届时，边看视频边看书，有利于知识点的梳理与巩固。
+除了讲师集中答疑外，课程全套代码全部开放。本课程相关的技术点都已经整理成相关的技术书籍，供学员免费参阅（见<https://waylau.com/books/>）。后期会有出版一本与本课程相关的 Spring Cloud 书籍，届时，边看视频边看书，有利于知识点的梳理与巩固。
 
 
 
