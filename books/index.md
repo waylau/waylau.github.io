@@ -34,5 +34,6 @@ permalink: /books/
 * [Spring Security 教程](https://github.com/waylau/spring-security-tutorial)
 * [Thymeleaf 教程](https://github.com/waylau/thymeleaf-tutorial)
 * [NGINX 教程](https://github.com/waylau/nginx-tutorial)
-* [Spring Boot企业级博客系统实战](http://coding.imooc.com/class/125.html)（视频）
+* [基于Spring Boot的博客系统实战](http://coding.imooc.com/class/125.html)（视频）
 * [Spring Cloud 教程](https://github.com/waylau/spring-cloud-tutorial)
+* [基于Spring Cloud的微服务实战](https://coding.imooc.com/class/177.html)（视频）
