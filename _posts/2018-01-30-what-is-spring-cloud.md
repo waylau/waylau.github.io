@@ -69,7 +69,7 @@ Spring Cloud 是构建分布式系统的利器，而微服务是当下最火热�
 
 在《基于Spring Cloud的微服务实战》课程中，作者基于Spring Boot + Spring Cloud 技术栈来实现了一个完整的天气预报系统。在课程中，先从 Spring Boot 入手，从0到1 快速搭建了具备高并发能力、界面友好的天气预报系统。而后剖析单块架构的利弊，从而引入微服务架构的概念，并实从1到0实现微服务的拆分。最后引入Spring Cloud 技术来实现对这些微服务的治理，重点讲解了服务注册与发现、服务交互、服务消费、负载均衡、API网关、配置中心、服务熔断、自动扩展等方面的话题。
 
-[](https://waylau.com/images/post/20180122-spring-cloud-001.png)
+![](https://waylau.com/images/post/20180122-spring-cloud-001.png)
 
 通过学习该课程，学员不但可以学会 Spring Boot 及 Spring Cloud 最新的周边技术栈（本课程基于最新的 Spring Boot 2.0.0.M4 以及 Spring Cloud Finchley.M2），掌握如何运用上述技术进行整合，搭建框架的能力，熟悉单体架构及微服务架构的特点，并最终实现掌握构建微服务架构的实战能力。
 
