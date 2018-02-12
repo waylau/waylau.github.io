@@ -173,9 +173,9 @@ ValueOperations 接口，封装了大部分的简单的 K-V 操作。
 * https://waylau.com/spring-boot-weather-report/
 * Spring Boot 教程：<https://github.com/waylau/spring-boot-tutorial>
 * Spring Cloud 教程：<https://github.com/waylau/spring-cloud-tutorial>
-* https://waylau.com/spring-boot-blog-video-release/
-* https://waylau.com/spring-cloud-video-release/
-* https://www.imooc.com/article/19873
+* Spring Boot 开发企业级博客系统：<https://waylau.com/spring-boot-blog-video-release/>
+* 从天气项目看Spring Cloud微服务治理：<https://waylau.com/spring-cloud-video-release/>
+* 原文同步至：<https://waylau.com/spring-boot-weather-report-with-redis/>
 
 
 
