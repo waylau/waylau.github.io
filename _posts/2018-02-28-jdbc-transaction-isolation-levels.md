@@ -58,6 +58,6 @@ JDBC 规范增加了 TRANSACTION_NONE 隔离级别，来满足了 SQL:2003 定�
 
 ## 参考资料
 
-* JDBC 4.2 Specification（JSR 221）
+* [JDBC 4.2 Specification（JSR 221）JDBC 4.2 规范](https://github.com/waylau/jdbc-specification)
 
 
