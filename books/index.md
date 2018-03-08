@@ -38,3 +38,4 @@ permalink: /books/
 * [Spring Cloud 教程](https://github.com/waylau/spring-cloud-tutorial)
 * [基于Spring Cloud的微服务实战](https://coding.imooc.com/class/177.html)（视频）
 * [JDBC 4.2 规范](https://github.com/waylau/jdbc-specification)
+* [Spring 5 案例大全](https://github.com/waylau/spring-5-book)
