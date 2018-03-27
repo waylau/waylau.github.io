@@ -4,8 +4,8 @@ title: 服务化、微服务及Spring Cloud
 date: 2018-03-13 00:22
 author: admin
 comments: true
-categories: [Spring Cloud，Microservices]
-tags: [Spring Cloud，Microservices]
+categories: [Spring Cloud,Microservices]
+tags: [Spring Cloud,Microservices]
 ---
 
 作为职场老手的你，也许对服务化（SOA）并不陌生。当今 Web 2.0 架构如火如荼，越来越多的企业正在进行着服务化的改造，最为著名莫过于 Amazon 。
