@@ -8,7 +8,7 @@ categories: [Spring MVC,Jetty]
 tags: [Spring MVC,Jetty]
 ---
 
-Jetty 是高性能的 Servlet 容器，经常会在开发环境中作为服务器来使用。在本文中，我们将使用 Spring Web MVC 技术来实现 REST 接口，并使用 使用 Jetty 作为内嵌服务器，方便测试。
+Jetty 是高性能的 Servlet 容器，经常会在开发环境中作为服务器来使用。在本文中，我们将使用 Spring Web MVC 技术来实现 REST 接口，并使用 Jetty 作为内嵌服务器，方便测试。
 
 
 <!-- more -->
@@ -268,4 +268,4 @@ public class Application {
 ## 参考应用
 
 * 源码:见《Spring 5 案例大全》（<https://github.com/waylau/spring-5-book>）的 “s5-ch11-mvc-rest”应用。
-* 原文同不至：<https://waylau.com/spring-mvc-use-jetty/>
+* 原文同步至：<https://waylau.com/spring-mvc-use-jetty/>
