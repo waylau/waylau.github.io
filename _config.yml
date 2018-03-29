@@ -20,6 +20,6 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge   # pygments
 permalink: /:title/
-paginate: 8
+paginate: 18
 paginate_path: page/:num
 encoding: bom|utf-8
