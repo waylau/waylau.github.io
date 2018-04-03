@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 老卫谈技术-掌握“复制-粘贴-改”的IT技能
+title: 掌握“复制-粘贴-改”的IT技能
 date: 2018-04-03 00:22
 author: admin
 comments: true
