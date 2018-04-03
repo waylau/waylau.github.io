@@ -54,8 +54,18 @@ tags: [Management]
 ![以下是 MvnRepository 提供的Maven坐标](../images/post/20180403-mvn.jpg)
 
 
+## 真实案例
+
+理解了复用了轮子的理论重要性，我们来看下真实的案例。
+
+据统计，Google 有软件工程师平均一天写 100 ~ 150 行代码，而且已经算是业界高效的了。这从侧面反馈了，写代码并不是一天中工作的重心，高效的工程师更加注重于花时间在代码的思考上面。
+
+笔者的视频课程《基于Spring Boot的博客系统实战》（<http://coding.imooc.com/class/125.html>），遵循了业界软件开发的真实开发方式，采用敏捷的渐进式开发的，后续章节会基于前一个章节的内容来延生。这个不是重复，而是最大化重用现有的代码。递进的每个章节的内容都是前后关联的，让前几章的代码内容，为后续章节所用，即为“学以致用”。
+
+当然，这种开发方式也不是见得为所有的开发者所接受。正如开篇所讲的，热衷于重复造论的人还是不少。
 
 ## 参考引用：
 
-* 《分布式系统常用技术及案例分析》<https://github.com/waylau/distributed-systems-technologies-and-cases-analysis>
+* 《分布式系统常用技术及案例分析》：<https://github.com/waylau/distributed-systems-technologies-and-cases-analysis>
+* 《基于Spring Boot的博客系统实战》：<http://coding.imooc.com/class/125.html>
 * 原文同步至<https://waylau.com/stop-trying-to-reinvent-the-wheel/>
