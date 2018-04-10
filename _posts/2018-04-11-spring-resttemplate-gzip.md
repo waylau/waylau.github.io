@@ -259,7 +259,7 @@ public class RestConfiguration {
 
 * 本文示例源码，见 “Spring 5 案例大全”（<https://github.com/waylau/spring-5-book>） 的 “基于 RestTemplate 的天气预报服务”例子
 
-## 参考引用：
+## 参考引用
 
 * 《Spring Boot 教程》:<https://github.com/waylau/spring-boot-tutorial>
 * 《基于Spring Boot的博客系统实战》：<http://coding.imooc.com/class/125.html>
