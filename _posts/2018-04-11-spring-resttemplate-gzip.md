@@ -84,7 +84,8 @@ StringHttpMessageConverter 默认是 ISO_8859_1，所以我们设置为了 UTF_8
 这一次我没有再瞎猜了，而是仔细观察了 HTTP 的请求协议。发现消息头里面的蛛丝马迹：
 
 
-20180411-weather-data-gzip.jpg
+![HTTP 的请求协议](../images/post/20180411-weather-data-gzip.jpg)
+
 
 
 原来，数据是经过 GZIP 压缩过的。默认情况下， RestTemplate 使用的是 JDK 的 HTTP 调用器，并不支持 GZIP 解压，难怪解析不了。
@@ -251,9 +252,12 @@ public class RestConfiguration {
 }
 ```
 
+所以学习编码，知其然要知其所以然！
+
+
 ## 源码
 
-* 本文源码，见 “Spring 5 案例大全”（<https://github.com/waylau/spring-5-book） 的 “基于 RestTemplate 的天气预报服务”例子
+* 本文示例源码，见 “Spring 5 案例大全”（<https://github.com/waylau/spring-5-book>） 的 “基于 RestTemplate 的天气预报服务”例子
 
 ## 参考引用：
 
