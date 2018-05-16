@@ -23,3 +23,8 @@ permalink: /quotes/
 —— Steve Jobs，<http://www.inc.com/magazine/19890401/5602.html>
 * 好的程序设计语言能够帮助程序员写出好程序，但无论哪种语言都避免不了程序员用它写出了坏程序。
 —— Betrand Meyer
+
+## Entrepreneurship
+
+* Entrepreneurship is jumping off a cliff and building a plane on the way down.创业就像是从悬崖上跳下来，在途中组装飞机。
+—— Reid Hoffman
