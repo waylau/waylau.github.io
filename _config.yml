@@ -9,7 +9,7 @@ twitter_username: waylau521  # Twitter ID
 github_username:  waylau # Github ID
 weibo_username: waylau521  # Weibo ID
 facebook_username: waylau521  # Facebook ID
-changyan_appid: cysJiEpFq # 畅言 appid
+#changyan_appid: cysJiEpFq # 畅言 appid
 baidushare_id: 89860593 #  百度分享 ID
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f # 百度统计 ID
 #google-analytics_id: UA-50593531-1  # Google Analytics ID
@@ -20,6 +20,6 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge   # pygments
 permalink: /:title/
-paginate: 18
+paginate: 38
 paginate_path: page/:num
 encoding: bom|utf-8
