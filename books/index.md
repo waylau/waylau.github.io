@@ -39,6 +39,6 @@ permalink: /books/
 * [基于Spring Cloud的微服务实战](https://coding.imooc.com/class/177.html)（视频）
 * [JDBC 4.2 规范](https://github.com/waylau/jdbc-specification)
 * [Spring Boot 企业级应用开发实战](https://github.com/waylau/spring-boot-enterprise-application-development)（已出版）
-* [Spring Cloud 微服务架构开发实战](https://github.com/waylau/spring-cloud-microservices-development)
+* [Spring Cloud 微服务架构开发实战](https://github.com/waylau/spring-cloud-microservices-development)（已出版）
 * [Spring 5 案例大全](https://github.com/waylau/spring-5-book)
 * [Cloud Native 案例大全](https://github.com/waylau/cloud-native-book-demos)
