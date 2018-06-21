@@ -8,7 +8,7 @@ categories: [MyBatis]
 tags: [MyBatis]
 ---
 
-本文讲解 MyBatis 四大核心概念（SqlSessionFactoryBuilder、SqlSessionFactory、SqlSession、Mapper）及其生命周期。
+本文讲解 MyBatis 四大核心概念（SqlSessionFactoryBuilder、SqlSessionFactory、SqlSession、Mapper）。
 
 <!-- more -->
 
