@@ -42,3 +42,4 @@ permalink: /books/
 * [Spring Cloud 微服务架构开发实战](https://github.com/waylau/spring-cloud-microservices-development)（已出版）
 * [Spring 5 案例大全](https://github.com/waylau/spring-5-book)
 * [Cloud Native 案例大全](https://github.com/waylau/cloud-native-book-demos)
+* [跟老卫学Angular](https://github.com/waylau/angular-tutorial)
