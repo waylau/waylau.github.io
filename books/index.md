@@ -43,3 +43,4 @@ permalink: /books/
 * [Spring 5 案例大全](https://github.com/waylau/spring-5-book)
 * [Cloud Native 案例大全](https://github.com/waylau/cloud-native-book-demos)
 * [跟老卫学Angular](https://github.com/waylau/angular-tutorial)
+* [Spring 5 开发大全](https://github.com/waylau/spring-5-book)（已出版）
