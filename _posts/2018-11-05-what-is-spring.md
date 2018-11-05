@@ -41,6 +41,8 @@ Spring 框架前身，是 Rod Johnson 发表在 *Expert One-on-One J2EE Design a
 
 Spring 的技术栈还有很多，读者朋友有兴趣的话，可以访问笔者所著的“Spring 5案例大全”项目（<https://github.com/waylau/spring-5-book）了解更多信息。
 
+![](https://github.com/waylau/spring-5-book/raw/master/images/spring-5-book-logo.jpg)
+
 ## 约定
 
 由于 Spring 是早期 Spring 框架的总称，所以，有时候这个“Spring”这个命名会给读者产生困扰。一般地，我们约定“Spring 框架”特指是狭义上的 Spring，即 Spring Framework；而“Spring”特指是广义上的 Spring，泛指 Spring 技术栈。
