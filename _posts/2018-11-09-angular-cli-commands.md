@@ -83,6 +83,16 @@ ng serve --open
 此时，应用就会自动在浏览器中打开。访问地址为 http://localhost:4200/。
 
 
+## 添加依赖
+
+如果应用中需要什么依赖，执行下面命令：
+
+```
+ng add @ngx-translate/core
+ng add @ngx-translate/http-loader
+```
+
+
 ## 升级依赖
 
 目前，Angular 社区非常活跃，版本会经常更新。对 Angular 的版本做升级，只需简单一步执行：
