@@ -60,6 +60,25 @@ tags: [Markdown]
 <sub>[1]该报道可见BBC新闻“Adobe to kill off Flash plug-in by 2020”（<http://www.bbc.com/news/technology-40716304>）</sub>
 ```
 
+## 表格
+
+```
+范围 | 描述
+--- | ---
+singleton | 每个Spring容器有一个实例（默认值）
+prototype | 允许bean可以被多次实例化（使用一次就创建一个实例）
+request | 定义bean的scope是HTTP请求。每个HTTP请求都有自己的实例。只有在使用有Web功能的Spring上下文时才有效
+```
+
+显示效果如下：
+
+
+范围 | 描述
+--- | ---
+singleton | 每个Spring容器有一个实例（默认值）
+prototype | 允许bean可以被多次实例化（使用一次就创建一个实例）
+
+
 
 ## 格式转换
 
