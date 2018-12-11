@@ -8,7 +8,10 @@ categories: [Spring]
 tags: [Spring,singleton,prototype]
 ---
 
-##问题
+
+Spring支持不同的scope。不同scope在使用上是有差异的，比如singleton与prototype。
+
+## 问题背景
 
 我们知道，Spring bean 默认的 scope 是 singleton（单例），但有些场景（比如多线程）需要每次调用都生成一个实例，
 此时 scope 就应该设为 prototype。如：
@@ -106,4 +109,5 @@ OK ，问题解决
 
 ## 参考
 
+* 更多有关Spring的内容，可以参阅《Spring 5 开发大全》：<https://github.com/waylau/spring-5-book>
 * [Spring Framework 4.x参考文档](https://github.com/waylau/spring-framework-4-reference)
