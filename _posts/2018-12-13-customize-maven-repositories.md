@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 自定义Maven的`<repositories>`
+title: 自定义Maven的<repositories>
 date: 2018-12-13 00:22
 author: admin
 comments: true
@@ -81,4 +81,4 @@ mirrorOf的配置支持如下场景：
 ## 参考引用
 
 
-* 原文同步至<https://waylau.com/2018-12-13-customize-maven-repositories/>
+* 原文同步至<https://waylau.com/customize-maven-repositories/>
