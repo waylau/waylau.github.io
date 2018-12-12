@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 自定义Maven的<repositories>
+title: 自定义 Maven 的 repositories
 date: 2018-12-13 00:22
 author: admin
 comments: true
