@@ -45,3 +45,4 @@ permalink: /books/
 * [Cloud Native 案例大全](https://github.com/waylau/cloud-native-book-demos)
 * [跟老卫学Angular](https://github.com/waylau/angular-tutorial)
 * [Spring 5 开发大全](https://github.com/waylau/spring-5-book)（已出版）
+* [分布式系统常用技术及案例分析（第2版）](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)（已出版）
