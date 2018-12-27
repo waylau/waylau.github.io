@@ -21,7 +21,7 @@ permalink: /about/
 
 ## 关于作者
 
-老卫，英文名 Way Lau，80后程序员，关注编程、系统架构、性能优化。在 IT 公司担任项目经理、架构师、高级开发顾问等职位，是 [CSDN](http://blog.csdn.net/kkkloveyou)、 [开源中国](http://my.oschina.net/waylau)、[云栖社区](https://yq.aliyun.com/u/waylau)等技术社区专家，[慕课网](http://www.imooc.com/u/4842271)特邀讲师。对技术抱有极大的热情，坚持每天学习。喜欢[开源](https://github.com/waylau)，乐于分享。
+柳伟卫，网名waylau、老卫，80后程序员，关注编程、系统架构、性能优化。在IT公司担任过项目经理、架构师、高级技术顾问等职位，拥有数十年开发经验，具有丰富的软件开发管理及系统架构经验。主导过多个省、国家级大型分布式系统的设计与研发，参与过面向全球的供应链系统服务化改造。在实际工作中，积累了大量的分布式系统、微服务架构经验。是 [CSDN](http://blog.csdn.net/kkkloveyou)、 [开源中国](http://my.oschina.net/waylau)、[云栖社区](https://yq.aliyun.com/u/waylau)等技术社区专家，[慕课网](http://www.imooc.com/u/4842271)特邀讲师。喜欢[开源](https://github.com/waylau)，乐于分享，为技术社区撰写了超过一打的免费电子书（https://waylau.com/books/）。已出版《分布式系统常用技术及案例分析》、《Spring Boot 企业级应用开发实战》、《Spring Cloud 微服务架构开发实战》、《Spring 5开发大全》等专著。
 
 ![](/images/way_500_500.jpg)
 
