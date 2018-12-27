@@ -28,7 +28,7 @@ tags: [BookGift]
 
 ## 活动方式
 
-愿意参加本次活动的朋友，请你们在该书的主页（https://book.douban.com/subject/30370024/），进行评价留言，讲述我和你，以及Spring的故事。届时将会挑选出三篇最佳留言，送上这三份新年礼物。绝对没有套路！
+愿意参加本次活动的朋友，请你们在该书的主页（<https://book.douban.com/subject/30370024/>），进行评价留言，讲述我和你，以及Spring的故事。届时将会挑选出三篇最佳留言，送上这三份新年礼物。绝对没有套路！
 
 ## 活动时间
 
@@ -37,8 +37,11 @@ tags: [BookGift]
 
 ## 礼品介绍
 
-![Spring 5 开发大全](../images/post/20181227-spring-5-book-logo.jpg)
-
+礼品介绍可以见：
 
 * 当当：<http://product.dangdang.com/25581763.html>
 * 京东：<https://item.jd.com/12474404.html>
+
+![Spring 5 开发大全](../images/post/20181227-spring-5-book-logo.jpg)
+
+
