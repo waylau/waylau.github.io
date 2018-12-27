@@ -35,9 +35,10 @@ tags: [BookGift]
 只要在2019年1月5日24时前的评价留言，都可以参与评选。
 
 
-## 书籍介绍
+## 礼品介绍
 
-![](https://github.com/waylau/spring-5-book/raw/master/images/spring-5-book-logo.jpg)
+![Spring 5 开发大全](../images/post/20181227-spring-5-book-logo.jpg)
+
 
 * 当当：<http://product.dangdang.com/25581763.html>
 * 京东：<https://item.jd.com/12474404.html>
