@@ -32,7 +32,7 @@ layout: default
   {% if paginator.page == 2 %}
   <a class="pagination-item newer" href="/"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Previous</a>
   {% else %}
-  <a class="pagination-item newer" href="/page/{{paginator.previous_page}}"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Previous</a>
+  <a class="pagination-item newer" href="/page/{{paginator.previous_page}}/"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Previous</a>
   {% endif %}
   {% else %}
   <span class="pagination-item newer"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;Previous</span>
@@ -48,13 +48,13 @@ layout: default
   {% if count == paginator.page %}
   <span class="current-page">{{count}}</span>
   {% else %}
-  <a href="/page/{{count}}">{{count}}</a>
+  <a href="/page/{{count}}/">{{count}}</a>
   {% endif %}
   {% endfor %}
   (Total {{ paginator.total_posts }})
 
   {% if paginator.next_page %}
-  <a class="pagination-item older" href="/page/{{paginator.next_page}}">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+  <a class="pagination-item older" href="/page/{{paginator.next_page}}/">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
   {% else %}
   <span class="pagination-item older">Next&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></span>
   {% endif %}
