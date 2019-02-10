@@ -132,6 +132,13 @@ ng test --code-coverage
 npm install
 ```
 
+## 编译
+
+Angular应用将会编译为可以执行的文件（HTML、JS），到dist目录。
+
+```
+ng build
+```
 
 
 ## 参考引用
