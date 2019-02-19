@@ -25,7 +25,8 @@ tags: [Developer, Tool]
 * Firefox：<http://www.firefox.com.cn/download/>
 * Git：<https://github.com/waylau/git-for-win>
 * TortoiseGit：<https://tortoisegit.org/download/>
-* Lantern：<>
+* Lantern：<https://github.com/getlantern/lantern>
+* EyeGuard：<http://www.eyesguards.com>
 
 ## Java
 
