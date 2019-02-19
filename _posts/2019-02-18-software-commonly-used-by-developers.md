@@ -27,6 +27,7 @@ tags: [Developer, Tool]
 * TortoiseGit：<https://tortoisegit.org/download/>
 * Lantern：<https://github.com/getlantern/lantern>
 * EyeGuard：<http://www.eyesguards.com>
+* 手心收入法：<http://www.xinshuru.com>
 
 ## Java
 
