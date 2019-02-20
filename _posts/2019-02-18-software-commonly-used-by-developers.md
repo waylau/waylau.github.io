@@ -55,3 +55,4 @@ tags: [Developer, Tool]
 * QQ：<https://im.qq.com/pcqq/>
 * QQ影音：<http://player.qq.com>
 * 阿里旺旺：<http://wangwang.taobao.com>
+* QQ影音：<https://y.qq.com/download/index.html>
