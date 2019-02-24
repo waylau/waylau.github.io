@@ -48,3 +48,4 @@ permalink: /books/
 * [分布式系统常用技术及案例分析（第2版）](https://github.com/waylau/distributed-systems-technologies-and-cases-analysis)（201901已出版）
 * [现代Java案例大全](https://github.com/waylau/modern-java-demos)
 * [Cloud Native 分布式架构原理与实践](https://github.com/waylau/cloud-native-book-demos)（201903已出版）
+* [跟老卫学Ionic](https://github.com/waylau/ionic-framework-tutorial)
