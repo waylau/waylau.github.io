@@ -57,5 +57,5 @@ Cloud Native （国内译为“云原生”），最早是 [Matt Stine](http://w
 
 ## 参考引用
 
-* 原文同步至：<https://waylau.com/about-cloud-native/>
+* 原文同步至：<https://waylau.com/why-cloud-native/>
 * [Cloud Native 分布式架构原理与实践](https://item.jd.com/12496131.html)
