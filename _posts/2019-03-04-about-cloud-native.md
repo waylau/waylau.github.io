@@ -8,7 +8,7 @@ categories: [Cloud Native]
 tags: [Cloud Native]
 ---
 
-Cloud Native（云原生）是以云架构为优先的应用开发模式。目前，越来越多的企业已经在大规模开始拥抱云，在云环境开发应用、部署应用、发布应用。未来，越来越多的开发者也将采用 Cloud Native 来开发应用。本书是国内第一本 Java 领域 Cloud Native 著作。
+Cloud Native（云原生）是以云架构为优先的应用开发模式。目前，越来越多的企业已经在大规模开始拥抱云，在云环境开发应用、部署应用、发布应用。未来，越来越多的开发者也将采用 Cloud Native 来开发应用。
 
 那么为什么Cloud Native模式会越来越流行？Cloud Native与微服务有什么区别？何时选择使用Cloud Native？等等，这些问题将在本文一一解答。
 
