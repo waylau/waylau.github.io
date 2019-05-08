@@ -49,3 +49,4 @@ permalink: /books/
 * [现代Java案例大全](https://github.com/waylau/modern-java-demos)
 * [Cloud Native 分布式架构原理与实践](https://github.com/waylau/cloud-native-book-demos)（201903已出版）
 * [跟老卫学Ionic](https://github.com/waylau/ionic-framework-tutorial)
+* [Node.js 案例大全](https://github.com/waylau/nodejs-book-samples)
