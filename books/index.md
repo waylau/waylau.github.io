@@ -50,3 +50,4 @@ permalink: /books/
 * [Cloud Native 分布式架构原理与实践](https://github.com/waylau/cloud-native-book-demos)（201903已出版）
 * [跟老卫学Ionic](https://github.com/waylau/ionic-framework-tutorial)
 * [Node.js 案例大全](https://github.com/waylau/nodejs-book-samples)
+* [Angular企业级应用开发实战](https://github.com/waylau/angular-enterprise-application-development-samples)（201906已出版）
