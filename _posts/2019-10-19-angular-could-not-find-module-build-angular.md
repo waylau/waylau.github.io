@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Angular CLI找不到模块"@angular-devkit/build-angular"
+title: Angular CLI找不到模块"angular-devkit/build-angular"
 date: 2019-10-19 00:22
 author: admin
 comments: true
