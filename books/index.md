@@ -52,4 +52,4 @@ permalink: /books/
 * [Node.js 案例大全](https://github.com/waylau/nodejs-book-samples)
 * [Angular企业级应用开发实战](https://github.com/waylau/angular-enterprise-application-development-samples)（201906已出版）
 * [Netty 案例大全](https://github.com/waylau/netty-4-user-guide-demos/)
-* [大型互联网应用轻量级架构实战](https://github.com/waylau/lite-book-demos)
+* [大型互联网应用轻量级架构实战](https://github.com/waylau/lite-book-demos)（201912已出版）
