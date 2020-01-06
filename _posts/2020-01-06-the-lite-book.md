@@ -45,6 +45,8 @@ Lite框架抛弃了墨守成规、面向规范的臃肿开发方式，转而采�
 
 
 
+![](https://wx4.sinaimg.cn/mw690/7e3647b2gy1gan6po9cc5j20u0140e84.jpg)
+
 
 ## 源代码
 
@@ -52,7 +54,35 @@ Lite框架抛弃了墨守成规、面向规范的臃肿开发方式，转而采�
 
 ## 本书所涉及的技术和相关版本
 
-技术的版本是非常重要的，因为不同版本之间存在兼容性问题，而且不同版本的软件所对应的功能也是不同的。本书所列出的技术在版本上相对较新，都是经过笔者大量测试的。这样读者在自行编写代码时，可以参考本书所列出的版本，从而避免版本兼容性所产生的问题。建议读者将相关开发环境设置得跟本书一致，或者不低于本书所列的配置。详细的版本配置，可以参阅本书“附录”中的内容。
+技术的版本是非常重要的，因为不同版本之间存在兼容性问题，而且不同版本的软件所对应的功能也是不同的。本书所列出的技术在版本上相对较新，都是经过笔者大量测试的。这样读者在自行编写代码时，可以参考本书所列出的版本，从而避免版本兼容性所产生的问题。建议读者将相关开发环境设置得跟本书一致，或者不低于本书所列的配置。
+
+详细的版本配置如下：
+
+* JDK 9
+* Eclipse Java EE IDE for Web Developers 4.8.0
+* Tomcat 9.0.13
+* Servlet 4.0.1
+* Jetty 9.4.14.v20181114
+* Spring 5.1.5.RELEASE
+* Spring Web MVC 5.1.5.RELEASE
+* Jackson JSON 2.9.7
+* Spring Security 5.2.0.BUILD-SNAPSHOT
+* MyBatis 3.4.6
+* Mybatis Spring 1.3.2
+* MySQL Community Server 8.0.12
+* Apache Commons DBCP 2.5.0
+* JUnit Jupiter Engine 5.3.2
+* logback 1.2.3
+* SLF4J 1.7.25
+* NGINX 1.15.8
+* Angular 7.0.6
+* Redis 3.2.100
+* Spring Data Redis 2.1.4.RELEASE
+* Jedis 2.10.2
+* Spring Boot 2.1.2.RELEASE
+* MyBatis Spring Boot Starter 2.0.0
+
+
 
 本书示例采用Eclipse编写，但示例源码与具体的IDE无关，读者可以选择适合自己的IDE，如IntelliJ IDEA、NetBeans等。运行本书示例，请确保JDK版本不低于 JDK 9。
 
