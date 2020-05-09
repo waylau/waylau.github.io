@@ -53,3 +53,5 @@ permalink: /books/
 * [Angular企业级应用开发实战](https://github.com/waylau/angular-enterprise-application-development-samples)（201906已出版）
 * [Netty 案例大全](https://github.com/waylau/netty-4-user-guide-demos/)
 * [大型互联网应用轻量级架构实战](https://github.com/waylau/lite-book-demos)（201912已出版）
+* [Java数据结构及算法实战](https://github.com/waylau/java-data-structures-and-algorithms-in-action)
+* [Java核心编程](https://github.com/waylau/modern-java-demos)（202006已出版）
