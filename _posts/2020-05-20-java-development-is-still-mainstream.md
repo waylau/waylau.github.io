@@ -21,7 +21,7 @@ tags: [Java]
 图1-1展示的是1985年至2020年TIOBE编程语言排行榜情况（<https://www.tiobe.com/tiobe-index/>）。从图中可以看出，自Java诞生以来，一直占据排行版前三的位置。
 
 
-![图1-1 1985年至2020年TIOBE编程语言排行榜情况](../images/post/220200520-long-term-history.jpg)
+![图1-1 1985年至2020年TIOBE编程语言排行榜情况](../images/post/20200520-long-term-history.jpg)
 
 
 
@@ -39,7 +39,8 @@ tags: [Java]
 
 同时，本书可以帮助读者从一开始就建立正确的编程习惯，逐步树立良好的面向对象设计思维，这对于学习其他语言都是非常有帮助的。
 
-针对这类读者，建议读者在学习过程中，从头至尾详细跟随笔者来理解Java的概念，并编写本书中的示例。
+针对这类读者，建议读者在学习过程中，从头至尾详细跟随笔者来理解Java的概念，并编写《Java核心编程》书中的示例。
+该书附赠从Java 8到Java 14全套案例：<https://github.com/waylau/modern-java>
 
 ### 2. 有后端开发经验的读者
 
@@ -49,7 +50,6 @@ tags: [Java]
 
 大多数Java开发人员肯定熟悉Java的语法，那么需要并把精力放在Java新特性上面，根据自身的实际情况，可以选学本书中的知识点，做到查漏补缺。
 
-该书附赠从Java 8到Java 14全套案例：<https://github.com/waylau/modern-java>
 
 让我们一起踏上Java的学习之旅吧。
 
