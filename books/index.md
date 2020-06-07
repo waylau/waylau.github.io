@@ -55,3 +55,4 @@ permalink: /books/
 * [大型互联网应用轻量级架构实战](https://github.com/waylau/lite-book-demos)（201912已出版）
 * [Java数据结构及算法实战](https://github.com/waylau/java-data-structures-and-algorithms-in-action)
 * [Java核心编程](https://github.com/waylau/modern-java-demos)（202006已出版）
+* [MongoDB＋Express＋Angular＋Node.js全栈开发实战派](https://github.com/waylau/mean-book-samples)（202006已出版）
