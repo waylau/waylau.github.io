@@ -23,6 +23,7 @@ permalink: /quotes/
 —— Steve Jobs，<http://www.inc.com/magazine/19890401/5602.html>
 * 好的程序设计语言能够帮助程序员写出好程序，但无论哪种语言都避免不了程序员用它写出了坏程序。
 —— Betrand Meyer
+* I write an average of five new programs every week. Poets have to write poems. I have to write computer programs. 我每周平均写五个新程序。诗人必须写诗,而我必须写计算机程序。—— Donald Knuth，<https://www.quantamagazine.org/computer-scientist-donald-knuth-cant-stop-telling-stories-20200416/>
 
 ## Entrepreneurship
 
