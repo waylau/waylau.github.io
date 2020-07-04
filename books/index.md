@@ -56,3 +56,4 @@ permalink: /books/
 * [Java数据结构及算法实战](https://github.com/waylau/java-data-structures-and-algorithms-in-action)
 * [Java核心编程](https://github.com/waylau/modern-java-demos)（202006已出版）
 * [MongoDB＋Express＋Angular＋Node.js全栈开发实战派](https://github.com/waylau/mean-book-samples)（202006已出版）
+* [Java安可认证阶段考试——可信编码实现](https://github.com/waylau/java-trusted-coding-exam)
