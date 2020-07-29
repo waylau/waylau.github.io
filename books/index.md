@@ -59,3 +59,4 @@ permalink: /books/
 * [Java安可认证阶段考试——可信编码实现](https://github.com/waylau/java-trusted-coding-exam)
 * [Java安可认证阶段考试——开发者测试](https://github.com/waylau/java-trusted-testing-exam)
 * [Java安可认证阶段考试——可信代码重构](https://github.com/waylau/java-trusted-code-refactoring-exam)
+* [Node.js企业级应用开发实战](https://github.com/waylau/nodejs-book-samples)（202007已出版）
