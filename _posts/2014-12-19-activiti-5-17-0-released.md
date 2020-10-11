@@ -23,7 +23,7 @@ Activiti 5.17.0 发布 (2014-12-18)，此版本值得关注的亮点：
 * 对于流程实例和普通的执行，变量的获取已经被优化
 * 数据库升级脚本使用一个不同的比 JAR 小的版本。发布版是  5.17.0, 5.17.0.2是数据库版本。这个版本让我们发布快照，并且能够从一个快照版本升级到一个稳定的版本。5.17.1释放数据库版本将是 5.17.1.x,x可以是任何数字。所以只有最后一个小版本号可以跟 Activiti 引擎发布版本不同
 
-更多内容请看[发布说明](http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=12091&version=20537)。
+更多内容请看[发布说明](https://projectmanagernews.com/general/most-important-projects-codehaus/)。
 
 ##如何快速开始 Activiti
 
