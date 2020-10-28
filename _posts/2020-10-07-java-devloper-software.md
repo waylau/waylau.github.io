@@ -56,3 +56,11 @@ https://im.qq.com/pcqq/
 
 https://player.qq.com/
 
+## Core Temp
+
+https://core-temp.en.softonic.com/
+
+## 手心输入法
+
+http://www.xinshuru.com/
+
