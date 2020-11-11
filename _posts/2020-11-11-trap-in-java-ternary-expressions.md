@@ -62,4 +62,5 @@ Null pointer access: This expression of type Integer is null but requires auto-u
 
 ## 参考引用
 
-* * [Java核心编程](https://github.com/waylau/modern-java-demos)
+* 原文同步至 <https://waylau.com/trap-in-java-ternary-expressions/>
+*  [Java核心编程](https://github.com/waylau/modern-java-demos)
