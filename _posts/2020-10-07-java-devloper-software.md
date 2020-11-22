@@ -64,3 +64,7 @@ https://core-temp.en.softonic.com/
 
 http://www.xinshuru.com/
 
+## Adobe Acrobat Reader
+
+https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
+
