@@ -4,8 +4,8 @@ title: Java三元表达式中的陷阱
 date: 2020-11-11 00:22
 author: admin
 comments: true
-categories: [Java]
-tags: [Java]
+categories: [Java,Trap]
+tags: [Java,Trap]
 ---
 
 今天遇到一个奇怪的Java三元表达式中的空指针异常。特此记录。
