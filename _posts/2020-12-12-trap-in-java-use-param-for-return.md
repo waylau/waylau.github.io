@@ -80,11 +80,12 @@ public List<Supply> getLocalSupplyList (SupplyAssignment localSupply)
 
 因此，上述代码中，服务A调用服务B时，服务B的参数localSupply实际上是服务A的localSupply的一个拷贝，当然，这两个都是指向了同一个地址对象supplyAssignment1。
 
+![](../images/post/20201202-001-param.png)
 
 
 当在服务B内部对参数localSupply进行重新赋值是localSupply = supplyAssignment，实际上，只是对B的参数localSupply做了从新赋值，B的参数localSupply会指向一个新的地址对象supplyAssignment2。
 
-
+![](../images/post/20201202-002-param.png)
 
 从上图可以清晰看到，因此，服务A的localSupply和B的参数localSupply已经指向了不同的对象了，对B的参数localSupply做任何的修改，都不会影响服务A的localSupply的原值。这就是问题的原因，你希望服务B来修改服务A入参的状态，并将改后的值返回给服务A，但并不奏效。
 
@@ -103,9 +104,7 @@ public List<Supply> getLocalSupplyList (SupplyAssignment localSupply)
 
 这个方案就是直接在入参的对象上做状态的修改，而不要去赋值新对象。还是这个图：
 
-
-
- 
+![](../images/post/20201202-003-param.png)
 
 在这个图中，只要我们是一直在B的参数localSupply修改的是supplyAssignment1的状态值，那结果就能反馈到服务A的localSupply上。如何实现？看下下面代码：
 
