@@ -75,3 +75,7 @@ http://www.pandoc.org/
 ## ToDesk
 
 https://www.todesk.com/download.html
+
+## WinMerge
+
+https://winmerge.org/downloads
