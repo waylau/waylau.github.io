@@ -61,3 +61,5 @@ permalink: /books/
 * [Java安可认证阶段考试——可信代码重构](https://github.com/waylau/java-trusted-code-refactoring-exam)
 * [Node.js企业级应用开发实战](https://github.com/waylau/nodejs-book-samples)（202007已出版）
 * [跟老卫学HarmonyOS开发](https://github.com/waylau/harmonyos-tutorial)
+* [還在 LAMP？用最流行的 MEAN 進行全端網頁開發](https://www.tenlong.com.tw/products/9789865501624)(202011已出版)
+* [Netty原理解析与开发实战](https://www.tenlong.com.tw/products/9789865501624)(202101已出版)
