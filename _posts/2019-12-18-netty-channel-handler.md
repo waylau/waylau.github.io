@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Netty——ChannelHandler之概述
+title: Netty ChannelHandler之概述
 date: 2019-12-18 01:41
 author: admin
 comments: true
@@ -130,5 +130,5 @@ ChannelHandlerAdapter抽象类提供了两个子类ChannelInboundHandlerAdapter�
 在实际开发过程中，我们的自定义的ChannelHandler多数是继承自ChannelInboundHandlerAdapter和ChannelOutboundHandlerAdapter类或者是这两个类的子类。比如在前面章节中所涉及的编解码器ByteToMessageDecoder、MessageToMessageDecoder、MessageToByteEncoder、MessageToMessageEncoder等，就是这两个类的子类。
 ## 参考引用
 
-* 原文同步至<https://waylau.com/netty-channel>
+* 原文同步至<https://waylau.com/netty-channel-handler/>
 * [《Netty原理解析与开发实战》](https://item.jd.com/13072504.html)
