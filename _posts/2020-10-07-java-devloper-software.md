@@ -79,3 +79,7 @@ https://www.todesk.com/download.html
 ## WinMerge
 
 https://winmerge.org/downloads
+
+## 屏幕检测
+
+https://screen.bmcx.com/
