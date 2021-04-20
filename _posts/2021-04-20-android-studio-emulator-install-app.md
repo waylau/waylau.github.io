@@ -62,8 +62,13 @@ Android Studio提供了Device File Explorer，可以通过Device File Explorer�
 
 ![](../images/post/20210420-android-008.png)
 
+## 优缺点
+
+* 优点： 功能比较强大；安卓版本是最新；提供的设备也比较新
+* 缺点： 部分的app兼容性不够，有可能打不开（模拟器的通病）。
+
 
 ## 参考引用
 
 * 本文同步至: <https://waylau.com/android-studio-emulator-install-app/>
-* 视频版本，见我的B站：<https://space.bilibili.com/7681787>
+* 视频版本，见我的B站：<https://www.bilibili.com/video/BV1KA411V7K3/>
