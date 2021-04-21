@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 通过原生的Android Studio模拟器来安装Android应用
-date: 2021-03-16 00:22
+date: 2021-04-20 00:22
 author: admin
 comments: true
 categories: [Android,Android Studio]
