@@ -22,6 +22,7 @@ Android Studio自带的拟器本身功能也是很强大的。实际上，上述
 
 1. 通过Device File Explorer上传apk到模拟器里面，在模拟器里面直接安装
 2. 通过浏览器下载apk。推荐下载一个应用市场，后续的app都可以通过应用市场。
+3. 拖动apk文件到Android模拟器直接来安装Android应用
 
 
 ## 上传apk到模拟器
@@ -62,6 +63,23 @@ Android Studio提供了Device File Explorer，可以通过Device File Explorer�
 
 ![](../images/post/20210420-android-008.png)
 
+
+## 拖动apk文件到Android模拟器
+
+默认情况下，是没法拖动apk文件到Android模拟器。这是因为默认Android模拟器是在窗口里面运行的。那么如何才能实现拖动apk文件到Android模拟器呢？
+
+在设置里面，看到这一项“Launch in a tool window”如下图所示，该项是默认勾选的。
+
+![](../images/post/20210420-android-009.png)
+
+如果取掉这个勾选，重启模拟器，模拟器就会以独立运行的模式来运行，如下图所示。此时就可以支持将apk文件拖动到Android模拟器直接来安装了。
+
+
+![](../images/post/20210420-android-010.png)
+
+
+
+
 ## 优缺点
 
 * 优点： 功能比较强大；安卓版本是最新；提供的设备也比较新
@@ -71,4 +89,4 @@ Android Studio提供了Device File Explorer，可以通过Device File Explorer�
 ## 参考引用
 
 * 本文同步至: <https://waylau.com/android-studio-emulator-install-app/>
-* 视频版本，见我的B站：<https://www.bilibili.com/video/BV1KA411V7K3/>
+* 视频版本，见我的B站：<https://www.bilibili.com/video/BV1KA411V7K3/> 和 <https://www.bilibili.com/video/bv1uK4y1P7TL>
