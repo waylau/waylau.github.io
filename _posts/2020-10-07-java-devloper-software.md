@@ -83,3 +83,7 @@ https://winmerge.org/downloads
 ## 屏幕检测
 
 https://screen.bmcx.com/
+
+## NZXT CAM 
+
+https://www.nzxt.com/camapp
