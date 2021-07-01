@@ -1,9 +1,9 @@
 # Site settings
-title: 老卫的博客 - 关注编程、系统架构、性能优化
+title: 老卫（柳伟卫）的博客 - 关注编程、系统架构、性能优化
 name: 老卫的博客
 url: "https://waylau.com"
 email: waylau521@gmail.com
-description: 老卫的博客 - 关注编程、系统架构、性能优化 | waylau.com
+description: 老卫（柳伟卫）的博客 - 关注编程、系统架构、性能优化 | waylau.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: waylau521  # Twitter ID
 github_username:  waylau # Github ID
