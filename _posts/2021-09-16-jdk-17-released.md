@@ -274,8 +274,8 @@ tools/javadoc(tool)
 ## 参考引用
 
 * 本文同步至: <https://waylau.com/jdk-17-released/>
-<https://waylau.com/jdk-16-released/>
-<https://waylau.com/jdk-15-released/>
-<https://waylau.com/jdk-14-released/>
+* <https://waylau.com/jdk-16-released/>
+* <https://waylau.com/jdk-15-released/>
+* <https://waylau.com/jdk-14-released/>
 * 《[Java核心编程](https://item.jd.com/12868796.html)》
 * 开源项目“现代Java案例大全” <https://github.com/waylau/modern-java-demos>

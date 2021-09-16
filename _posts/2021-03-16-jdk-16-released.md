@@ -204,7 +204,7 @@ JDK 内部默认强封装，JDK 16 开始对 JDK 内部大部分元素默认进�
 ## 参考引用
 
 * 本文同步至: <https://waylau.com/jdk-16-released/>
-<https://waylau.com/jdk-15-released/>
-<https://waylau.com/jdk-14-released/>
+* <https://waylau.com/jdk-15-released/>
+* <https://waylau.com/jdk-14-released/>
 * 《[Java核心编程](https://item.jd.com/12868796.html)》
 * <https://github.com/waylau/modern-java-demos>
