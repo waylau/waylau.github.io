@@ -55,6 +55,8 @@ restarting in TCP mode port: 5555
 ### 5、scrcpy自带ADB工具连接到手机
 
 ```
+adb tcpip 5555
+
 adb connect 192.168.68.122:5555
 ```
 
@@ -71,5 +73,23 @@ scrcpy -s 192.168.68.122:5555
 
 ![](../images/post/20211115-scrcpy-001.png)
 
+
+
+
+### 7、关闭设备屏幕
+
+使用命令行选项在启动时镜像时可以关闭设备屏幕，这一点也挺实用：
+
+```
+--turn-screen-off
+```
+
+当然，他们其实不是真的关闭屏幕，只是把屏幕搞成了黑色而已，减少了发光。
+
+其他参数还有
+
+```
+--show-touches --stay-awake
+```
 
 完整的演示视频：https://www.bilibili.com/video/BV1wL4y1i7t2/
