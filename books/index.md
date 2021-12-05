@@ -67,4 +67,5 @@ permalink: /books/
 * [轻量级Java EE企业应用开发实战](https://github.com/waylau/java-ee-enterprise-development-samples)(202104已出版)
 * [跟老卫学Vue.js开发](https://github.com/waylau/vuejs-enterprise-application-development)
 * [跟老卫学Apache Spark开发](https://github.com/waylau/apache-spark-tutorial)
+* [数据结构和算法实战（Java语言描述）](https://github.com/waylau/java-data-structures-and-algorithms-in-action)(202114已出版)
 
