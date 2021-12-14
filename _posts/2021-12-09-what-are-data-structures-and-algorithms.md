@@ -169,5 +169,5 @@ Data_Structure = （D，R）
 ## 参考引用
 
 * 原本同步至：<https://waylau.com/what-are-data-structures-and-algorithms/>
-* 本系列归档：<https://github.com/waylau/java-data-structures-and-algorithms-inaction>
+* 本系列归档：<https://github.com/waylau/java-data-structures-and-algorithms-in-action>
 * 数据结构和算法基础（Java语言实现）：<https://item.jd.com/13014179.html>
