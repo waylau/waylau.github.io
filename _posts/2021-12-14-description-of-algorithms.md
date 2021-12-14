@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 算法的描述
+title: 算法的4种描述方式
 date: 2021-12-14 00:22
 author: admin
 comments: true
@@ -8,7 +8,7 @@ categories: [Java数据结构及算法实战]
 tags: [Java,Algorithm]
 ---
 
-本节是《Java数据结构及算法实战》系列的第2节，主要介绍描述算法的方式。
+本节是《Java数据结构及算法实战》系列的第2节，主要介绍描述算法的常用的4种方式。
 
 <!-- more -->
 
