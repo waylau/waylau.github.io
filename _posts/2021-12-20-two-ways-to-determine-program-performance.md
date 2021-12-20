@@ -23,7 +23,7 @@ tags: [Java,Algorithm]
 
 
 
-![图1-4 GC的性能](.../images/post/20211220-g1-ootb.png)
+![](../images/post/20211220-g1-ootb.png)
 
 
 
