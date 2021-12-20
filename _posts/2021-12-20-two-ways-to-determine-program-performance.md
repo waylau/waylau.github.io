@@ -46,6 +46,6 @@ tags: [Java,Algorithm]
 
 ## 参考引用
 
-* 原本同步至：<https://waylau.com/two-ways-to-express-program-performance/>
+* 原本同步至：<https://waylau.com/two-ways-to-determine-program-performance/>
 * 本系列归档：<https://github.com/waylau/java-data-structures-and-algorithms-in-action>
 * 数据结构和算法基础（Java语言实现）：<https://item.jd.com/13014179.html>
