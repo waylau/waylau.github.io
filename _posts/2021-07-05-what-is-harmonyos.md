@@ -31,7 +31,7 @@ tags: [HarmonyOS,OpenHarmony]
 
 ## OpenHarmony
 
-OpenHarmony是一个开源项目，由开放原子开源基金会（<https://www.openatom.org/>）进行管理。开放原子开源基金会由华为、阿里、腾讯、百度、小米、浪潮、招商银行、360、OPPO、VIVO等十家互联网企业共同发起组建。
+OpenHarmony是一个开源项目，由开放原子开源基金会（<https://www.openatom.org/>）进行管理。开放原子开源基金会由华为、阿里、腾讯、百度、浪潮、招商银行、360等十家互联网企业共同发起组建。
 
 OpenHarmony暂时还没有中文名字，名字还在申请中。项目地址为：<https://gitee.com/openharmony>
 
@@ -40,7 +40,7 @@ OpenHarmony开源项目主要包括两部分：
 * 一是华为捐献的“鸿蒙操作系统”的基础能力；
 * 二是其他参与者的贡献。
 
-因此，OpenHarmony 的核心贡献主力还是在华为。OpenHarmony是“鸿蒙操作系统”的底座。
+因此，OpenHarmony是“鸿蒙操作系统”的底座。
 
 
 ## HarmonyOS
