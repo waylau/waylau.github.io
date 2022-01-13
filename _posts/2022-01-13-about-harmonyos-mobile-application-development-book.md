@@ -8,13 +8,13 @@ categories: [HarmonyOS]
 tags: [HarmonyOS]
 ---
 
-《鸿蒙HarmonyOS手机应用开发实战》一书由北京大学出版社出版，已经于2022年1月上市。拿到了样书，第一时间希望与读者朋友们分享下这本书里面的内容。
+《鸿蒙HarmonyOS手机应用开发实战》一书由清华大学出版社出版，已经于2022年1月上市。拿到了样书，第一时间希望与读者朋友们分享下这本书里面的内容。
 
 <!-- more -->
 
 
 
-## 为啥要写这本书
+## 这本书的背景
 
 近期拿到了样书，迫不及待的对新书做了浏览。同时也做了拆书与导读，可以在B站找到：<https://www.bilibili.com/video/BV1gL411c7hg/>
 
@@ -66,5 +66,5 @@ tags: [HarmonyOS]
 
 ## 参考引用
 
-* 原本同步至：<https://waylau.com/about-full-stack-development-with-vuejs-and-nodejs-book/>
+* 原本同步至：<https://waylau.com/harmonyos-mobile-application-development-book/>
 * 京东有售：<https://item.jd.com/13568130.html>
