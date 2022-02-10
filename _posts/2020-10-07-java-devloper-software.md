@@ -12,6 +12,24 @@ tags: [Software,Java]
 
 <!-- more -->
 
+## Rufus 
+
+Rufus创建USB启动盘。
+
+http://rufus.ie/
+
+##  CrystalDiskInfo
+
+
+https://crystalmark.info/
+
+##  CrystalDiskMark
+
+
+
+https://crystalmark.info/
+
+
 ## 7-Zip
 
 https://www.7-zip.org/
