@@ -70,4 +70,4 @@ permalink: /books/
 * [数据结构和算法基础（Java语言实现）](https://github.com/waylau/java-data-structures-and-algorithms-in-action)(202111已出版)
 * [现代C语言编程实战](https://github.com/waylau/modern-c-programming)
 * [鸿蒙HarmonyOS手机应用开发实战](https://github.com/waylau/harmonyos-tutorial)(202201已出版)
-* [跟老卫学EhcacheS开发](https://github.com/waylau/ehcache-tutorial)
+* [跟老卫学Ehcache开发](https://github.com/waylau/ehcache-tutorial)
