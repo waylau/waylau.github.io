@@ -29,7 +29,7 @@ tags: [HarmonyOS]
 
 ## 几个特点
 
-概况起来，这本《鸿蒙HarmonyOS手机应用开发实战》主要有三大特点。B站也有相关介绍：<https://www.bilibili.com/video/BV1gL411c7hg/>
+概况起来，这本《鸿蒙HarmonyOS手机应用开发实战》主要有以下几个特点。B站也有相关介绍：<https://www.bilibili.com/video/BV1gL411c7hg/>
 
 ### 1、涉及面非常广
 
