@@ -18,6 +18,7 @@ tags: [Vue.js]
 
 近期拿到了样书，迫不及待的对新书做了浏览。同时也做了拆书与导读。
 
+整个拆书过程的视频可见B站：<https://www.bilibili.com/video/BV1SL411w7ke/>
 
 ![](../images/post/20220319-vue-01.png)
 
