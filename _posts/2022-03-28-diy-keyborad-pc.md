@@ -11,10 +11,10 @@ tags: [PC,DIY,Pi]
 
 本文介绍，如何实现一台类似于点Raspberry Pi 400那样的键盘主机。
 
+<!-- more -->
 
 ![](../images/post/20220328-diy-keyborad-pc-001.jpg)
 
-<!-- more -->
 
 完整视频教程可见B站：<https://www.bilibili.com/video/BV16Y4y1p7nv/>
 
@@ -106,6 +106,6 @@ tags: [PC,DIY,Pi]
 
 ## 参考引用
 
-原文同步至：<https://waylau.com/diy-keyborad-pc/>
-CAD设计图开源：<https://github.com/waylau/freecad-tutorial>
-Raspberry Pi 400：<https://www.raspberrypi.com/products/raspberry-pi-400/>
+* 原文同步至：<https://waylau.com/diy-keyborad-pc/>
+* CAD设计图开源：<https://github.com/waylau/freecad-tutorial>
+* Raspberry Pi 400：<https://www.raspberrypi.com/products/raspberry-pi-400/>
