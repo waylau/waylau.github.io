@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java下一代高并发技术——虚拟线程“JEP 425: Virtual Threads (Preview)”
+title: Java下一代高并发技术——虚拟线程（Virtual Threads）
 date: 2022-04-12 00:22
 author: admin
 comments: true
