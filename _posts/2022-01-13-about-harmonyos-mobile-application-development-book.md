@@ -66,5 +66,5 @@ tags: [HarmonyOS]
 
 ## 参考引用
 
-* 原本同步至：<https://waylau.com/harmonyos-mobile-application-development-book/>
+* 原本同步至：<https://waylau.com/about-harmonyos-mobile-application-development-book/>
 * 京东有售：<https://item.jd.com/13568130.html>
