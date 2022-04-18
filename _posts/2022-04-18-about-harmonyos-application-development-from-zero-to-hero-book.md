@@ -19,8 +19,7 @@ tags: [HarmonyOS]
 
 首先是介绍封面部分。
 
-
-![](https://wx2.sinaimg.cn/orj360/7e3647b2gy1h1e4e38ky9j20gz0lp7gt.jpg)
+![](../images/post/20220418-harmoyos-01.jpg)
 
 
 《鸿蒙HarmonyOS应用开发从入门到精通战》封面部分是采用了全黑设计，富有科技感。
@@ -45,7 +44,7 @@ tags: [HarmonyOS]
 介绍封底部分。
 
 
-![](https://wx2.sinaimg.cn/mw2000/7e3647b2gy1h1e4e2x2a6j20kt0qt19k.jpg)
+![](../images/post/20220418-harmoyos-02.jpg)
 
 封底部分可以看到是两位重量级华为大咖背书，而且都是鸿蒙团队核心人员。
 
