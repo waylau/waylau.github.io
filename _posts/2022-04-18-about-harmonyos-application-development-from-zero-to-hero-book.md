@@ -15,6 +15,7 @@ tags: [HarmonyOS]
 <!-- more -->
 
 
+
 ## 封面部分
 
 首先是介绍封面部分。
@@ -120,5 +121,6 @@ https://github.com/waylau/harmonyos-tutorial/issues
 ## 参考引用
 
 * 原文同步至：<https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-book>
+* 视频介绍可见B站：<https://www.bilibili.com/video/BV1cZ4y117w3/>
 * 京东：<https://item.jd.com/13696724.html>
 * 当当：<http://product.dangdang.com/29386650.html>
