@@ -74,3 +74,4 @@ permalink: /books/
 * [跟老卫学FreeCAD开发](https://github.com/waylau/freecad-tutorial)
 * [Vue.js 3企业级应用开发实战](https://waylau.com/about-vuejs-enterprise-application-development)(202201已出版)
 * [鸿蒙HarmonyOS应用开发从入门到精通](https://github.com/waylau/harmonyos-tutorial)(202204已出版)
+* [跟老卫学Apache Kafka开发](https://github.com/waylau/apache-kafka-tutorial)
