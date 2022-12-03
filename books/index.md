@@ -76,3 +76,4 @@ permalink: /books/
 * [鸿蒙HarmonyOS应用开发从入门到精通](https://github.com/waylau/harmonyos-tutorial)(202204已出版)
 * [跟老卫学Apache Kafka开发](https://github.com/waylau/apache-kafka-tutorial)
 * [跟老卫学OpenHarmony开发](https://github.com/waylau/openharmony-tutorial)
+* [HarmonyOS题库](https://github.com/waylau/harmonyos-exam)
