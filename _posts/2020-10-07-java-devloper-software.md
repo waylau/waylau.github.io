@@ -11,6 +11,50 @@ tags: [Software,Java]
 本文整理的是本人在Java开发过程中，常用的一些软件集合。
 
 <!-- more -->
+# 开发工具
+
+## JDK
+
+http://jdk.java.net/15/
+
+## Maven
+
+https://maven.apache.org/download.cgi
+
+## Eclipse IDE
+
+https://www.eclipse.org/downloads/packages
+
+## VS Code
+
+https://code.visualstudio.com/
+
+
+## Git
+
+https://github.com/waylau/git-for-win
+
+
+https://tortoisegit.org/download/
+
+
+
+## WinMerge
+
+https://winmerge.org/downloads
+
+
+## DevEco Studio
+
+https://developer.harmonyos.com/cn/develop/deveco-studio
+
+
+## IntelliJ IDEA
+
+
+https://www.jetbrains.com/zh-cn/idea/
+
+# 系统硬件
 
 ## Rufus 
 
@@ -30,16 +74,35 @@ https://crystalmark.info/
 https://crystalmark.info/
 
 
+## Core Temp
+
+https://www.alcpu.com/CoreTemp/
+
+
+
+## ToDesk
+
+https://www.todesk.com/download.html
+
+
+## 屏幕检测
+
+https://screen.bmcx.com/
+
+## NZXT CAM 
+
+https://www.nzxt.com/camapp
+
+
+## 鲁大师
+
+https://www.ludashi.com/
+
+# 办公
+
 ## 7-Zip
 
 https://www.7-zip.org/
-
-## Git
-
-https://github.com/waylau/git-for-win
-
-
-https://tortoisegit.org/download/
 
 ## Notepad++
 
@@ -50,33 +113,15 @@ https://notepad-plus-plus.org/downloads/
 https://www.xunlei.com/
 
 
-## JDK
-
-http://jdk.java.net/15/
-
-## Maven
-
-https://maven.apache.org/download.cgi
-
-## Eclipse IDE
-
-https://www.eclipse.org/downloads/packages
-
-## VS Code
-
-https://code.visualstudio.com/
 
 ## QQ
 
 https://im.qq.com/pcqq/
 
-## QQ影音
+## 企业微信
 
-https://player.qq.com/
+https://work.weixin.qq.com/
 
-## Core Temp
-
-https://www.alcpu.com/CoreTemp/
 
 ## 手心输入法
 
@@ -90,18 +135,15 @@ https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html
 
 http://www.pandoc.org/
 
-## ToDesk
+## 网易邮箱大师
 
-https://www.todesk.com/download.html
+https://dashi.163.com/index.html
 
-## WinMerge
 
-https://winmerge.org/downloads
 
-## 屏幕检测
+# 媒体处理
 
-https://screen.bmcx.com/
+剪映专业版
 
-## NZXT CAM 
+https://www.capcut.cn/
 
-https://www.nzxt.com/camapp
