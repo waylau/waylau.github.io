@@ -11,6 +11,7 @@ tags: [Software,Java]
 本文整理的是本人在Java开发过程中，常用的一些软件集合。
 
 <!-- more -->
+
 # 开发工具
 
 ## JDK
@@ -139,11 +140,20 @@ http://www.pandoc.org/
 
 https://dashi.163.com/index.html
 
+## 飞书
 
+https://www.feishu.cn/
 
 # 媒体处理
 
-剪映专业版
+## 剪映专业版
 
 https://www.capcut.cn/
 
+## ScreenToGif 
+
+https://www.screentogif.com/
+
+## AQ录制
+
+https://aq-game.yy.com/
