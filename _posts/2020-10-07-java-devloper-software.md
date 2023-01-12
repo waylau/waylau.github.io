@@ -55,6 +55,12 @@ https://developer.harmonyos.com/cn/develop/deveco-studio
 
 https://www.jetbrains.com/zh-cn/idea/
 
+
+## HeidiSQL
+
+https://www.heidisql.com/
+
+
 # 系统硬件
 
 ## Rufus 
