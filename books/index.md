@@ -77,4 +77,5 @@ permalink: /books/
 * [跟老卫学Apache Kafka开发](https://github.com/waylau/apache-kafka-tutorial)
 * [跟老卫学OpenHarmony开发](https://github.com/waylau/openharmony-tutorial)
 * [HarmonyOS题库](https://github.com/waylau/harmonyos-exam)
+* [牛客题霸-在线编程 题库题解](https://github.com/waylau/nowcoder-exam-oj)
 * [跟老卫学jDialects开发](https://github.com/waylau/jdialects-tutorial)
