@@ -60,6 +60,9 @@ https://www.jetbrains.com/zh-cn/idea/
 
 https://www.heidisql.com/
 
+## Datablau Data Modeler
+
+http://www.datablau.cn/
 
 # 系统硬件
 

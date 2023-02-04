@@ -34,11 +34,11 @@ my.ini 是 MySQL 安装的配置文件：
 # 安装目录
 basedir=D:\\mysql-8.0.12-winx64
 # 数据存放目录
-datadir=D:\\mysqlData\\data
+datadir=D:\\mysqlData
 ```
 
 
-my.ini放置在 MySQL 安装目录的根目录下。需要注意的是，要先创建`D:\mysqlData`目录。`data`目录是由 MySQL 来创建。
+my.ini放置在 MySQL 安装目录的根目录下。需要注意的是，要先创建`D:\mysqlData`目录。
 
 
 ## 初始化安装
