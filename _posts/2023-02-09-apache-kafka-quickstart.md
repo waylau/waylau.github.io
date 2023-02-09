@@ -36,6 +36,14 @@ Apache Kafka可以使用ZooKeeper或KRaft启动，要开始使用任何一种配
 $ bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
+其中，可以在zookeeper.properties文件中自定义数据存放的目录：
+
+```
+#dataDir=/tmp/zookeeper
+dataDir=D:/data/zookeeper
+```
+
+
 
 打开另一个终端会话并运行：
 
@@ -44,8 +52,27 @@ $ bin/zookeeper-server-start.sh config/zookeeper.properties
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
+其中，可以在server.properties文件中自定义日志存放的目录：
+
+```
+#log.dirs=/tmp/kafka-logs
+log.dirs=D:/data/kafka/kafka-logs
+```
 
 一旦所有服务都成功启动，将有一个基本的Kafka环境正在运行并随时可以使用。
+
+
+**注**：上述命令是在Linux下执行，如果是Windows环境下，则要执行windows下的目录，例如`bin/windows/*.bat`脚本。
+命令如下：
+
+```
+cd bin/windows
+
+zookeeper-server-start.bat ../../config/zookeeper.properties
+
+kafka-server-start.bat ../../config/server.properties
+```
+
 
 ### 启用KRaft配置
 
@@ -132,6 +159,43 @@ This is my second event
 
 可以随时使用Ctrl-C停止消费者客户端。
 
+## Windows下启用KRaft配置报错
+
+
+报错如下：
+
+```
+java.io.UncheckedIOException: Error while writing the Quorum status from the file D:\data\kafka\kraft-combined-logs\__cluster_metadata-0\quorum-state
+        at org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile(FileBasedStateStore.java:155)
+        at org.apache.kafka.raft.FileBasedStateStore.writeElectionState(FileBasedStateStore.java:128)
+        at org.apache.kafka.raft.QuorumState.transitionTo(QuorumState.java:477)
+        at org.apache.kafka.raft.QuorumState.initialize(QuorumState.java:212)
+        at org.apache.kafka.raft.KafkaRaftClient.initialize(KafkaRaftClient.java:369)
+        at kafka.raft.KafkaRaftManager.buildRaftClient(RaftManager.scala:240)
+        at kafka.raft.KafkaRaftManager.<init>(RaftManager.scala:166)
+        at kafka.server.SharedServer.start(SharedServer.scala:228)
+        at kafka.server.SharedServer.startForController(SharedServer.scala:128)
+        at kafka.server.ControllerServer.startup(ControllerServer.scala:188)
+        at kafka.server.KafkaRaftServer.$anonfun$startup$1(KafkaRaftServer.scala:98)
+        at kafka.server.KafkaRaftServer.$anonfun$startup$1$adapted(KafkaRaftServer.scala:98)
+        at scala.Option.foreach(Option.scala:437)
+        at kafka.server.KafkaRaftServer.startup(KafkaRaftServer.scala:98)
+        at kafka.Kafka$.main(Kafka.scala:115)
+        at kafka.Kafka.main(Kafka.scala)
+Caused by: java.nio.file.FileSystemException: D:\data\kafka\kraft-combined-logs\__cluster_metadata-0\quorum-state.tmp -> D:\data\kafka\kraft-combined-logs\__cluster_metadata-0\quorum-state: 另一个程序正在使用此文件，进程无法访问。
+
+        at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+        at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+        at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:387)
+        at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287)
+        at java.nio.file.Files.move(Files.java:1395)
+        at org.apache.kafka.common.utils.Utils.atomicMoveWithFallback(Utils.java:949)
+        at org.apache.kafka.common.utils.Utils.atomicMoveWithFallback(Utils.java:932)
+        at org.apache.kafka.raft.FileBasedStateStore.writeElectionStateToFile(FileBasedStateStore.java:152)
+        ... 15 more
+```
+
+该问题暂时还没有解决，在GitHub上已经有人反馈了<https://github.com/apache/kafka/pull/12763>
 
 
 ## 参考引用
