@@ -109,8 +109,24 @@ ConsumeMessageThread_please_rename_unique_group_name_4_4 Receive New Messages: [
 \bin>mqshutdown namesrv
 ```
 
+## RocketMQ Dashboard的使用
+
+
+RocketMQ Dashboard是一个RocketMQ的管理界面，可以获得客户端和应用程序的事件、性能和系统信息的各种图表和统计信息。也可以作为测试工具，用于消息的发送。
+
+RocketMQ Dashboard项目主页为：<https://github.com/apache/rocketmq-dashboard/>。只提供源码，需要自己生成可运行的编译文件。
+
+使用Maven编译运行
+
+```
+mvn clean package -Dmaven.test.skip=true
+java -jar target/rocketmq-dashboard-1.0.1-SNAPSHOT.jar
+
+
+具体操作详见<https://rocketmq.apache.org/docs/deploymentOperations/04Dashboard/>
 
 ## 参考引用
 
+* https://rocketmq.apache.org/docs/deploymentOperations/04Dashboard/
 * https://rocketmq.apache.org/docs/quickStart/01quickstart
 * 原文同步至<https://waylau.com/apache-rocketmq-quickstart/>
