@@ -211,4 +211,4 @@ Received message: This is a text message
 ## 参考引用
 
 * hhttps://activemq.apache.org/components/artemis/documentation/
-* 原文同步至<https://waylau.com/apache-activemq-quickstart/>
+* 原文同步至<https://waylau.com/apache-activemq-artemis-quickstart/>
