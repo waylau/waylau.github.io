@@ -104,4 +104,4 @@ ACTIVEMQ_DATA: D:\dev\java\apache-activemq-5.17.3\bin\..\data
 ## 参考引用
 
 * https://activemq.apache.org/components/classic/documentation
-* 原文同步至<https://waylau.com/apache-activemq-artemis-quickstart/>
+* 原文同步至<https://waylau.com/apache-activemq-quickstart/>
