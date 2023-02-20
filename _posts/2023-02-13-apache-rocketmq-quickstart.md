@@ -121,6 +121,8 @@ RocketMQ Dashboard项目主页为：<https://github.com/apache/rocketmq-dashboar
 ```
 mvn clean package -Dmaven.test.skip=true
 java -jar target/rocketmq-dashboard-1.0.1-SNAPSHOT.jar
+```
+
 
 
 具体操作详见<https://rocketmq.apache.org/docs/deploymentOperations/04Dashboard/>
