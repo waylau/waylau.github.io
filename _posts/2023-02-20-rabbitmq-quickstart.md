@@ -61,8 +61,7 @@ sbin\rabbitmq-server stop
 
 ## 发送消息、接收消息
 
-详细示例可以可见<
-https://github.com/waylau/distributed-systems-technologies-and-cases-analysis/tree/master/samples/chapter3/rabbitmq-demo>（Java版本）
+详细示例可以可见<https://github.com/waylau/distributed-systems-technologies-and-cases-analysis/tree/master/samples/chapter3/rabbitmq-demo>（Java版本）
 
 当然，也可以在RabbitMQ的控制台界面来发送消息。
 
