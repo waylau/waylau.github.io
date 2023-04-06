@@ -16,7 +16,7 @@ tags: [Software,Java]
 
 ## JDK
 
-http://jdk.java.net/15/
+http://jdk.java.net/17/
 
 ## Maven
 

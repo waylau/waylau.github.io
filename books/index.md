@@ -64,7 +64,7 @@ permalink: /books/
 * [還在 LAMP？用最流行的 MEAN 進行全端網頁開發](https://www.tenlong.com.tw/products/9789865501624)(电子工业出版社2020年11月出版)
 * [Netty原理解析与开发实战](https:///waylau.com/netty-4-user-guide/)(北京大学出版社2020年12月出版)
 * [分布式系统开发实战](https://github.com/waylau/distributed-system-tutorial-samples)(人民邮电出版社2021年3月出版)
-* [轻量级Java EE企业应用开发实战](https://github.com/waylau/java-ee-enterprise-development-samples)(北京大学出版社2021年4月出版)
+* [轻量级Java EE企业应用开发实战](https://github.com/waylau/java-ee-enterprise-development-samples)(清华大学出版社2021年4月出版)
 * [跟老卫学Vue.js开发](https://github.com/waylau/vuejs-enterprise-application-development)
 * [跟老卫学Apache Spark开发](https://github.com/waylau/apache-spark-tutorial)
 * [数据结构和算法基础（Java语言实现）](https://github.com/waylau/java-data-structures-and-algorithms-in-action)(北京大学出版社2021年11月出版)
