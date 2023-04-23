@@ -174,3 +174,9 @@ https://www.screentogif.com/
 ## AQ录制
 
 https://aq-game.yy.com/
+
+# Windows
+
+## MicroKMS神龙版
+
+http://www.yishimei.cn/network/319.html
