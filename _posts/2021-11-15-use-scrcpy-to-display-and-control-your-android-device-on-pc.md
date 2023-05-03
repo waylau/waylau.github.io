@@ -45,6 +45,8 @@ PC端下载、解压scrcpy，即可完成安装。
 执行下面命令启用：
 
 ```
+adb tcpip 5555
+
 restarting in TCP mode port: 5555
 ```
 
@@ -55,8 +57,6 @@ restarting in TCP mode port: 5555
 ### 5、scrcpy自带ADB工具连接到手机
 
 ```
-adb tcpip 5555
-
 adb connect 192.168.68.122:5555
 ```
 
