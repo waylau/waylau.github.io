@@ -180,3 +180,12 @@ https://aq-game.yy.com/
 ## MicroKMS神龙版
 
 http://www.yishimei.cn/network/319.html
+
+
+
+## OpenArk 
+
+https://github.com/BlackINT3/OpenArk
+
+OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗恶意程序）的简写, OpenArk目标成为逆向工程师、编程人员的工具，同时也能为那些希望清理恶意软件的用户服务。
+
