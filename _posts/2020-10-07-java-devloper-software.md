@@ -77,6 +77,15 @@ https://github.com/jgm/pandoc/
 
 https://tabby.sh/
 
+
+
+## Fetch GitHub Hosts
+
+fetch-github-hosts 是主要为解决研究及学习人员访问 Github 过慢或其他问题而提供的 Github Hosts 同步工具
+
+https://hosts.gitcdn.top/
+
+
 # 系统硬件
 
 ## Rufus 
@@ -197,4 +206,5 @@ http://www.yishimei.cn/network/319.html
 https://github.com/BlackINT3/OpenArk
 
 OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗恶意程序）的简写, OpenArk目标成为逆向工程师、编程人员的工具，同时也能为那些希望清理恶意软件的用户服务。
+
 
