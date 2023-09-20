@@ -8,7 +8,7 @@ categories: [JDK,Java]
 tags: [JDK,Java]
 ---
 
-JDK 17已经于2021年3月16日如期发布。本文介绍JDK 17新特性。JDK 17于2021年9月14日正式发布（General-Availability Release）。JDK 17将是大多数供应商的长期支持（LMS）版本。上一个LTS版本是JDK 11。
+JDK 17已经于2021年3月16日如期发布。本文介绍JDK 17新特性。JDK 17于2021年9月14日正式发布（General-Availability Release）。JDK 17将是大多数供应商的长期支持（LTS）版本。上一个LTS版本是JDK 11。
 
 本文总结了JDK 17发布的新特性。
 
@@ -24,7 +24,7 @@ JDK 17是Java SE平台版本17的开源参考实现，由[JSR 392](https://openj
 
 主要分为OpenJDK版本和Oracle版本，下载地址如下：
 
-* OpenJDK版本：<https://jdk.java.net/16/>
+* OpenJDK版本：<https://jdk.java.net/17/>
 * Oracle版本：<https://www.oracle.com/java/technologies/downloads/>
 
 
