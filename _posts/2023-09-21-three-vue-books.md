@@ -5,7 +5,7 @@ date: 2023-09-21 00:22
 author: admin
 comments: true
 categories: [Vue.js]
-tags: [JVue.js]
+tags: [Vue.js]
 ---
 
 Vue.js是流行的 Web 前端框架，目前最新版本是Vue.js 3。本节介绍三本有关Vue.js 3的书籍。
@@ -37,7 +37,7 @@ JavaScript是Web开发最为流行的编程语言，而Node.js的出现使得Jav
 
 ## Vue.js+Spring Boot全栈开发实战
 
-《Vue.js+Spring Boot全栈开发实战》是由人民邮电出版社2023年8月出版。
+《Vue.js+Spring Boot全栈开发实战》是由人民邮电出版社2023年9月出版。
 
 ![](https://img10.360buyimg.com/n1/jfs/t1/120438/2/25818/63451/6500248fFd7524d47/7579832ae51c3fcf.jpg)
 
