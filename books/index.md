@@ -82,4 +82,4 @@ permalink: /books/
 * [Node.js+Express+MongoDB+Vue.js全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-nodejs)(清华大学出版社2023年1月出版)
 * [跟老卫学Spring Cloud Stream开发](https://github.com/waylau/spring-cloud-stream-tutorial/)
 * [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频）
-* [Vue.js+Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年8月出版)
+* [Vue.js+Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
