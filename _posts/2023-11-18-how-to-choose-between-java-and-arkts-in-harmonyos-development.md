@@ -128,4 +128,4 @@ HarmonyOS NEXT何时能够成为主流？那就要看鸿蒙的生态何时能够
 
 ## 其他
 
-本文同步至：<https://waylau/how-to-choose-between-java-and-arkts-in-harmonyos-development>
+本文同步至：<https://waylau.com/how-to-choose-between-java-and-arkts-in-harmonyos-development>
