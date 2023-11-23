@@ -208,3 +208,18 @@ https://github.com/BlackINT3/OpenArk
 OpenArk是一款Windows平台上的开源Ark工具. Ark是Anti-Rootkit（对抗恶意程序）的简写, OpenArk目标成为逆向工程师、编程人员的工具，同时也能为那些希望清理恶意软件的用户服务。
 
 
+# 网络管理
+
+
+## Tailscale
+
+https://tailscale.com/
+
+远程访问工具。可从外网访问内网。
+
+
+## xrdp
+
+http://www.xrdp.org/
+
+提供RDP协议（Microsoft Remote Desktop Protocol）远程桌面。
