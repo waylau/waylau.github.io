@@ -132,39 +132,81 @@ VirtualBox Extension Pack为客户机提供了一些有用的功能，例如虚�
 ![](../images/post/20231123-virtualbox-centos-05.png)
 
 
-## 设置远程桌面
- 
- 
+## 网络设置
 
-
-安装Xrdp
-
-```
-[root@localhost ~]# yum -y install xrdp
-```
-
-
-如果提示没有可用的软件包，需要安装EPEL
+开放本机的SSH服务
 
 
 ```
-yum -y install epel-release
+sudo apt-get install openssh-serve
+```
+
+开放防火墙
+
+```
+sudo ufw allow ssh
+```
+
+UFW防火墙已配置为允许传入SSH连接，我们可以通过键入以下命令启用它：
+
+
+```
+sudo ufw enable
+```
+
+设置固定IP。运行以下命令来编辑网络配置文件：
+
+```
+sudo vi /etc/netplan/01-network-manager-all.yaml
 ```
 
 
-启动xrdp
-
-
-安装完成之后，设置开机启动并启动xrdp
+文件内容如下：
 
 ```
-[root@localhost ~]# systemctl start xrdp && systemctl enable xrdp
+network:
+  version: 2
+  renderer: NetworkManager
+  ethernets:
+    eth0:
+      dhcp4: false
+      addresses: [192.168.1.73/24]
+      gateway4: 192.168.1.1
 ```
- 
-运行下面的命令，将xrdp用户添加到这个用户组：
+
+
+## 安装远程桌面
+
+
+Xrdp 被包含在默认的 Ubuntu 软件源中。想要安装它，运行：
+
 
 ```
-sudo adduser xrdp ssl-cert
+sudo apt install xrdp 
+```
+
+一旦安装完成，Xrdp 服务将会自动启动。你可以输入下面的命令，验证它：
+
+```
+sudo systemctl status xrdp
+```
+
+
+输出将会像下面这样：
+
+
+```
+● xrdp.service - xrdp daemon
+     Loaded: loaded (/lib/systemd/system/xrdp.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2020-05-22 17:36:16 UTC; 4min 41s ago
+  ...
+```
+
+
+默认情况下，Xrdp 使用`/etc/ssl/private/ssl-cert-snakeoil.key`，它仅仅对“ssl-cert” 用户组成语可读。运行下面的命令，将xrdp用户添加到这个用户组：
+
+```
+sudo adduser xrdp ssl-cert  
 ```
 
 重启 Xrdp 服务，使得修改生效：
@@ -176,9 +218,11 @@ sudo systemctl restart xrdp
 
 开放防火墙
 
+
 ```
 sudo ufw allow 3389
 ```
+
 
 
 
