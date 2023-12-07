@@ -73,7 +73,7 @@ permalink: /books/
 * [跟老卫学Ehcache开发](https://github.com/waylau/ehcache-tutorial)
 * [跟老卫学FreeCAD开发](https://github.com/waylau/freecad-tutorial)
 * [Vue.js 3企业级应用开发实战](https://waylau.com/about-vuejs-enterprise-application-development)(电子工业出版社2022年1月出版)
-* [鸿蒙HarmonyOS应用开发从入门到精通](https://github.com/waylau/harmonyos-tutorial)(北京大学出版社2022年4月出版)
+* [鸿蒙HarmonyOS应用开发从入门到精通](https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-book/)(北京大学出版社2022年4月出版)
 * [跟老卫学Apache Kafka开发](https://github.com/waylau/apache-kafka-tutorial)
 * [跟老卫学OpenHarmony开发](https://github.com/waylau/openharmony-tutorial)
 * [HarmonyOS题库](https://github.com/waylau/harmonyos-exam)
@@ -83,3 +83,4 @@ permalink: /books/
 * [跟老卫学Spring Cloud Stream开发](https://github.com/waylau/spring-cloud-stream-tutorial/)
 * [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频）
 * [Vue.js+Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
+* [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)(清华大学出版社2023年12月出版)
