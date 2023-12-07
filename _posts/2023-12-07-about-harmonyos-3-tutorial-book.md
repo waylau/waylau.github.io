@@ -44,7 +44,8 @@ tags: [HarmonyOS]
 
 封底部分可以看到主要是对本书的简介。
 
-这本书适合HarmonyOS应用开发初学者和进阶读者作为自学教程，也适合培训学校作为培训教材，还适合大、中专院校的相关专业作为教学参考书。
+适合HarmonyOS应用开发初学者和进阶读者作为自学用书，也适合培训机构作为培训教材，还适合大、中专院校的相关专业作为教学参考书。
+考书。
 
 全书篇幅接近300页，定价为89元，也算良心了。极具性价比。
 
@@ -56,17 +57,19 @@ tags: [HarmonyOS]
 ## 内容简介
 
 
-HarmonyOS是一款面向未来、面向全场景的分布式操作系统。借助HarmonyOS全场景分布式系统和设备生态，定义全新的硬件、交互和服务体验。本书采用最新的HarmonyOS 3版本作为基石，详细介绍了如何基于HarmonyOS 3来进行应用开发，包括HarmonyOS架构、DevEco Studio、应用结构、Ability、UI开发、公共事件、窗口管理、网络编程、安全管理、数据管理等多个主题。综合实战部分详细介绍开发一个完整购物应用的过程。本书辅以大量的实战案例，图文并茂，令读者易于理解掌握。同时，案例的选型偏重于解决实际问题，具有很强的前瞻性、应用性、趣味性。加入鸿蒙生态，让我们一起构建万物互联的新时代！
+HarmonyOS是一款面向未来、面向全场景的分布式操作系统，借助HarmonyOS全场景分布式系统和设备生态，定义全新的硬件、交互和服务体验。本书采用的HarmonyOS 3.1版本作为基础，详细介绍如何基于HarmonyOS 3.1来进行应用开发，包括HarmonyOS架构、DevEco Studio、应用结构、Ability、UI开发、公共事件、窗口管理、网络编程、安全管理、数据管理等多个主题，还介绍如何从0开始开发计算器、视频播放器、购物应用、微信应用等。本书辅以大量的实战案例，图文并茂，让读者易于理解掌握。同时，案例的选型偏重于解决实际问题，具有很强的前瞻性、应用性和趣味性。加入鸿蒙生态，让我们一起构建万物互联的新时代！
 
 
 
 ## 写作背景
 
-当HarmonyOS 3还未正式发布的时候，笔者便已经开始关注HarmonyOS 3的发展路线图了。笔者在各大论坛也对HarmonyOS 3新特性进行过非常多的文章介绍以及技术布道。本书所选用HarmonyOS版本的也是市面上能看到的最新版本。
 
-由于笔者之前已经出版过了两本专著《[鸿蒙HarmonyOS手机应用开发实战](https://waylau.com/about-harmonyos-mobile-application-development-book/)》《[鸿蒙HarmonyOS应用开发从入门到精通](https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-book/)》，并在持续维护一本开源书《跟老卫学HarmonyOS开发》，因此撰写本书并没有带来太多的困难。当然，HarmonyOS 3由于革命性地引入了ArkUI、ArkTS、Stage模型等众多新特性，使得我不得不花费更多的时间去完成书中的示例。
 
-本书的内容聚焦于HarmonyOS 3.1版本常用的核心功能。这些核心功能都是经过笔者验证过的、可用的。而其他那些或因为是非核心功能或因为功能还存在bug或是其他的原因而没有收入进本书的功能，将会收集到《跟老卫学HarmonyOS开发》中去，以开源的方式不断演进。
+当HarmonyOS 3还未正式发布的时候，笔者便已经开始关注HarmonyOS 3的发展路线图了。笔者在各大论坛对HarmonyOS 3的新特性进行过非常多的文章介绍以及技术布道。本书所选用的HarmonyOS版本是市面上能看到的最新版本。
+
+由于笔者之前已经出版过两本鸿蒙方面的图书《[鸿蒙HarmonyOS手机应用开发实战](https://waylau.com/about-harmonyos-mobile-application-development-book/)》《[鸿蒙HarmonyOS应用开发从入门到精通](https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-book/)》，并在持续维护一本开源书《[跟老卫学HarmonyOS开发](https://github.com/waylau/harmonyos-tutorial)》，因此撰写本书并没有遇到太多的困难。当然，HarmonyOS 3由于革命性地引入了ArkUI、ArkTS、Stage模型等众多新特性，使得笔者不得不花费更多的时间来完成书中的示例。
+
+本书的内容聚焦于HarmonyOS 3.1版本常用的核心功能。这些核心功能都是经过笔者验证过的、可用的。而其他的非核心功能，或功能存在bug或因其他原因没有收录进本书的功能，将会收集到《跟老卫学HarmonyOS开发》一书中，以开源的方式不断演进。
 
 
 ## 内容介绍
