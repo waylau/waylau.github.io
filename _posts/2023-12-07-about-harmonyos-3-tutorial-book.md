@@ -39,7 +39,7 @@ tags: [HarmonyOS]
 介绍封底部分。
 
 
-![](../images/post/20231207-harmonyos-01.png)
+![](../images/post/20231207-harmonyos-02.png)
 
 
 封底部分可以看到主要是对本书的简介。
