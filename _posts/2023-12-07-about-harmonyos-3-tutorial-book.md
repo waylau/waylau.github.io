@@ -140,6 +140,10 @@ https://github.com/waylau/harmonyos-tutorial/issues
 
 <https://github.com/waylau/harmonyos-exam>
 
+## 视频介绍
+
+见B站：<https://www.bilibili.com/video/BV1ee411o7XE>
+
 
 
 ## 参考引用
