@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 使用Padman对MySQL进行容器化部署
+title: 使用Podman对MySQL进行容器化部署
 date: 2023-12-05 00:22
 author: admin
 comments: true
-categories: [Padman,MySQL]
-tags: [MySQL,MySQL]
+categories: [Podman,MySQL]
+tags: [Podman,MySQL]
 ---
 
 
-本文演示了如何在Linux（以Ubuntu为例）安装Padman，并通过Padman部署MySQL。
+本文演示了如何在Linux（以Ubuntu为例）安装Podman，并通过Podman部署MySQL。
 
 <!-- more -->
 
