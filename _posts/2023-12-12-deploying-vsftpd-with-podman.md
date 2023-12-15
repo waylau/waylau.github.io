@@ -295,3 +295,25 @@ sudo ufw allow  21100:21110/tcp
 
 
 最终`/data/vsftpd/container-themetis-vsftpd-ftp/ftptest` 是用于存放文件数据
+
+
+## 问题
+
+启动容器失败，保没有权限
+
+```
+$ podman start 14935b99c5bd
+Error: unable to start container "14935b99c5bdc0206a05af764d4492f3534e99dbc27e7eeaf4db1d786d3c319c": rootlessport cannot expose privileged port 20, you can add 'net.ipv4.ip_unprivileged_port_start=20' to /etc/sysctl.conf (currently 1024), or choose a larger port number (>= 1024): listen tcp 0.0.0.0:20: bind: permission denied
+```
+
+原因是没有使用20端口的权限。
+
+解决方法1：临时生效
+
+```
+sysctl net.ipv4.ip_unprivileged_port_start=0
+```
+
+解决方法2：永久生效
+
+将`net.ipv4.ip_unprivileged_port_start=0`添加到`/etc/sysctl.conf`文件。
