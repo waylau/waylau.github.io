@@ -138,7 +138,7 @@ VirtualBox Extension Pack为客户机提供了一些有用的功能，例如虚�
 
 
 ```
-sudo apt-get install openssh-serve
+sudo apt-get install openssh-server
 ```
 
 开放防火墙
