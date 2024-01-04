@@ -92,14 +92,16 @@ sudo apt-get install -y postfix
 ```
 curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
 ```
-## 下载、安装GitLab
+## 下载、安装极狐GitLab
 
 
-运行下面的命令，把 EXTERNAL_URL 替换为你服务器的 hostname，并自动安装和配置 gitlab-ce：
+运行下面的命令，把 EXTERNAL_URL 替换为你服务器的 hostname，将在你的 ubuntu 系统上自动安装和配置 gitlab-ce
 
 ```
-sudo EXTERNAL_URL="http://192.168.1.71" apt install gitlab-ce
+sudo EXTERNAL_URL="http://192.168.1.71" apt install gitlab-ce=16.7.0-ce.0
 ```
+
+
 
 
 看下以下内容输出，则证明安装完成：
@@ -162,7 +164,7 @@ No VM guests are running outdated hypervisor (qemu) binaries on this host.
 ```
 
 
-## 访问 GitLab 实例并登录
+## 访问极狐GitLab 实例并登录
 
 
 随机生成一个密码并存储在 `/etc/gitlab/initial_root_password` 文件中。出于安全原因，24 小时后，此文件会被第一次 gitlab-ctl reconfigure 自动删除，因此若使用随机密码登录，建议安装成功初始登录成功之后，立即修改初始密码）。
@@ -176,7 +178,7 @@ $ sudo cat /etc/gitlab/initial_root_password
 #
 #          If the password shown here doesn't work, you must reset the admin password following https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
 
-Password: D2rW30+EDRUlFxE8OlcTXA6bYHGGYzrrYBJjxxx
+Password: sWmGpTw6tA01pWhz+qvNbVJwzGQxLBg84wxyG5yZYKc=
 
 # NOTE: This file will be automatically deleted in the first reconfigure run after 24 hours.
 ```
@@ -186,18 +188,40 @@ Password: D2rW30+EDRUlFxE8OlcTXA6bYHGGYzrrYBJjxxx
 
 ## 查看当前GitLab版本
 
+确保源版本和目标版本一致。
+
 ```
 cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
 ```
 
+
+安装时可指定版本：
+
+```
+sudo apt-get install gitlab-ce=16.7.0-ce.0
+```
+
+注意更新的路径
+
+```
+yum install gitlab-ce-16.3.0
+
+yum install gitlab-ce-16.7.0
+```
 
 ## GitLab备份
 
 
 
 升级前先备份。
-备份时需要保持GitLab处于正常运行状态，通过执行`gitlab-rake gitlab:backup:create`进行备份。
-默认备份文件会存在在`/var/opt/gitlab/backups`目录下，备份的文件是个tar包，包含了GitLab的所有数据(账户、仓库等)。
+备份时需要保持GitLab处于正常运行状态，通过执行以下命令进行备份：
+
+```
+gitlab-rake gitlab:backup:create
+```
+
+
+默认备份文件“1704260742_2024_01_03_16.7.0”会存在在`/var/opt/gitlab/backups`目录下，备份的文件是个tar包，包含了GitLab的所有数据(账户、仓库等)。
 
 同时需要手动备份 `/etc/gitlab/gitlab-secrets.json` 、`/etc/gitlab/gitlab.rb`。
 
@@ -207,28 +231,98 @@ cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
 停止目标GitLab数据服务：
 
 ```
-gitlab-ctl stop unicorn
-
-gitlab-ctl stop sidekiq
+sudo gitlab-ctl stop puma
+sudo gitlab-ctl stop sidekiq
+# 验证
+sudo gitlab-ctl status
 ```
 
 
-拷贝源gitlab的备份文件到目标服务器。
+拷贝源gitlab的备份文件、`gitlab-secrets.json` 、`gitlab.rb`到目标服务器。
+
+
+执行
+
+```
+gitlab-ctl reconfigure
+```
 
 执行恢复操作（不加后缀或者加着都行）：
 
 ```
-gitlab-rake gitlab:backup:restore BACKUP=1684205552_2023_12_21_15.0.5
+sudo gitlab-backup restore BACKUP=1704260742_2024_01_03_16.7.0
 ```
 
 
 注意看着电脑，会提示输入yes
 
 
-恢复完成重启服务即可
+恢复完成重启服务并检查：
 
 ```
-gitlab-ctl restart
-
-chmod -R 755 /var/log/gitlab
+sudo gitlab-ctl restart
+sudo gitlab-rake gitlab:check SANITIZE=true
 ```
+
+检查：
+
+```
+sudo gitlab-rake gitlab:doctor:secrets
+
+sudo gitlab-rake gitlab:artifacts:check
+sudo gitlab-rake gitlab:lfs:check
+sudo gitlab-rake gitlab:uploads:check
+```
+
+## 停服
+
+
+源服务器停止：
+
+```
+sudo gitlab-ctl stop
+```
+
+## 卸载
+
+
+查询 gitlab 安装包
+
+
+```
+dpkg --list |grep gitlab
+
+ii  gitlab-ce                             16.7.0-ce.0                             amd64        GitLab Community Edition (including NGINX, Postgres, Redis)
+```
+
+```
+ps -ef | grep gitlab
+```
+
+
+卸载 gitlab
+
+```
+sudo apt-get --purge remove gitlab-ce
+```
+
+删除所有包含gitlab文件
+
+```
+sudo find / -name gitlab | xargs rm -rf
+sudo find / -name gitlab | xargs sudo rm -rf
+```
+
+
+确认一下
+
+```
+ps -ef | grep gitlab
+dpkg --list |grep gitlab
+```
+
+
+
+## 参考
+
+<https://docs.gitlab.com/ee/raketasks/backup_restore.html#restore-for-omnibus-gitlab-installations>
