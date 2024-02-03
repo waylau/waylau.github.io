@@ -144,6 +144,16 @@ https://github.com/waylau/harmonyos-tutorial/issues
 
 见B站：<https://www.bilibili.com/video/BV1ee411o7XE>
 
+## Book 配套书籍、课程
+
+
+
+如果你喜欢本开源书，也欢迎支持下该书的正式出版物，实体店及各大网店有售。
+
+
+* [京东](https://item.jd.com/13963157.html)
+* [当当](https://product.dangdang.com/29664217.html)
+
 
 
 ## 参考引用
