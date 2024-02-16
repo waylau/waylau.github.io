@@ -61,7 +61,7 @@ permalink: /books/
 * [Java安可认证阶段考试——可信代码重构](https://github.com/waylau/java-trusted-code-refactoring-exam)
 * [Node.js企业级应用开发实战](https://github.com/waylau/nodejs-book-samples)(北京大学出版社2020年7月出版)
 * [跟老卫学HarmonyOS开发](https://github.com/waylau/harmonyos-tutorial)
-* [還在 LAMP？用最流行的 MEAN 進行全端網頁開發](https://www.tenlong.com.tw/products/9789865501624)(电子工业出版社2020年11月出版)
+* [還在LAMP？用最流行的MEAN進行全端網頁開發](https://deepwisdom.com.tw/product/%e9%82%84%e5%9c%a8lamp%ef%bc%9f%e7%94%a8%e6%9c%80%e6%b5%81%e8%a1%8c%e7%9a%84mean%e9%80%b2%e8%a1%8c%e5%85%a8%e7%ab%af%e7%b6%b2%e9%a0%81%e9%96%8b%e7%99%bc-dm2051/)(深智數位股份有限公司2020年11月出版)
 * [Netty原理解析与开发实战](https:///waylau.com/netty-4-user-guide/)(北京大学出版社2020年12月出版)
 * [分布式系统开发实战](https://github.com/waylau/distributed-system-tutorial-samples)(人民邮电出版社2021年3月出版)
 * [轻量级Java EE企业应用开发实战](https://github.com/waylau/java-ee-enterprise-development-samples)(清华大学出版社2021年4月出版)
@@ -83,4 +83,6 @@ permalink: /books/
 * [跟老卫学Spring Cloud Stream开发](https://github.com/waylau/spring-cloud-stream-tutorial/)
 * [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频）
 * [Vue.js+Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
+* [大神養成術 – Node.js＋Express+MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版)
 * [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)(清华大学出版社2024年1月出版)
+
