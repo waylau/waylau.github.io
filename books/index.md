@@ -79,10 +79,10 @@ permalink: /books/
 * [HarmonyOS题库](https://github.com/waylau/harmonyos-exam)
 * [牛客题霸-在线编程 题库题解](https://github.com/waylau/nowcoder-exam-oj)
 * [跟老卫学jDialects开发](https://github.com/waylau/jdialects-tutorial)
-* [Node.js+Express+MongoDB+Vue.js全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-nodejs)(清华大学出版社2023年1月出版)
+* [Node.js＋Express＋MongoDB＋Vue.js全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-nodejs)(清华大学出版社2023年1月出版)
 * [跟老卫学Spring Cloud Stream开发](https://github.com/waylau/spring-cloud-stream-tutorial/)
 * [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频）
-* [Vue.js+Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
-* [大神養成術 – Node.js＋Express+MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版)
+* [Vue.js＋Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
+* [大神養成術：Node.js＋Express＋MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版)
 * [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)(清华大学出版社2024年1月出版)
 
