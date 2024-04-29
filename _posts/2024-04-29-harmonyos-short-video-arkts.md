@@ -65,6 +65,7 @@ HarmonyOS实战课程“2024鸿蒙零基础快速实战-仿抖音App开发（Ark
 
 ## 课程效果
 
+视频演示<https://www.bilibili.com/video/BV1KD421M7a8/>
 
 
 ## 参考资料
