@@ -35,9 +35,9 @@ permalink: /books/
 * [Spring Security 教程](https://github.com/waylau/spring-security-tutorial)
 * [Thymeleaf 教程](https://github.com/waylau/thymeleaf-tutorial)
 * [NGINX 教程](https://github.com/waylau/nginx-tutorial)
-* [基于Spring Boot的博客系统实战](http://coding.imooc.com/class/125.html)（视频）
+* [基于Spring Boot的博客系统实战](http://coding.imooc.com/class/125.html)（视频，慕课网2017年7月31日上线）
 * [Spring Cloud 教程](https://github.com/waylau/spring-cloud-tutorial)
-* [基于Spring Cloud的微服务实战](https://coding.imooc.com/class/177.html)（视频）
+* [基于Spring Cloud的微服务实战](https://coding.imooc.com/class/177.html)（视频，慕课网2018年1月22日上线）
 * [JDBC 4.2 规范](https://github.com/waylau/jdbc-specification)
 * [Spring Boot 企业级应用开发实战](https://github.com/waylau/spring-boot-enterprise-application-development)(北京大学出版社2018年3月出版)
 * [Spring Cloud 微服务架构开发实战](https://github.com/waylau/spring-cloud-microservices-development)(北京大学出版社2018年6月出版)
@@ -81,8 +81,9 @@ permalink: /books/
 * [跟老卫学jDialects开发](https://github.com/waylau/jdialects-tutorial)
 * [Node.js＋Express＋MongoDB＋Vue.js全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-nodejs)(清华大学出版社2023年1月出版)
 * [跟老卫学Spring Cloud Stream开发](https://github.com/waylau/spring-cloud-stream-tutorial/)
-* [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频）
+* [鸿蒙系统实战短视频App 从0到1掌握HarmonyOS](https://coding.imooc.com/class/674.html)（视频，慕课网2023年5月8日上线）
 * [Vue.js＋Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)(人民邮电出版社2023年9月出版)
 * [大神養成術：Node.js＋Express＋MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版)
 * [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)(清华大学出版社2024年1月出版)
+* [2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）](https://coding.imooc.com/class/843.html)（视频，慕课网2024年4月29日上线）
 
