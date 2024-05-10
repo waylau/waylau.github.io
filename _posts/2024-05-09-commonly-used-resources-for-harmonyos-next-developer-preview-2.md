@@ -31,7 +31,7 @@ tags: [HarmonyOS, NEXT]
 
 ## 使用真机
 
-若已有真机，但还未升级到Developer Preview 2版本，可以通过参与HarmonyOS NEXT 开发者预览版 Beta 定向招募，来升级手中的真机版本
+若已有真机，但还未升级到Developer Preview2版本，可以通过参与HarmonyOS NEXT 开发者预览版 Beta 定向招募，来升级手中的真机版本
 
 * STEP1：完成定向招募-应知测试链接：<https://developer.huawei.com/consumer/cn/training/exam-home/101713325531290938>
 * STEP2: 完成定向招募-报名链接：<https://developer.huawei.com/consumer/cn/activity/401713318886806143/signup>
