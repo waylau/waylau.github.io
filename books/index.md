@@ -86,4 +86,5 @@ permalink: /books/
 * [大神養成術：Node.js＋Express＋MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版)
 * [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)(清华大学出版社2024年1月出版)
 * [2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）](https://coding.imooc.com/class/843.html)（视频，慕课网2024年4月29日上线）
+* [跟老卫学Rust开发](https://github.com/waylau/rust-tutorial)
 
