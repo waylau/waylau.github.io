@@ -47,8 +47,9 @@ DevEco Studio从NEXT Developer Beta3版本开始，提供开箱即用的开发�
 ## 参考资料
 
 
-* 本文同步至：<https://waylau.com/upgrade-from-harmonyos-next-developer-preview2-to-next-developer-beta3/>
+* 本文同步至：<https://waylau.com/install-deveco-studio-cangjie-plugin/>
 * 《跟老卫学HarmonyOS开发》 开源免费教程，<https://github.com/waylau/harmonyos-tutorial>
+* 《跟老卫学仓颉编程语言开发》 开源免费教程，<https://github.com/waylau/cangjie-programming-language-tutorial>
 * 《鸿蒙HarmonyOS手机应用开发实战》（清华大学出版社）
 * 《鸿蒙HarmonyOS应用开发从入门到精通战》（北京大学出版社）
 * “鸿蒙系统实战短视频App 从0到1掌握HarmonyOS”（<https://coding.imooc.com/class/674.html>）
