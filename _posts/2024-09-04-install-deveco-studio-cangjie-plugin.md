@@ -44,6 +44,9 @@ DevEco Studio Cangjie Plugin下载地址为：https://developer.huawei.com/consu
 
 如需指定仓颉SDK的存放路径，请在安装插件前配置系统环境变量，变量名为“DEVECO_CANGJIE_PATH”，变量值为要存放的路径。配置完系统环境变量后，DevEco Studio需要关闭再打开，环境变量才会生效。
 
+
+![](../images/post/20240904-env.png)
+
 如果不指定仓颉SDK的存放路径，仓颉SDK存放的默认路径在 macOS 系统下默认为 `$HOME/.cangjie-sdk`，windows 下默认为 `%USERPROFILE%/.cangjie-sdk`。
 
 ## 安装本地插件
