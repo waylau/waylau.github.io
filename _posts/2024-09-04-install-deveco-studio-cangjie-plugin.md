@@ -72,6 +72,17 @@ DevEco Studio Cangjie Plugin下载地址为：https://developer.huawei.com/consu
 
 ![](../images/post/20240904-restart.png)
 
+
+## 验证
+
+仓颉SDK目录下，会有一个仓颉编译器，执行“cjc -v”来验证安装是否完成：
+
+```
+D:\dev\cangjie\sdk\.cangjie-sdk\5.0\cangjie\compiler\bin>cjc -v
+Cangjie Compiler: 0.53.8 (cjnative)
+Target: x86_64-w64-mingw32
+```
+
 ## 参考资料
 
 
