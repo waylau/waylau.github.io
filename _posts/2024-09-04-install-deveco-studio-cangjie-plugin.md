@@ -86,7 +86,7 @@ Target: x86_64-w64-mingw32
 ## 参考资料
 
 
-* 本文同步至：<https://waylau.com/upgrade-from-harmonyos-next-developer-preview2-to-next-developer-beta3/>
+* 本文同步至：<https://waylau.com/install-deveco-studio-cangjie-plugin/>
 * 《跟老卫学HarmonyOS开发》 开源免费教程，<https://github.com/waylau/harmonyos-tutorial>
 * 《鸿蒙HarmonyOS手机应用开发实战》（清华大学出版社）
 * 《鸿蒙HarmonyOS应用开发从入门到精通战》（北京大学出版社）
