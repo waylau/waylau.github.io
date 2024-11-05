@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 仓颉编程语言开发环境搭建（安装仓颉工具链）
-date: 2024-09-04 00:22
+date: 2024-11-05 00:22
 author: admin
 comments: true
 categories: [Cangjie]
