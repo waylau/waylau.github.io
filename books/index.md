@@ -88,4 +88,4 @@ permalink: /books/
 * [2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）](https://coding.imooc.com/class/843.html)（视频，慕课网2024年4月29日上线）
 * [跟老卫学Rust开发](https://github.com/waylau/rust-tutorial)
 * [跟老卫学仓颉编程语言开发](https://github.com/waylau/cangjie-programming-language-tutorial)
-
+* [循序渐进Spark大数据应用开发](https://waylau.com/about-spark-tutorial-book/)(清华大学出版社2024年11月出版)
