@@ -89,3 +89,4 @@ permalink: /books/
 * [跟老卫学Rust开发](https://github.com/waylau/rust-tutorial)
 * [跟老卫学仓颉编程语言开发](https://github.com/waylau/cangjie-programming-language-tutorial)
 * [循序渐进Spark大数据应用开发](https://waylau.com/about-spark-tutorial-book/)(清华大学出版社2024年11月出版)
+* [跟老卫学AI大模型开发](https://github.com/waylau/ai-large-model-tutorial/)
