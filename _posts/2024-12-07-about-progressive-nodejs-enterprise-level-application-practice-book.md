@@ -101,7 +101,7 @@ Node.js作为一款高性能、开源的服务器端JavaScript运行环境，自
 
 ## 视频介绍
 
-见B站：<https://www.bilibili.com/video/BV1Uhm1YKEdb/>（TODO）
+见B站：<https://www.bilibili.com/video/BV1NrqLYQEi4/>
 
 ## 配套书籍、课程
 
