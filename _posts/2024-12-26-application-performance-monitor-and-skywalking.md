@@ -83,7 +83,8 @@ SkyWalking平台管理界面地址为：<http://192.168.1.86:19000/>
 ### Java项目接入
 
 
-下载 Apache SkyWalking的Java Agent，见FTP服务器的apache-skywalking-java-agent-9.3.0.tgz文件。
+下载 Apache SkyWalking的Java Agent：<https://dlcdn.apache.org/skywalking/java-agent/9.3.0/apache-skywalking-java-agent-9.3.0.tgz>
+
 
 
 把压缩包 apache-skywalking-java-agent-9.3.0.tgz 拷贝到项目的指定目录比如 `/files`。
