@@ -153,3 +153,6 @@ agent.start({
 ```
 
 
+以上仅为参考范例，具体的配置值应设置为环境变量。
+
+参考：<https://www.npmjs.com/package/skywalking-backend-js>
