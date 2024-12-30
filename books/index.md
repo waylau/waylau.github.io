@@ -92,3 +92,4 @@ permalink: /books/
 * [跟老卫学AI大模型开发](https://github.com/waylau/ai-large-model-tutorial/)
 * [循序渐进Node.js企业级开发实践](https://waylau.com/about-progressive-nodejs-enterprise-level-application-practice-book/)(清华大学出版社2024年12月出版)
 * [鸿蒙HarmonyOS应用开发从入门到精通（第2版）](https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-2nd-edition-book/)(北京大学出版社2025年1月出版)
+* [鸿蒙之光HarmonyOS NEXT原生应用开发入门](https://waylau.com/about-harmonyos-next-tutorial-book/)(清华大学出版社2025年1月出版)
