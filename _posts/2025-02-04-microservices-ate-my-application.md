@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 微服务吞噬了我的应用——一种采用反模式
+title: 微服务吞噬了我的应用——一种反模式
 date: 2025-02-04 00:22
 author: admin
 comments: true
