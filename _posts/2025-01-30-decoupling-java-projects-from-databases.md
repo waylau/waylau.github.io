@@ -171,8 +171,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
 ### 方案2：MyBatis + Doris 方案
 
 1. 简单SQL：使用 MyBatis-Plus 框架提供的 Wrapper 以Java对象的方式构建查询条件。
-2. 复杂查SQL从工作台剥离，前置到集成平台来做。尽量确保某Java项目所使用的表就是简单表。
-3. 无法剥离的复杂查SQL或者性能要求高的SQL使用 Doris 来做。
+2. 复杂SQL从工作台剥离，前置到集成平台来做。尽量确保某Java项目所使用的表就是简单表。
+3. 无法剥离的复杂SQL或者性能要求高的SQL使用 Doris 来做。
 4. 部分业务场景（比如需要关联 data、md、scp 查询），数据库、 Doris 需要做同步。同步可以是一个事务操作同步更新多个数据源，也可以让 ETL 重新集成。
 
 特点：
@@ -184,7 +184,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 问题：
 
 1. 业务流程的重塑，BA是否接受整改？
-2. 与 Doris 耦合。
+2. 依赖 Doris。
 
 
 ## 参考引用
