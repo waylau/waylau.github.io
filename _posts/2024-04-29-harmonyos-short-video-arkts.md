@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”实战课程已上线
+title: “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”实战课程已上线
 date: 2024-04-29 00:22
 author: admin
 comments: true
@@ -9,7 +9,7 @@ tags: [HarmonyOS, ArkTS, ArkUI]
 ---
 
 
-HarmonyOS实战课程“2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”已经于今日上线至慕课网（<https://coding.imooc.com/class/843.html>），有致力于鸿蒙生态开发的同学们可以关注一下。
+HarmonyOS实战课程“鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”已经于今日上线至慕课网（<https://coding.imooc.com/class/843.html>），有致力于鸿蒙生态开发的同学们可以关注一下。
 
 <!-- more -->
 

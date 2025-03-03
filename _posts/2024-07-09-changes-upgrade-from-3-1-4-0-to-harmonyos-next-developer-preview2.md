@@ -8,7 +8,7 @@ categories: [HarmonyOS]
 tags: [HarmonyOS, NEXT]
 ---
 
-在 “2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）视频课程中，因为讲师在该课程授课时是使用的HarmonyOS 3.1/4.0应用（API 9），如果部分学员采用了最新的HarmonyOS NEXT API，此时就会遇到API兼容性的问题。
+在 “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）视频课程中，因为讲师在该课程授课时是使用的HarmonyOS 3.1/4.0应用（API 9），如果部分学员采用了最新的HarmonyOS NEXT API，此时就会遇到API兼容性的问题。
 
 本文整理了从HarmonyOS 3.1/4.0应用升级到HarmonyOS NEXT（Developer Preview2）改动点。
 
@@ -142,4 +142,4 @@ export class VideoInfo {
 * 《鸿蒙HarmonyOS应用开发从入门到精通战》（北京大学出版社）
 * “鸿蒙系统实战短视频App 从0到1掌握HarmonyOS”（<https://coding.imooc.com/class/674.html>）
 * 《鸿蒙HarmonyOS应用开发入门》（清华大学出版社）
-* “2024鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）
+* “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）
