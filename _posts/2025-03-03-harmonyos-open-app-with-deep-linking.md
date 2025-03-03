@@ -221,3 +221,5 @@ struct Index {
 * 《鸿蒙HarmonyOS应用开发入门》（清华大学出版社）
 * “鸿蒙系统实战短视频App 从0到1掌握HarmonyOS”（<https://coding.imooc.com/class/674.html>）
 * “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）
+* 《鸿蒙HarmonyOS应用开发从入门到精通（第2版）》（北京大学出版社)
+* 《鸿蒙之光HarmonyOS NEXT原生应用开发入门》（清华大学出版社)
