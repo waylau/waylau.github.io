@@ -98,8 +98,10 @@ spring:
     url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
     username: sa
     password:
-    schema: classpath:schema.sql
-    data: classpath:data.sql
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
 ```
 
 
@@ -241,7 +243,6 @@ class MybatisFlexH2ApplicationTests {
         List<Role> roleList = roleMapper.selectListByQuery(queryWrapper);
 
         roleList.forEach(role -> log.info("role id {}, {}", role.getId(), role.getRoleName()));
-        System.out.println(roleList);
     }
 }
 ```
