@@ -4,7 +4,7 @@ title: “AI智能助手APP全流程开发实战”实战课程已上线
 date: 2025-03-18 00:22
 author: admin
 comments: true
-categories: [C仓颉]
+categories: [仓颉]
 tags: [HarmonyOS, 仓颉, AI]
 ---
 
