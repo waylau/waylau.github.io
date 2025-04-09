@@ -95,4 +95,4 @@ permalink: /books/
 * [鸿蒙之光HarmonyOS NEXT原生应用开发入门](https://waylau.com/about-harmonyos-next-tutorial-book/)(清华大学出版社2025年1月出版)
 * [跟老卫学Spring Data JPA开发](https://github.com/waylau/spring-data-jpa-tutorial)
 * [跟老卫学MyBatis-Flex开发](https://github.com/waylau/mybatis-flex-tutorial)
-* [AI智能助手APP全流程开发实战](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）
+* [HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）

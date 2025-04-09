@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “AI智能助手APP全流程开发实战”实战课程已上线
+title: “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”实战课程已上线
 date: 2025-03-18 00:22
 author: admin
 comments: true
@@ -9,7 +9,7 @@ tags: [HarmonyOS, 仓颉, AI]
 ---
 
 
-仓颉开发原生鸿蒙HarmonyOS智能AI助手实战课程“AI智能助手APP全流程开发实战”已经于今日上线至慕课网（<https://coding.imooc.com/class/927.html>），有致力于鸿蒙生态开发的同学们可以关注一下。
+仓颉开发原生鸿蒙HarmonyOS智能AI助手实战课程“HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”已经于今日上线至慕课网（<https://coding.imooc.com/class/927.html>），有致力于鸿蒙生态开发的同学们可以关注一下。
 
 <!-- more -->
 
@@ -100,4 +100,4 @@ tags: [HarmonyOS, 仓颉, AI]
 * “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）
 * 《鸿蒙HarmonyOS应用开发从入门到精通（第2版）》（北京大学出版社)
 * 《鸿蒙之光HarmonyOS NEXT原生应用开发入门》（清华大学出版社)
-* “AI智能助手APP全流程开发实战”（<https://coding.imooc.com/class/927.html>）
+* “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”（<https://coding.imooc.com/class/927.html>）
