@@ -78,7 +78,7 @@ MCP的最大优点是集合了之前各家大模型不同的 Function calling �
 简而言之，MCP 解决 “如何让 AI 连接万物” 的通用性问题，与 Function calling 互补协作，共同支撑 AI 从对话走向自动化任务执行。
 
 
-![MCP与Function calling的区别和联系](/images/post/20250409-mcp-002.png)
+![MCP与Function calling的区别和联系](/images/post/20250409-mcp-003.png)
 
 
 
