@@ -90,6 +90,10 @@ Memurai特性如下：
 
 默认情况下，Memurai是已以Windows服务的方式自动启动了，可以请按下`Win + R`组合键打开运行窗口，输入services.msc并点击确定。在服务管理窗口中，找到Memurai服务，对其进行管理，比如启动方式改为手动，将服务关闭、启动等。
 
+![Memurai服务](/images/post/20250621-memurai-004.png)
+
+
+
 启动完成后，打开命令行工具（如Windows PowerShell或cmd），输入memurai-cli命令即可进入Memurai的命令行界面。
 
 在命令行界面中，你可以使用各种Redis命令，如SET、GET、DEL等，与Memurai进行交互。
