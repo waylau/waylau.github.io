@@ -147,6 +147,12 @@ scrape_configs:
 
 ![访问Web界面](/images/post/20250704-prometheus-002.png)
 
+如果停止Windows Exporter程序，可以在Web界面检测到Windows Exporter程序的状态。
+
+![访问Web界面](/images/post/20250704-prometheus-003.png)
+
+
+
 
 
 
