@@ -196,7 +196,7 @@ struct Index {
 
 
 * 本文同步至：<https://waylau.com/2025-07-21-harmonyos-arkts-geo-location-manager>
-* 源码见《跟老卫学仓颉编程语言开发》开源免费教程， <https://github.com/waylau/cangjie-programming-language-tutorial>
+* 源码见《跟老卫学HarmonyOS开发》开源免费教程， <https://github.com/waylau/harmonyos-tutorial>
 * 《跟老卫学AI大模型开发》开源免费教程， https://github.com/waylau/ai-large-model-tutorial/
 * 《跟老卫学仓颉编程语言开发》开源免费教程， https://github.com/waylau/cangjie-programming-language-tutorial
 * 《鸿蒙HarmonyOS手机应用开发实战》（清华大学出版社）
