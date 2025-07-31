@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Cloud Gateway Server Web MVC报错“Unsupported transfer encoding: chunked”解决
+title: Spring Cloud Gateway Server Web MVC报错“Unsupported transfer encoding chunked”解决
 date: 2025-07-30 00:22
 author: admin
 comments: true
