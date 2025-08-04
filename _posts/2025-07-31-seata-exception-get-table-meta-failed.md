@@ -100,7 +100,7 @@ Seata AT 模式的核心逻辑是通过 **全局锁** 保证分布式事务的�
 
 
 
-* 本文同步至：<https://waylau.com/spring-cloud-gateway-server-webmvc-unsupported-transfer-encoding-chunked>
+* 本文同步至：<https://waylau.com/seata-exception-get-table-meta-failed/>
 * 源码见《跟老卫学Spring Cloud开发》开源免费教程， <https://github.com/waylau/spring-cloud-tutorial/>
 * 《Spring Boot 企业级应用开发实战》（北京大学出版社）
 * 《Spring Cloud 微服务架构开发实战》（北京大学出版社）

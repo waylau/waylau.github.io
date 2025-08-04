@@ -47,7 +47,7 @@ nacos.console.port=8280
 
 确保唯一性与一致性: 在所有Nacos集群节点上，该配置值必须保持一致。这意味着，当你在一台服务器上更改了此配置，所有其他节点也需要做相应的更新，以维持集群内部的一致性。
 
-控制台默认端口是8082，可以自定义，例如本例改为了8280。
+控制台默认端口是8280，可以自定义，例如本例改为了8280。
 
 
 ### 启动Nacos
@@ -114,9 +114,9 @@ cd D:\dev\java\nacos-server-3.0.2\nacos\bin
        ,--.'|
    ,--,:  : |                                           Nacos Console 3.0.2
 ,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
-|   :  :  | |                      '   ,'\   .--.--.    Port: 8082
+|   :  :  | |                      '   ,'\   .--.--.    Port: 8280
 :   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 22260
-|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.186.124:8082/index.html
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.186.124:8280/index.html
 '   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
 |   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
 '   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
@@ -127,7 +127,7 @@ cd D:\dev\java\nacos-server-3.0.2\nacos\bin
 
 2025-07-13 22:28:15,210 WARN Bean 'nacosConsoleBeanPostProcessorConfiguration' of type [com.alibaba.nacos.console.config.NacosConsoleBeanPostProcessorConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [nacosDuplicateSpringBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
 
-2025-07-13 22:28:15,329 INFO Tomcat initialized with port 8082 (http)
+2025-07-13 22:28:15,329 INFO Tomcat initialized with port 8280 (http)
 
 2025-07-13 22:28:15,343 INFO Root WebApplicationContext: initialization completed in 841 ms
 
@@ -137,7 +137,7 @@ cd D:\dev\java\nacos-server-3.0.2\nacos\bin
 
 2025-07-13 22:28:16,107 INFO Exposing 1 endpoint beneath base path '/actuator'
 
-2025-07-13 22:28:16,144 INFO Tomcat started on port 8082 (http) with context path '/'
+2025-07-13 22:28:16,144 INFO Tomcat started on port 8280 (http) with context path '/'
 
 2025-07-13 22:28:16,156 INFO Nacos Console started successfully in 1704 ms
 ```
@@ -146,7 +146,7 @@ cd D:\dev\java\nacos-server-3.0.2\nacos\bin
 
 ## 访问Web界面
 
-浏览器打开`http://localhost:8082`，进入Nacos的Web界面。
+浏览器打开`http://localhost:8280`，进入Nacos的Web界面。
 
 
 首次登录，需要设置nacos管理员密码，比如`admin123`。
