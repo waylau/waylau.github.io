@@ -242,7 +242,7 @@ Navigation支持使用系统路由表的方式进行动态路由。各业务模�
 
 
 
-* 本文同步至：<https://waylau.com/2025-07-21-harmonyos-arkts-geo-location-manager>
+* 本文同步至：<https://waylau.com/harmonyos-navigation/>
 * 源码见《跟老卫学HarmonyOS开发》开源免费教程， <https://github.com/waylau/harmonyos-tutorial>
 * 《跟老卫学AI大模型开发》开源免费教程， https://github.com/waylau/ai-large-model-tutorial/
 * 《跟老卫学仓颉编程语言开发》开源免费教程， https://github.com/waylau/cangjie-programming-language-tutorial
