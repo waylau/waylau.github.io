@@ -4,8 +4,8 @@ title: HarmonyOS ArkTS 获取位置服务
 date: 2025-07-21 00:22
 author: admin
 comments: true
-categories: [Nacos]
-tags: [Nacos]
+categories: [HarmonyOS]
+tags: [HarmonyOS, ArkTS]
 ---
 
 本文主要介绍在HarmonyOS下如何使用ArkTS获取位置服务。
