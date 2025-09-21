@@ -24,7 +24,7 @@ JDK 25已经于2025年9月16日正式发布，新版本包含18项 JDK 增强提
 * Oracle版本：<https://www.oracle.com/java/technologies/downloads/>
 
 
-上述版本，如果是个人学习用途，则差异不大。但如果是用于商业用途，则需要仔细看好相关的授权。Oracle JDK商用需要遵循 [Oracle No-Fee Terms and Conditions (NFTC)](https://www.oracle.com/downloads/licenses/no-fee-license.html)协议，而OpenJDK根据GPL v2许可获得许可。 
+上述版本，如果是个人学习用途，则差异不大。但如果是用于商业用途，则需要仔细看好相关的授权。Oracle JDK商用需要遵循 [Oracle No-Fee Terms and Conditions (NFTC)](https://www.oracle.com/downloads/licenses/no-fee-license.html)协议，而OpenJDK根据[GPL v2许可](https://openjdk.java.net/legal/gplv2+ce.html)获得许可。 
 
 
 更多有关Java的基本知识，可以参阅《[Java核心编程](https://item.jd.com/12868796.html)》这本书，描述的非常详细。
