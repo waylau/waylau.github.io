@@ -74,7 +74,7 @@ struct Index {
 ```
 
 
-#### 2. 创配置目标应用module.json5文件
+#### 2. 配置目标应用module.json5文件
 
 
 为了能够支持被其他应用访问，目标应用需要在module.json5配置文件中配置skills标签。

@@ -96,3 +96,4 @@ permalink: /books/
 * [跟老卫学Spring Data JPA开发](https://github.com/waylau/spring-data-jpa-tutorial)
 * [跟老卫学MyBatis-Flex开发](https://github.com/waylau/mybatis-flex-tutorial)
 * [HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）
+* [鸿蒙HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)（视频，51CTO 2025年10月17日上线）
