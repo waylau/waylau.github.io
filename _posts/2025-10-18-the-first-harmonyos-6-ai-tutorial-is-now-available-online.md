@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 全网首发鸿蒙6 AI教程“鸿蒙HarmonyOS 6 AI应用开发”上线啦！
+title: 全网首发鸿蒙6 AI教程“HarmonyOS 6 AI应用开发”上线啦！
 date: 2025-10-18 00:22
 author: admin
 comments: true
@@ -20,7 +20,7 @@ HarmonyOS官宣：10月22日14:30，鸿蒙操作系统6特别发布！
 
 ![](/images/post/20251018-harmonyos6-002.png)
 
-此时，HarmonyOS 6正式发布之际，老卫制作了“[鸿蒙HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)”视频教程，旨在帮助你掌握原生HarmonyOS AI应用从0开发、测试到上架的完整架构能力。
+此时，HarmonyOS 6正式发布之际，老卫制作了“[HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)”视频教程，旨在帮助你掌握原生HarmonyOS AI应用从0开发、测试到上架的完整架构能力。
 
 ![](/images/post/20251018-harmonyos6-003.png)
 
@@ -81,4 +81,4 @@ HarmonyOS官宣：10月22日14:30，鸿蒙操作系统6特别发布！
 * 《鸿蒙HarmonyOS应用开发从入门到精通（第2版）》（北京大学出版社)
 * 《鸿蒙之光HarmonyOS NEXT原生应用开发入门》（清华大学出版社)
 * “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”（https://coding.imooc.com/class/927.html）
-* “鸿蒙HarmonyOS 6 AI应用开发”(https://edu.51cto.com/course/39601.html)
+* “HarmonyOS 6 AI应用开发”(https://edu.51cto.com/course/39601.html)
