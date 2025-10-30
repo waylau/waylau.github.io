@@ -42,7 +42,12 @@ build() {
 
 但可以看到 Tabs 具体底部有非常大的一段空间。如下图所示。
 
+![](/images/post/20251030-harmonyos6-001.png)
+
 如果将Navigation去除，Tabs正常显示。如下图所示。
+
+
+![](/images/post/20251030-harmonyos6-002.png)
 
 ## 问题原因
 
@@ -114,6 +119,9 @@ build() {
 ```
 
 
+效果如下：
+
+![](/images/post/20251030-harmonyos6-003.png)
 
 ## 更多参考
 
