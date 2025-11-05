@@ -82,20 +82,20 @@ try {
 
 
 
-![](/images/post/20251105-harmonyos6-001.png)
+![](/images/post/20251105-harmonyos6-001.jpg)
 
 
 
 点击应用“访问链接”，可以看到拉起了浏览器，界面效果如下。
 
 
-![](/images/post/20251105-harmonyos6-002.png)
+![](/images/post/20251105-harmonyos6-002.jpg)
 
 
 
 在浏览器里面访问被访问的应用，界面效果如下。
 
-![](/images/post/20251105-harmonyos6-003.png)
+![](/images/post/20251105-harmonyos6-003.jpg)
 
 
 
