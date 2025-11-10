@@ -100,7 +100,7 @@ try {
 
 
 
-完整示例详见文末链接《跟老卫学仓颉编程语言开发》中“ArkTSOpenLink”。
+完整示例详见文末链接《跟老卫学HarmonyOS开发》中“ArkTSOpenLink”。
 
 
 ## 参考引用
