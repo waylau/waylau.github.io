@@ -86,7 +86,9 @@ tags: [仓颉]
 <https://github.com/waylau/cangjie-programming-language-tutorial/issues>
 
 
+## 视频介绍
 
+见B站：<https://www.bilibili.com/video/BV1Uhm1YKEdb/>
 
 
 ## 配套书籍、课程
@@ -96,8 +98,8 @@ tags: [仓颉]
 如果你喜欢本开源书，也欢迎支持下该书的正式出版物，实体店及各大网店有售。
 
 
-* [京东](https://search.jd.com/Search?keyword=%E4%BB%93%E9%A2%89%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5&enc=utf-8&wq=%E4%BB%93%E9%A2%89%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5&pvid=eec1d2a4df3d4b2e83f6e467ed9c9ae5)
-* [当当](https://search.dangdang.com/?key=%B2%D6%F2%A1%B1%E0%B3%CC%B4%D3%C8%EB%C3%C5%B5%BD%CA%B5%BC%F9&act=input)
+* [京东](https://item.jd.com/15220500.html)
+* [当当](https://product.dangdang.com/29968628.html)
 
 
 
