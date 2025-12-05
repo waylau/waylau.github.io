@@ -85,7 +85,7 @@ permalink: /books/
 * [Vue.js＋Spring Boot全栈开发实战](https://github.com/waylau/full-stack-development-with-vuejs-and-spring-boot)（人民邮电出版社2023年9月出版）
 * [大神養成術：Node.js＋Express＋MongoDB＋Vue.js全端實作現場](https://deepwisdom.com.tw/product/%e5%a4%a7%e7%a5%9e%e9%a4%8a%e6%88%90%e8%a1%93-node-js%ef%bc%8bexpressmongodb%ef%bc%8bvue-js%e5%85%a8%e7%ab%af%e5%af%a6%e4%bd%9c%e7%8f%be%e5%a0%b4-dm2366/)(深智數位股份有限公司2023年10月出版）
 * [鸿蒙HarmonyOS应用开发入门](https://waylau.com/about-harmonyos-3-tutorial-book/)（清华大学出版社2024年1月出版）
-* [全新鸿蒙零基础快速实战-仿抖音App开发（ ArkTS版 ）](https://coding.imooc.com/class/843.html)（视频，慕课网2024年4月29日上线）
+* [鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）](https://coding.imooc.com/class/843.html)（视频，慕课网2024年4月29日上线）
 * [跟老卫学Rust开发](https://github.com/waylau/rust-tutorial)
 * [跟老卫学仓颉编程语言开发](https://github.com/waylau/cangjie-programming-language-tutorial)
 * [循序渐进Spark大数据应用开发](https://waylau.com/about-spark-tutorial-book/)（清华大学出版社2024年11月出版）
@@ -95,6 +95,6 @@ permalink: /books/
 * [鸿蒙之光HarmonyOS NEXT原生应用开发入门](https://waylau.com/about-harmonyos-next-tutorial-book/)（清华大学出版社2025年1月出版）
 * [跟老卫学Spring Data JPA开发](https://github.com/waylau/spring-data-jpa-tutorial)
 * [跟老卫学MyBatis-Flex开发](https://github.com/waylau/mybatis-flex-tutorial)
-* [HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）
-* [HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)（视频，51CTO 2025年10月17日上线）
+* [HarmonyOS NEXT+AI大模型打造智能助手APP（仓颉版）](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）
+* [HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)（视频，51CTO学堂2025年10月17日上线）
 * [仓颉编程从入门到实践](https://waylau.com/about-cangjie-programming-language-tutorial-book/)（北京大学出版社2025年11月出版）
