@@ -98,3 +98,4 @@ permalink: /books/
 * [HarmonyOS NEXT+AI大模型打造智能助手APP（仓颉版）](https://coding.imooc.com/class/927.html)（视频，慕课网2025年3月18日上线）
 * [HarmonyOS 6 AI应用开发](https://edu.51cto.com/course/39601.html)（视频，51CTO学堂2025年10月17日上线）
 * [仓颉编程从入门到实践](https://waylau.com/about-cangjie-programming-language-tutorial-book/)（北京大学出版社2025年11月出版）
+* [鸿蒙之光HarmonyOS 6应用开发入门](https://waylau.com/about-harmonyos-6-tutorial-book/)（清华大学出版社2026年1月出版）
