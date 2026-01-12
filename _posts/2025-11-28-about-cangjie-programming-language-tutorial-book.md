@@ -88,7 +88,7 @@ tags: [仓颉]
 
 ## 视频介绍
 
-见B站：<https://www.bilibili.com/video/BV1Uhm1YKEdb/>
+见B站：<https://www.bilibili.com/video/BV1iBSWBEEMu/>
 
 
 ## 配套书籍、课程
