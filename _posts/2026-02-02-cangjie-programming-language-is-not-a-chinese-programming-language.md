@@ -10,7 +10,7 @@ tags: [Cangjie, HarmonyOS]
 
 
 在“[HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)](https://coding.imooc.com/class/927.html)”课程里面以及在一些自媒体平台，有网友提到了这样一个问题：
-仓颉编程语言不是中文编程语言吗？怎么语法还是英文文？
+仓颉编程语言不是中文编程语言吗？怎么语法还是英文？
 
 
 
@@ -96,4 +96,4 @@ tags: [Cangjie, HarmonyOS]
 * 《跟老卫学HarmonyOS开发》：<https://github.com/waylau/harmonyos-tutorial>
 * 《跟老卫学仓颉编程语言开发》：<https://github.com/waylau/cangjie-programming-language-tutorial>
 * “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”：<https://coding.imooc.com/class/927.html>
-* 《仓颉编程从入门到实践》（北京大学出版社）：<：<https://coding.imooc.com/class/927.html>>
+* 《仓颉编程从入门到实践》（北京大学出版社）：<https://coding.imooc.com/class/927.html>
