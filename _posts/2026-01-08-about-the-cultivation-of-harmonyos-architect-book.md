@@ -100,7 +100,7 @@ tags: [HarmonyOS]
 
 * 原文同步至：<https://waylau.com/about-the-cultivation-of-harmonyos-architect-book/>
 * 视频介绍可见B站：<https://www.bilibili.com/video/BV1hw6TBiEgQ/>
-* [京东](https://search.jd.com/Search?keyword=%E9%B8%BF%E8%92%99%E6%9E%B6%E6%9E%84%E5%B8%88%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93&enc=utf-8&wq=%E9%B8%BF%E8%92%99%E6%9E%B6%E6%9E%84%E5%B8%88%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93)
+* [京东](https://item.jd.com/15299684.html)
 * [当当](https://product.dangdang.com/30005979.html)
 
 
