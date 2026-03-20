@@ -100,4 +100,4 @@ permalink: /books/
 * [仓颉编程从入门到实践](https://waylau.com/about-cangjie-programming-language-tutorial-book/)（北京大学出版社2025年11月出版）
 * [鸿蒙之光HarmonyOS 6应用开发入门](https://waylau.com/about-harmonyos-6-tutorial-book/)（清华大学出版社2026年1月出版）
 * [鸿蒙架构师修炼之道](https://waylau.com/about-the-cultivation-of-harmonyos-architect-book/)（北京大学出版社2026年1月出版）
-* [Java+AI全栈开发工程师](https://class.imooc.com/sale/javaaifullstack)（视频，慕课网2026年3月20日上线）
+* [Java+AI全栈工程师](https://class.imooc.com/sale/javaaifullstack)（视频，慕课网2026年3月20日上线）
