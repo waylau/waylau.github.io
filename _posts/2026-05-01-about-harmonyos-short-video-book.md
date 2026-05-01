@@ -83,7 +83,7 @@ tags: [HarmonyOS]
 ## 本书优势
 
 
-## 对Java开发者友好
+### 1. 对Java开发者友好
 
 书中所用的版本是HarmonyOS 3，开发语言是Java。如果你熟悉Java，或者是Android阵营转过来的，那么本书非常适合你。
 
@@ -91,11 +91,11 @@ tags: [HarmonyOS]
 
 
 
-## 兼顾Android/鸿蒙生态
+### 2. 兼顾Android/鸿蒙生态
 
 HarmonyOS 3的一个特点是其操作系统是内嵌了AOSP代码，可以兼容安卓开源应用。这意味着用该版本开发的应用可以有更广的适配性，同时兼容Android/鸿蒙生态。
 
-## 商业化项目实现
+### 3. 商业化项目实现
 
 本书的主线都是围绕如何从0开始构建一个完整的类似于“抖音”的短视频App来展开。短视频App拥有非常丰富的功能，比如视频的上传、视频的发布、视频的播放、视频的暂停、视频进度条拖动、点赞、收藏、关注、评论等众多功能。针对这些功能，需要用到非常多的HarmonyOS里面的组件和API，包括HarmonyOS的Ability、UI开发、自定义布局、数据管理、视频、相机、图像、安全管理、媒体数据管理等诸多主题。通过学习并实现一个类似抖音的短视频App，使读者能够熟悉并掌握HarmonyOS应用开发的所涉及的知识点和开发流程，产生浓厚的学习热情，提升读者能力水平。完整实现案例讲解，理论贴近实战，利于读者掌握。读者学习完成之后，能够独立承担HarmonyOS App的设计与实现，拓宽就业机会，挑战更高薪资！
 
@@ -153,15 +153,15 @@ ArkTS是自HarmonyOS 3版本引入的，是新版HarmonyOS优选的主力应用�
 
 
 * 《跟老卫学HarmonyOS开发》开源免费教程， <https://github.com/waylau/harmonyos-tutorial>
-* 《跟老卫学AI大模型开发》开源免费教程， https://github.com/waylau/ai-large-model-tutorial/
-* 《跟老卫学仓颉编程语言开发》开源免费教程， https://github.com/waylau/cangjie-programming-language-tutorial
+* 《跟老卫学AI大模型开发》开源免费教程， <https://github.com/waylau/ai-large-model-tutorial/>
+* 《跟老卫学仓颉编程语言开发》开源免费教程， <https://github.com/waylau/cangjie-programming-language-tutorial>
 * 《鸿蒙HarmonyOS手机应用开发实战》（清华大学出版社）
 * 《鸿蒙HarmonyOS应用开发入门》（清华大学出版社）
-* “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（https://coding.imooc.com/class/843.html）
+* “鸿蒙零基础快速实战-仿抖音App开发（ArkTS版）”（<https://coding.imooc.com/class/843.html>）
 * [《鸿蒙HarmonyOS应用开发从入门到精通（第2版）》](https://waylau.com/about-harmonyos-application-development-from-zero-to-hero-2nd-edition-book/)（北京大学出版社)
 * [《鸿蒙之光HarmonyOS NEXT原生应用开发入门》](https://waylau.com/about-harmonyos-next-tutorial-book/)（清华大学出版社)
-* “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”（https://coding.imooc.com/class/927.html）
-* “HarmonyOS 6 AI应用开发”(https://edu.51cto.com/course/39601.html)
+* “HarmonyOS NEXT+AI大模型打造智能助手APP(仓颉版)”（<https://coding.imooc.com/class/927.html>）
+* “HarmonyOS 6 AI应用开发”(<https://edu.51cto.com/course/39601.html>)
 * [《仓颉编程从入门到实践》](https://waylau.com/about-cangjie-programming-language-tutorial-book/)（北京大学出版社）
 * [《鸿蒙之光HarmonyOS 6应用开发入门》](https://waylau.com/about-harmonyos-6-tutorial-book/)（清华大学出版社）
 * [《鸿蒙架构师修炼之道》](https://waylau.com/about-the-cultivation-of-harmonyos-architect-book/)（北京大学出版社）
