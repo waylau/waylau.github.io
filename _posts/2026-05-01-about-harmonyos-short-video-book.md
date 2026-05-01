@@ -75,7 +75,7 @@ tags: [HarmonyOS]
 
 ## 参考引用
 
-* 原文同步至：<https://waylau.com/about-harmonyos-6-tutorial-book/>
+* 原文同步至：<https://waylau.com/about-harmonyos-short-video-book/>
 * 视频介绍可见B站：<https://www.bilibili.com/video/BV1pQRNBsEMP/>
 * [京东](https://item.jd.com/15314406.html)
 * [当当](https://product.dangdang.com/30013844.html)
