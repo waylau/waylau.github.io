@@ -208,6 +208,11 @@ https://www.screentogif.com/
 
 https://aq-game.yy.com/
 
+
+### Shotcut
+
+https://www.shotcut.org/download/
+
 ## Windows
 
 ### MicroKMS神龙版
