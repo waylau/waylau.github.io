@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 使用SonarQube社区插件cxx检测项目 
-声纳四周
+title: 使用SonarQube社区插件cxx检测C++项目 
 date: 2026-08-11 00:22
 author: admin
 comments: true
